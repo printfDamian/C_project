@@ -7,45 +7,74 @@ int main()
 {
     Cache *caches = NULL;
     int size = 0;
+    char code[10];
 
     int option = 0;
     do
     {
         printf("menu\n");
-        printf("1. Ler ficheiro\n");
-        printf("2. Mostrar informação\n");
-        printf("3. Libertar memória\n");
-        printf("4. sair\n");
+        printf("1. Load caches from file\n");
+        printf("2. Display all caches\n");
+        printf("3. Display found percentage\n");
+        printf("4. Search cache by code\n");
+        printf("5. Edit cache\n");
+        printf("6. Clear caches\n");
+        printf("7. Exit\n");
 
         scanf("%d", &option);
 
         switch (option)
         {
         case 1:
-            caches = readCSV(&size);
+        if(caches == NULL){
+            caches = loadCaches("caches_all.csv", &size);
+        }
+        else{
+            printf("Caches already loaded. Select option 6 to clear caches.\n");
+        }
             break;
         case 2:
             if (caches != NULL)
             {
-                printf("About to display caches\n");
-                displayCaches(caches, size);
-                printf("Finished displaying caches\n");
+                listCaches(caches, size);
             }
             else
             {
-                printf("No caches loaded. Please load the file first.\n");
+                printf("No caches loaded. Select option 1 to load caches.\n");
             }
             break;
         case 3:
-            free(caches); // Free the memory allocated for caches
+            if (caches != NULL)
+            {
+                displayFoundPercentage(caches, size);
+            }
+            else
+            {
+                printf("No caches loaded. Select option 1 to load caches.\n");
+            }
+            break;
+        case 4:
+            printf("Enter cache code: ");
+            scanf("%s", code);
+            searchCache(caches, size, code);
+            break;
+        case 5:
+            printf("Enter cache code: ");
+            scanf("%s", code);
+            editCache(caches, size, code);
+            break;
+        case 6:
+            clearCaches(caches, &size);
+            break;
+        case 7:
+            printf("Exiting...\n");
             break;
         default:
-            printf("Opção inválida\n");
+            printf("Invalid option\n");
             break;
         }
-    } while (option != 4);
+    } while (option != 7);
 
     printf("Press any key to continue...\n");
-    getchar(); // Wait for user input
     return 0;
 }

@@ -21,7 +21,11 @@ typedef struct
     int altitude;
 } Cache;
 
-Cache* readCSV(int* size);
-void displayCaches(Cache caches[], int size);
-
+Cache* loadCaches(char *filename, int *size);
+void clearCaches(Cache *caches, int *size);
+void listCaches(Cache *caches, int size);
+void displayFoundPercentage(Cache *caches, int size);
+void searchCache(Cache *caches, int size, char *code);
+void editCache(Cache *caches, int size, char *code);
+void displayCache(Cache cache);
 #endif
