@@ -12,11 +12,11 @@ int main()
     int option = 0;
     do
     {
-        printf("menu\n");
-        printf("1. Load caches from file\n");
-        printf("2. Display all caches\n");
-        printf("3. Display found percentage\n");
-        printf("4. Search cache by code\n");
+        printf("menu \n");
+        printf("1. Load \n");
+        printf("2. List \n");
+        printf("3. foundDP \n");
+        printf("4. Search \n");
         printf("5. Edit cache\n");
         printf("6. Clear caches\n");
         printf("7. Exit\n");

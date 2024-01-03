@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "cache.h" // Include the header file
+#include "cache.h" 
 
-// Function to load caches from a file
+// carregar a cache do ficheiro
 Cache *loadCaches(char *filename, int *size) {
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
@@ -29,28 +29,46 @@ Cache *loadCaches(char *filename, int *size) {
     return caches;
 }
 
-// Function to clear loaded caches
+// limpar cache
 void clearCaches(Cache *caches, int *size) {
     free(caches);
     *size = 0;
 }
 
-// Function to display all caches
+// mostrar todas as caches
 void listCaches(Cache *caches, int size) {
     for (int i = 0; i < size; i++) {
-        displayCache(caches[i]);
+        int isDuplicate = 0;
+        for (int j = 0; j < i; j++) {
+            if (strcmp(caches[i].code, caches[j].code) == 0) {
+                isDuplicate = 1;
+                break;
+            }
+        }
+        if (!isDuplicate) {
+            displayCache(caches[i]);
+        }
     }
 }
 
 // Function to display the percentage of times each cache was found
 void displayFoundPercentage(Cache *caches, int size) {
     for (int i = 0; i < size; i++) {
-        float percentage = (float)caches[i].founds / (caches[i].founds + caches[i].not_founds) * 100;
-        printf("Cache code: %s, Found percentage: %.2f%%\n", caches[i].code, percentage);
+        int isDuplicate = 0;
+        for (int j = 0; j < i; j++) {
+            if (strcmp(caches[i].code, caches[j].code) == 0) {
+                isDuplicate = 1;
+                break;
+            }
+        }
+        if (!isDuplicate) {
+            float percentage = (float)caches[i].founds / (caches[i].founds + caches[i].not_founds) * 100;
+            displayCacheP(caches[i],percentage);
+        }
     }
 }
 
-// Function to search for a cache by code
+// Pesquisar cache com o código
 void searchCache(Cache *caches, int size, char *code) {
     for (int i = 0; i < size; i++) {
         if (strcmp(caches[i].code, code) == 0) {
@@ -61,7 +79,7 @@ void searchCache(Cache *caches, int size, char *code) {
     printf("Cache not found\n");
 }
 
-// Function to edit a cache
+// Editar a cache
 void editCache(Cache *caches, int size, char *code) {
     for (int i = 0; i < size; i++) {
         if (strcmp(caches[i].code, code) == 0) {
@@ -78,22 +96,15 @@ void editCache(Cache *caches, int size, char *code) {
     }
     printf("Cache not found\n");
 }
-
 void displayCache(Cache cache) {
-    printf("Code: %s\n", cache.code);
-    printf("Name: %s\n", cache.name);
-    printf("State: %s\n", cache.state);
-    printf("Owner: %s\n", cache.owner);
-    printf("Latitude: %.2f\n", cache.latitude);
-    printf("Longitude: %.2f\n", cache.longitude);
-    printf("Kind: %s\n", cache.kind);
-    printf("Size: %s\n", cache.size);
-    printf("Difficulty: %.2f\n", cache.difficulty);
-    printf("Terrain: %.2f\n", cache.terrain);
-    printf("Status: %s\n", cache.status);
-    printf("Hidden Date: %s\n", cache.hidden_date);
-    printf("Founds: %d\n", cache.founds);
-    printf("Not Founds: %d\n", cache.not_founds);
-    printf("Favourites: %d\n", cache.favourites);
-    printf("Altitude: %d\n", cache.altitude);
+    printf("| %s | %s | %s | %s | %.2f | %.2f | %s | %s | %.2f | %.2f | %s | %s | %d | %d | %d | %d |\n",
+           cache.code, cache.name, cache.state, cache.owner, cache.latitude, cache.longitude,
+           cache.kind, cache.size, cache.difficulty, cache.terrain, cache.status,
+           cache.hidden_date, cache.founds, cache.not_founds, cache.favourites, cache.altitude);
+}
+void displayCacheP(Cache cache,float percentage) {
+    printf("| %s | %s | %s | %s | %.2f | %.2f | %s | %s | %.2f | %.2f | %s | %s | %d | %d | %d | %d | found percentage: %.2f%%\n",
+           cache.code, cache.name, cache.state, cache.owner, cache.latitude, cache.longitude,
+           cache.kind, cache.size, cache.difficulty, cache.terrain, cache.status,
+           cache.hidden_date, cache.founds, cache.not_founds, cache.favourites, cache.altitude,percentage);
 }
