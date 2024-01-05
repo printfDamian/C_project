@@ -5,7 +5,7 @@
 #include "cache.h"
 
 // carregar a cache do ficheiro
-Cache *loadCaches(char *filename, int *size)
+Cache *load(char *filename, int *size)
 {
     FILE *file = fopen(filename, "r");
     if (file == NULL)
@@ -34,14 +34,15 @@ Cache *loadCaches(char *filename, int *size)
 }
 
 // limpar cache
-void clearCaches(Cache *caches, int *size)
+void clear(Cache **caches, int *size) /* **caches em vez de *caches porque é um ponteiro para um ponteiro de caches*/   
 {
-    free(caches);
+    free(*caches);
+    *caches = NULL;
     *size = 0;
 }
 
 // mostrar todas as caches
-void listCaches(Cache *caches, int size)
+void list(Cache *caches, int size)
 {
     for (int i = 0; i < size; i++)
     {
@@ -56,12 +57,11 @@ void listCaches(Cache *caches, int size)
         }
         if (!isDuplicate)
         {
-            displayCache(caches[i]);
+            display(caches[i]);
         }
     }
 }
 
-// Function to display the percentage of times each cache was found
 void displayFoundPercentage(Cache *caches, int size)
 {
     for (int i = 0; i < size; i++)
@@ -78,27 +78,26 @@ void displayFoundPercentage(Cache *caches, int size)
         if (!isDuplicate)
         {
             float percentage = (float)caches[i].founds / (caches[i].founds + caches[i].not_founds) * 100;
-            displayCacheP(caches[i], percentage);
+            displayP(caches[i], percentage);
         }
     }
 }
 
-// Pesquisar cache com o código
-void searchCache(Cache *caches, int size, char *code)
+
+void search(Cache *caches, int size, char *code)
 {
     for (int i = 0; i < size; i++)
     {
         if (strcmp(caches[i].code, code) == 0)
         {
-            displayCache(caches[i]);
+            display(caches[i]);
             return;
         }
     }
     printf("Cache not found\n");
 }
 
-// Editar a cache
-void editCache(Cache *caches, int size, char *code)
+void edit(Cache *caches, int size, char *code)
 {
     for (int i = 0; i < size; i++)
     {
@@ -117,14 +116,14 @@ void editCache(Cache *caches, int size, char *code)
     }
     printf("Cache not found\n");
 }
-void displayCache(Cache cache)
+void display(Cache cache)
 {
     printf("| %s | %s | %s | %s | %.2f | %.2f | %s | %s | %.2f | %.2f | %s | %s | %d | %d | %d | %d |\n",
            cache.code, cache.name, cache.state, cache.owner, cache.latitude, cache.longitude,
            cache.kind, cache.size, cache.difficulty, cache.terrain, cache.status,
            cache.hidden_date, cache.founds, cache.not_founds, cache.favourites, cache.altitude);
 }
-void displayCacheP(Cache cache, float percentage)
+void displayP(Cache cache, float percentage)
 {
     printf("| %s | %s | %s | %s | %.2f | %.2f | %s | %s | %.2f | %.2f | %s | %s | %d | %d | %d | %d | found percentage: %.2f%%\n",
            cache.code, cache.name, cache.state, cache.owner, cache.latitude, cache.longitude,
@@ -132,7 +131,6 @@ void displayCacheP(Cache cache, float percentage)
            cache.hidden_date, cache.founds, cache.not_founds, cache.favourites, cache.altitude, percentage);
 }
 
-// Function to calculate and display average and standard deviation of latitude and longitude
 void centerStats(Cache *caches, int size)
 {
     double sumLat = 0, sumLong = 0, sumLatSq = 0, sumLongSq = 0;
@@ -157,20 +155,16 @@ void centerStats(Cache *caches, int size)
 }
 
 /* para de pois fazer */
-// Function to find and display the oldest and newest caches and the difference in months between them
+// diferença entre a data de hoje e a data de criação da cache
 void ageStats(Cache *caches, int size)
 {
-    // TODO: Implement this function
 }
 
-// Function to sort and display caches based on user input
-void sortCaches(Cache *caches, int size)
+// organizar com base no input do utilizador
+void sort(Cache *caches, int size)
 {
-    // TODO: Implement this function
 }
-
-// Function to count and display the number of caches for each state, separated by available and inactive status
+// contar e mostarr o numero de caches por estado
 void stateCount(Cache *caches, int size)
 {
-    // TODO: Implement this function
 }

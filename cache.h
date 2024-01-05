@@ -1,4 +1,4 @@
-#ifndef CACHE_H
+#ifndef CACHE_H /*caso o cache.h já esteja a ser defenido por outros ficehiros não fará o define do mesmo novamente */
 #define CACHE_H
 // atributos da cache
 typedef struct
@@ -21,14 +21,14 @@ typedef struct
     int altitude;
 } Cache;
 
-// funcções de manipulação da cache
-Cache *loadCaches(char *filename, int *size);
-void clearCaches(Cache *caches, int *size);
-void listCaches(Cache *caches, int size);
+// funções de manipulação da cache
+Cache *load(char *filename, int *size);
+void clear(Cache **caches, int *size);
+void list(Cache *caches, int size);
 void displayFoundPercentage(Cache *caches, int size);
-void searchCache(Cache *caches, int size, char *code);
-void editCache(Cache *caches, int size, char *code);
-void displayCache(Cache cache);
-void displayCacheP(Cache cache, float percentage);
+void search(Cache *caches, int size, char *code);
+void edit(Cache *caches, int size, char *code);
+void display(Cache cache);
+void displayP(Cache cache, float percentage);
 void centerStats(Cache *caches, int size);
 #endif

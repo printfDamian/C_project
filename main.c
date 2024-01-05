@@ -29,7 +29,7 @@ int main()
         case 1:
             if (caches == NULL)
             {
-                caches = loadCaches("caches_all.csv", &size);
+                caches = load("caches_all.csv", &size);
             }
             else
             {
@@ -39,7 +39,7 @@ int main()
         case 2:
             if (caches != NULL)
             {
-                listCaches(caches, size);
+                list(caches, size);
             }
             else
             {
@@ -59,15 +59,15 @@ int main()
         case 4:
             printf("Enter cache code: ");
             scanf("%s", code);
-            searchCache(caches, size, code);
+            search(caches, size, code);
             break;
         case 5:
             printf("Enter cache code: ");
             scanf("%s", code);
-            editCache(caches, size, code);
+            edit(caches, size, code);
             break;
         case 6:
-            clearCaches(caches, &size);
+            clear(&caches, &size);
             break;
         case 7:
             if (caches != NULL)
