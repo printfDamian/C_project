@@ -31,4 +31,8 @@ void edit(Cache *caches, int size, char *code);
 void display(Cache cache);
 void displayP(Cache cache, float percentage);
 void centerStats(Cache *caches, int size);
+
+
+Cache *getUniqueCaches(Cache *caches, int size, int *uniqueSize);
+
 #endif

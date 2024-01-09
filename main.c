@@ -29,7 +29,19 @@ int main()
         case 1:
             if (caches == NULL)
             {
-                caches = load("caches_all.csv", &size);
+                char filename[256];
+                printf("Enter the name of the file to be read: ");
+                scanf("%s", filename); // Read the filename from the user
+
+                caches = load(filename, &size);
+                if (caches != NULL && size > 0)
+                {
+                    printf("Successfully loaded %d caches.\n", size);
+                }
+                else
+                {
+                    printf("Failed to load caches.\n");
+                }
             }
             else
             {
@@ -39,7 +51,11 @@ int main()
         case 2:
             if (caches != NULL)
             {
-                list(caches, size);
+                int uniqueSize;
+                Cache *uniqueCaches = getUniqueCaches(caches, size, &uniqueSize);
+                list(uniqueCaches, uniqueSize);
+                printf("Listed %d unique caches.\n", uniqueSize);
+                free(uniqueCaches);
             }
             else
             {

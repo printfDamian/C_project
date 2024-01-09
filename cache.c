@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include <stdbool.h>
 #include "cache.h"
 
 // carregar a cache do ficheiro
@@ -14,8 +15,8 @@ Cache *load(char *filename, int *size)
         return NULL;
     }
 
-    Cache *caches = malloc(sizeof(Cache) * 1600);
-    *size = 0;
+    Cache *caches = malloc(sizeof(Cache) * 1600); // tamanho predefinido
+    *size = 0; // variavel para contar o numero de estruturas vindas da cache
 
     char line[1024];
     while (fgets(line, sizeof(line), file))
@@ -33,6 +34,29 @@ Cache *load(char *filename, int *size)
     return caches;
 }
 
+bool isUnique(Cache cache, Cache *uniqueCaches, int uniqueSize) {
+    for (int i = 0; i < uniqueSize; i++) {
+        if (strcmp(uniqueCaches[i].code, cache.code) == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+// retornar as caches Unicas
+Cache *getUniqueCaches(Cache *caches, int size, int *uniqueSize) {
+    Cache *uniqueCaches = malloc(size * sizeof(Cache));
+    *uniqueSize = 0;
+
+    for (int i = 1; i < size; i++) {
+        if (isUnique(caches[i], uniqueCaches, *uniqueSize)) {
+            uniqueCaches[*uniqueSize] = caches[i];
+            (*uniqueSize)++;
+        }
+    }
+
+    return uniqueCaches;
+}
+
 // limpar cache
 void clear(Cache **caches, int *size) /* **caches em vez de *caches porque é um ponteiro para um ponteiro de caches*/   
 {
@@ -41,26 +65,7 @@ void clear(Cache **caches, int *size) /* **caches em vez de *caches porque é um
     *size = 0;
 }
 
-// mostrar todas as caches
-void list(Cache *caches, int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        int isDuplicate = 0;
-        for (int j = 0; j < i; j++)
-        {
-            if (strcmp(caches[i].code, caches[j].code) == 0)
-            {
-                isDuplicate = 1;
-                break;
-            }
-        }
-        if (!isDuplicate)
-        {
-            display(caches[i]);
-        }
-    }
-}
+
 
 void displayFoundPercentage(Cache *caches, int size)
 {
@@ -125,10 +130,11 @@ void display(Cache cache)
 }
 void displayP(Cache cache, float percentage)
 {
-    printf("| %s | %s | %s | %s | %.2f | %.2f | %s | %s | %.2f | %.2f | %s | %s | %d | %d | %d | %d | found percentage: %.2f%%\n",
-           cache.code, cache.name, cache.state, cache.owner, cache.latitude, cache.longitude,
+    // foundP no inicio do print
+    printf("found percentage: %.2f%% | %s | %s | %s | %s | %.2f | %.2f | %s | %s | %.2f | %.2f | %s | %s | %d | %d | %d | %d\n",
+           percentage,cache.code, cache.name, cache.state, cache.owner, cache.latitude, cache.longitude,
            cache.kind, cache.size, cache.difficulty, cache.terrain, cache.status,
-           cache.hidden_date, cache.founds, cache.not_founds, cache.favourites, cache.altitude, percentage);
+           cache.hidden_date, cache.founds, cache.not_founds, cache.favourites, cache.altitude);
 }
 
 void centerStats(Cache *caches, int size)
