@@ -1,4 +1,4 @@
-#ifndef CACHE_H /*caso o cache.h já esteja a ser defenido por outros ficehiros não fará o define do mesmo novamente */
+#ifndef CACHE_H
 #define CACHE_H
 // atributos da cache
 typedef struct
@@ -31,7 +31,13 @@ void edit(Cache *caches, int size, char *code);
 void display(Cache cache);
 void displayP(Cache cache, float percentage);
 void centerStats(Cache *caches, int size);
-
+void ageStats(Cache *caches, int size);
+int month_difference(char *date1, char *date2);
+void toLower(char *str);
+int compare_by_altitude(const void *a, const void *b);
+int compare_by_state(const void *a, const void *b);
+int compare_by_date(const void *a, const void *b);
+void sort(Cache *caches, int size);
 
 Cache *getUniqueCaches(Cache *caches, int size, int *uniqueSize);
 

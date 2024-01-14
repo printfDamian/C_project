@@ -3,8 +3,18 @@
 #include <string.h>
 #include <math.h>
 #include <stdbool.h>
+#include <ctype.h>
+#include <time.h>
 #include "cache.h"
 
+// converter para lowercase
+void toLower(char *str)
+{
+    for (int i = 0; str[i]; i++)
+    {
+        str[i] = tolower(str[i]);
+    }
+}
 // carregar a cache do ficheiro
 Cache *load(char *filename, int *size)
 {
@@ -121,6 +131,11 @@ void edit(Cache *caches, int size, char *code)
     }
     printf("Cache not found\n");
 }
+void list(Cache *caches, int size) {
+    for (int i = 0; i < size; i++) {
+        display(caches[i]);
+    }
+}
 void display(Cache cache)
 {
     printf("| %s | %s | %s | %s | %.2f | %.2f | %s | %s | %.2f | %.2f | %s | %s | %d | %d | %d | %d |\n",
@@ -162,15 +177,92 @@ void centerStats(Cache *caches, int size)
 
 /* para de pois fazer */
 // diferença entre a data de hoje e a data de criação da cache
+
 void ageStats(Cache *caches, int size)
 {
+    int oldestIndex = 0;
+    int newestIndex = 0;
+    char *oldestDate = caches[0].hidden_date;
+    char *newestDate = caches[0].hidden_date;
+
+    for (int i = 1; i < size; i++)
+    {
+        if (strcmp(caches[i].hidden_date, oldestDate) < 0)
+        {
+            oldestIndex = i;
+            oldestDate = caches[i].hidden_date;
+        }
+        if (strcmp(caches[i].hidden_date, newestDate) > 0)
+        {
+            newestIndex = i;
+            newestDate = caches[i].hidden_date;
+        }
+    }
+
+    int monthDifference = month_difference(oldestDate, newestDate);
+
+    printf("Oldest Cache: %s | Newest Cache: %s | Month Difference: %d\n",
+           caches[oldestIndex].code, caches[newestIndex].code, monthDifference);
 }
 
-// organizar com base no input do utilizador
-void sort(Cache *caches, int size)
-{
+int month_difference(char *date1, char *date2) {
+    struct tm tm1 = {0}, tm2 = {0};
+    sscanf(date1, "%d-%d-%d", &tm1.tm_year, &tm1.tm_mon, &tm1.tm_mday);
+    sscanf(date2, "%d-%d-%d", &tm2.tm_year, &tm2.tm_mon, &tm2.tm_mday);
+
+    // Ajustar o ano e o mês para o formato do struct tm (ano começa em 1900 e mês começa em 0)
+    tm1.tm_year -= 1900;
+    tm1.tm_mon--;
+    tm2.tm_year -= 1900;
+    tm2.tm_mon--;
+
+    int years = tm2.tm_year - tm1.tm_year;
+    int months = tm2.tm_mon - tm1.tm_mon;
+
+    return years * 12 + months;
 }
-// contar e mostarr o numero de caches por estado
+
+
+int compare_by_altitude(const void *a, const void *b) {
+    Cache *cacheA = (Cache *)a;
+    Cache *cacheB = (Cache *)b;
+    return cacheB->altitude - cacheA->altitude;
+}
+
+int compare_by_state(const void *a, const void *b) {
+    Cache *cacheA = (Cache *)a;
+    Cache *cacheB = (Cache *)b;
+    int stateComparison = strcmp(cacheA->state, cacheB->state);
+    if (stateComparison == 0) {
+        return cacheB->founds - cacheA->founds;
+    } else {
+        return stateComparison;
+    }
+}
+
+int compare_by_date(const void *a, const void *b) {
+    Cache *cacheA = (Cache *)a;
+    Cache *cacheB = (Cache *)b;
+    return strcmp(cacheB->hidden_date, cacheA->hidden_date);
+}
+
+void sort(Cache *caches, int size) {
+    char choice[20];
+    printf("Choose the sorting method:\nAltitude - By altitude (descending order)\nState - By state (A-Z, tiebreaker by founds in descending order)\nDate - By hidden_date (most recent to oldest)\n");
+    scanf("%s", choice);
+    toLower(choice);
+
+    if (strcasecmp(choice, "altitude") == 0) {
+        qsort(caches, size, sizeof(Cache), compare_by_altitude);
+    } else if (strcasecmp(choice, "state") == 0) {
+        qsort(caches, size, sizeof(Cache), compare_by_state);
+    } else if (strcasecmp(choice, "date") == 0) {
+        qsort(caches, size, sizeof(Cache), compare_by_date);
+    } else {
+        printf("Invalid choice\n");
+    }
+}
+// contar e mostrar o numero de caches por estado
 void stateCount(Cache *caches, int size)
 {
 }

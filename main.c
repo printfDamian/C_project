@@ -1,6 +1,8 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 #include "cache.h"
 
 int main()
@@ -9,30 +11,37 @@ int main()
     int size = 0;
     char code[10];
 
-    int option = 0;
+    char option[256];
     do
     {
-        printf("menu \n");
-        printf("1. Load \n");
-        printf("2. List \n");
-        printf("3. foundDP \n");
-        printf("4. Search \n");
-        printf("5. Edit cache\n");
-        printf("6. Clear caches\n");
-        printf("7. Caches Stats\n");
-        printf("8. Exit\n");
+        printf(
+            "Menu:\n"
+            "Load\n"
+            "List\n"
+            "foundDP\n"
+            "Search\n"
+            "Edit cache\n"
+            "Clear caches\n"
+            "Caches Stats\n"
+            "Age Stats\n"
+            "Sort\n"
+            "Exit\n");
 
-        scanf("%d", &option);
+        fgets(option, sizeof(option), stdin); // Ler opção do utilizador
+        // remover enter do fim da string
 
-        switch (option)
+        // passar a string para lowercase
+        toLower(option);
+
+        option[strlen(option) - 1] = '\0';
+        if (strcmp(option, "load") == 0)
         {
-        case 1:
             if (caches == NULL)
             {
                 char filename[256];
                 printf("Enter the name of the file to be read: ");
-                scanf("%s", filename); // Read the filename from the user
-
+                fgets(filename, sizeof(filename), stdin); // Use fgets instead of scanf
+                filename[strlen(filename) - 1] = '\0';    // Remove the newline at the end
                 caches = load(filename, &size);
                 if (caches != NULL && size > 0)
                 {
@@ -45,10 +54,11 @@ int main()
             }
             else
             {
-                printf("Caches already loaded. Select option 6 to clear caches.\n");
+                printf("Caches already loaded. type clear to clear the caches\n");
             }
-            break;
-        case 2:
+        }
+        else if (strcmp(option, "list") == 0)
+        {
             if (caches != NULL)
             {
                 int uniqueSize;
@@ -59,51 +69,94 @@ int main()
             }
             else
             {
-                printf("No caches loaded. Select option 1 to load caches.\n");
+                printf("No caches loaded. type load to load the caches\n");
             }
-            break;
-        case 3:
+        }
+        else if (strcmp(option, "foundDP") == 0)
+        {
             if (caches != NULL)
             {
                 displayFoundPercentage(caches, size);
             }
             else
             {
-                printf("No caches loaded. Select option 1 to load caches.\n");
+                printf("No caches loaded. type load to load the caches\n");
             }
-            break;
-        case 4:
-            printf("Enter cache code: ");
-            scanf("%s", code);
-            search(caches, size, code);
-            break;
-        case 5:
-            printf("Enter cache code: ");
-            scanf("%s", code);
-            edit(caches, size, code);
-            break;
-        case 6:
-            clear(&caches, &size);
-            break;
-        case 7:
+        }
+        else if (strcmp(option, "search") == 0)
+        {
             if (caches != NULL)
             {
+                printf("Code: ");
+                fgets(code, sizeof(code), stdin);
+                code[strlen(code) - 1] = '\0';
+                search(caches, size, code);
+            }
+            else
+            {
+                printf("No caches loaded. type load to load the caches\n");
+            }
+        }
+        else if (strcmp(option, "edit") == 0)
+        {
+            if (caches != NULL)
+            {
+                printf("Code: ");
+                fgets(code, sizeof(code), stdin);
+                code[strlen(code) - 1] = '\0';
+                edit(caches, size, code);
+            }
+            else
+            {
+                printf("No caches loaded. type load to load the caches\n");
+            }
+        }
+        else if (strcmp(option, "clear") == 0)
+        {
+            clear(&caches, &size);
+        }
+        else if (strcmp(option, "caches stats") == 0)
+        {
+            if (caches != NULL)
+            {
+                printf("Caches stats\n");
                 centerStats(caches, size);
             }
             else
             {
-                printf("No caches loaded. Select option 1 to load caches.\n");
+                printf("No caches loaded. type load to load the caches\n");
             }
-            break;
-        case 8:
-            printf("Exiting...\n");
-            break;
-        default:
-            printf("Invalid option\n");
+        }
+        else if (strcmp(option, "age stats") == 0)
+        {
+            if (caches != NULL)
+            {
+                ageStats(caches, size);
+            }
+            else
+            {
+                printf("No caches loaded. type load to load the caches\n");
+            }
+        }
+        else if (strcmp(option, "sort") == 0) // Add this block
+        {
+            if (caches != NULL)
+            {
+                sort(caches, size);
+                list(caches, size);
+            }
+            else
+            {
+                printf("No caches loaded. type load to load the caches\n");
+            }
+        }
+        else if (strcmp(option, "exit") == 0)
+        {
             break;
         }
-    } while (option != 8);
-
-    printf("Press any key to continue...\n");
-    return 0;
+        else
+        {
+            printf("Invalid option\n");
+        }
+    } while (1);
 }
