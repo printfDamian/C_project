@@ -1,0 +1,863 @@
+|GCZP2A     | Chromite - FeOCr2O3 - DP/EC5 | BRAGANCA   | danieloliveira | 41.80 | -6.88 | EARTHCACHE | NOT_CHOSEN | 1.00 | 1.50 | AVAILABLE  | 2006/12/05 | 62 | 2 | 2 | 838
+|GCMAM8     | A Lagoa [Obidos] | LEIRIA     | paulohercules | 39.39 | -9.23 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2004/12/22 | 703 | 9 | 3 | 19
+|GCXW7V     | Serra de Alvaiazere | LEIRIA     | Paulo Martins | 39.83 | -8.41 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2006/08/21 | 244 | 3 | 3 | 605
+|GC14XQQ    | ALDEIA DA PENA I | VISEU      | eterlusitano | 40.88 | -8.08 | TRADITIONAL | SMALL      | 3.50 | 4.50 | AVAILABLE  | 2007/08/05 | 133 | 2 | 37 | -9999999
+|GC15999    | CABECEIRAS A VISTA | BRAGA      | eterlusitano | 41.49 | -8.02 | TRADITIONAL | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2007/08/20 | 60 | 2 | 2 | 750
+|GC16ZE4    | Cais do Ginjal [Cacilhas] | SETUBAL    | tmob       | 38.69 | -9.15 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/10/26 | 487 | 24 | 18 | 11
+|GC166CQ    | Talasnal        | COIMBRA    | almeidara  | 40.09 | -8.23 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/09/23 | 428 | 8 | 35 | 472
+|GCN3NX     | CEM CACHES [Sintra] | LISBOA     | Portelada  | 38.77 | -9.45 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2005/03/14 | 516 | 12 | 65 | 459
+|GCMG50     | Serra da Estrela - Aldeia Vicosa | GUARDA     | meiolimao  | 40.58 | -7.33 | TRADITIONAL | SMALL      | 3.00 | 3.00 | AVAILABLE  | 2004/12/30 | 111 | 9 | 1 | 717
+|GC15MQC    | Make the Audience Suffer! | FARO       | Team Caracache | 37.10 | -8.67 | PUZZLE     | MICRO      | 3.00 | 2.50 | AVAILABLE  | 2007/09/03 | 148 | 15 | 17 | 13
+|GCX4WA     | The Battle [Sao Pedro das Cabecas] | BEJA       | CrisLuiz   | 37.68 | -8.04 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/07/14 | 276 | 2 | 8 | 234
+|GCZM6R     | Caldas de Monchique | FARO       | ShadowLord | 37.28 | -8.55 | MULTI      | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2006/12/01 | 315 | 50 | 38 | 207
+|GCGQQ3     | STAR MOUNTAIN   | CASTELO BRANCO | jppina     | 40.31 | -7.57 | MULTI      | MICRO      | 3.00 | 2.00 | AVAILABLE  | 2003/08/24 | 117 | 27 | 11 | 1603
+|GC1030Y    | Abutres!        | CASTELO BRANCO | MAntunes   | 39.66 | -7.18 | MULTI      | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2006/12/29 | 31 | 1 | 11 | 161
+|GC15JX8    | The Lagos 6+1: #3 - Bensafrim | FARO       | Team Caracache | 37.16 | -8.73 | MULTI      | SMALL      | 1.50 | 3.50 | AVAILABLE  | 2007/09/01 | 136 | 13 | 10 | 24
+|GC15APY    | A cache no centro [Charneca Caparica] | SETUBAL    | almeidara  | 38.59 | -9.20 | PUZZLE     | MICRO      | 2.50 | 1.50 | AVAILABLE  | 2007/08/21 | 175 | 8 | 2 | 63
+|GCP877     | Marconi [Oeiras] | LISBOA     | nunogil    | 38.72 | -9.24 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2005/06/09 | 462 | 31 | 2 | -9999999
+|GCMK6J     | Linhas de Torres - Forte de Ribas [Loures] | LISBOA     | lamas      | 38.90 | -9.16 | TRADITIONAL | REGULAR    | 1.00 | 2.00 | AVAILABLE  | 2005/01/23 | 309 | 5 | 2 | -9999999
+|GC11PQH    | ABOBOREIRA      | PORTO      | eterlusitano | 41.16 | -8.03 | MULTI      | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/03/24 | 49 | 4 | 0 | 547
+|GCM6WW     | Penas do Castelo [Porto de Mos] | LEIRIA     | olharapo   | 39.58 | -8.81 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2004/12/03 | 228 | 31 | 63 | 322
+|GC176VF    | Mata da Margaraca [Arganil] | COIMBRA    | riraposo   | 40.22 | -7.92 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2007/11/05 | 369 | 5 | 18 | 576
+|GC54DD     | Last Home of Gertrude [Mafra] | LISBOA     | MikeAndCows | 38.89 | -9.34 | TRADITIONAL | REGULAR    | 3.00 | 3.00 | AVAILABLE  | 2002/05/05 | 414 | 2 | 101 | -9999999
+|GC10FGA    | Linhas de Torres e as Comunicacoes [Ponte do Rol] | LISBOA     | almeidara  | 39.09 | -9.32 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2007/01/20 | 355 | 14 | 3 | 29
+|GC1196Z    | MARAGOUTOS      | PORTO      | eterlusitano | 41.33 | -8.27 | MULTI      | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2007/03/01 | 87 | 8 | 7 | 483
+|GC16Z5X    | COSTA RASA VULGO TALEFE (VG) | PORTO      | eterlusitano | 41.13 | -8.02 | TRADITIONAL | SMALL      | 3.00 | 2.50 | AVAILABLE  | 2007/10/26 | 30 | 5 | 1 | 690
+|GCT9EM     | Pomarao         | BEJA       | clcortez   | 37.55 | -7.53 | TRADITIONAL | REGULAR    | 3.00 | 2.50 | AVAILABLE  | 2006/01/30 | 82 | 2 | 8 | 12
+|GC14ZY4    | Armona [Olhao]  | FARO       | FamiliaSilvestre | 37.02 | -7.80 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/08/02 | 276 | 30 | 6 | 1
+|GC12PBC    | Letterbox Ti Jacinto [Alenquer] | LISBOA     | mtrevas    | 39.07 | -9.08 | LETTERBOX  | REGULAR    | 3.00 | 2.00 | AVAILABLE  | 2007/05/06 | 122 | 3 | 26 | 135
+|GC133A0    | Maia Central    | PORTO      | kidloco    | 41.23 | -8.62 | TRADITIONAL | MICRO      | 3.00 | 1.00 | AVAILABLE  | 2007/05/25 | 374 | 54 | 0 | 98
+|GC10701    | Mosteiro de Santa Clara (Vila do Conde) | PORTO      | Jafqa      | 41.35 | -8.74 | TRADITIONAL | SMALL      | 1.00 | 1.00 | AVAILABLE  | 2007/01/05 | 1350 | 21 | 22 | 22
+|GC14VBV    | Duas Barragens TB Country Hotel [Silves] | FARO       | clcortez   | 37.26 | -8.38 | TRADITIONAL | LARGE      | 1.50 | 2.00 | AVAILABLE  | 2007/09/09 | 420 | 3 | 8 | 104
+|GC10GWX    | Quatrim do Sul [Olhao] | FARO       | Torgut     | 37.04 | -7.80 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | DISABLED   | 2007/01/22 | 363 | 25 | 5 | 1
+|GC13MBF    | Ar              | VILA REAL  | Reino Maravilhoso | 41.17 | -7.67 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/06/14 | 76 | 6 | 4 | 616
+|GC32B5     | Prehistory Repeating | BRAGA      | plntrplntr | 41.53 | -8.31 | TRADITIONAL | REGULAR    | 3.50 | 2.50 | AVAILABLE  | 2002/01/14 | 204 | 2 | 15 | 304
+|GCVZ7D     | GnE II d - Oferta de emprego: Pirata! [Cascais] | LISBOA     | rebordao   | 38.75 | -9.47 | TRADITIONAL | SMALL      | 2.50 | 4.00 | AVAILABLE  | 2006/05/10 | 250 | 6 | 57 | 31
+|GC10QPE    | Quinta das Campainhas | LISBOA     | juquinha   | 38.75 | -9.18 | MULTI      | MICRO      | 2.00 | 1.00 | AVAILABLE  | 2007/02/04 | 284 | 13 | 6 | 76
+|GCW245     | cache motard    | FARO       | jorgefjr   | 37.12 | -8.01 | TRADITIONAL | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2006/05/14 | 325 | 8 | 1 | -9999999
+|GC12RWF    | Woodpecker Club | PORTO      | kidloco    | 41.15 | -8.66 | PUZZLE     | MICRO      | 3.50 | 1.50 | AVAILABLE  | 2007/05/10 | 228 | 3 | 11 | 30
+|GC14BD9    | ST01 - SANTA MARTA DAS CORTICAS | BRAGA      | SPY_Team   | 41.51 | -8.40 | MULTI      | REGULAR    | 2.50 | 1.50 | AVAILABLE  | 2007/07/14 | 259 | 7 | 2 | 543
+|GCTGMM     | Real Barraca [Lisboa] | LISBOA     | btrodrigues | 38.71 | -9.20 | TRADITIONAL | MICRO      | 1.00 | 1.00 | AVAILABLE  | 2006/02/18 | 752 | 79 | 5 | 82
+|GC12B19    | Vista Armona [Olhao] | FARO       | alieri     | 37.03 | -7.81 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/04/21 | 417 | 19 | 8 | 3
+|GCW2P4     | Brecha da Arrabida | SETUBAL    | paulohercules | 38.46 | -9.01 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2006/05/16 | 556 | 16 | 24 | 182
+|GCKYQH     | Chafariz de Loures | LISBOA     | clcortez   | 38.83 | -9.17 | MULTI      | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2004/10/30 | 283 | 21 | 44 | 22
+|GC1529A    | Ponte da Panchorra | VISEU      | blk.ngel   | 41.01 | -7.98 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/08/11 | 109 | 6 | 6 | 1031
+|GC118B7    | Fonte do Pedro  | PORTO      | emlino     | 41.44 | -8.68 | TRADITIONAL | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2007/03/03 | 231 | 10 | 1 | 101
+|GCXYCD     | Cerro da Villa [Vilamoura - Loule] | FARO       | jcr        | 37.08 | -8.12 | MULTI      | REGULAR    | 2.50 | 1.50 | AVAILABLE  | 2006/08/24 | 355 | 16 | 10 | 8
+|GCQYPP     | Lenda da Imagem da Nossa Senhora do Carmo | BRAGA      | ar-my      | 41.45 | -8.52 | MULTI      | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2005/10/13 | 222 | 10 | 15 | 188
+|GC16F1H    | View to Madeira | ARQUIPELAGO DA MADEIRA | Alexpxo    | 33.03 | -16.38 | TRADITIONAL | SMALL      | 1.50 | 2.50 | AVAILABLE  | 2007/10/06 | 417 | 3 | 20 | 156
+|GC11Y69    | Falha do Louro [Palmela] | SETUBAL    | truta      | 38.56 | -8.93 | TRADITIONAL | REGULAR    | 3.00 | 3.50 | AVAILABLE  | 2007/03/24 | 338 | 11 | 59 | 196
+|GCMR9D     | BH12 Miradouro de Sao Pedro de Alcantara [Lisboa] | LISBOA     | prodrive   | 38.72 | -9.14 | TRADITIONAL | OTHER_SIZE | 1.00 | 1.00 | DISABLED   | 2005/03/03 | 2642 | 230 | 136 | 55
+|GCM6HK     | The Wolf Trap (Vila Real) | VILA REAL  | zoom_bee   | 41.39 | -7.72 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2004/12/01 | 142 | 2 | 13 | 833
+|GCQ3E2     | Geiger Counter  | GUARDA     | afonso_loureiro | 40.37 | -7.18 | MULTI      | REGULAR    | 1.00 | 3.00 | AVAILABLE  | 2005/08/10 | 57 | 4 | 4 | -9999999
+|GCR9RW     | Cantaro Magro   | GUARDA     | nat_cache  | 40.33 | -7.60 | TRADITIONAL | REGULAR    | 2.00 | 4.50 | AVAILABLE  | 2005/11/05 | 249 | 7 | 79 | -9999999
+|GCN0N2     | Pe no Trilho [Batalha] | LEIRIA     | olharapo   | 39.64 | -8.76 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2005/03/06 | 336 | 2 | 12 | 252
+|GCPCMB     | Braga por um Canudo | BRAGA      | Pedro_Alvares_Cabral  | 41.55 | -8.38 | MULTI      | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2005/06/20 | 502 | 23 | 27 | 291
+|GCRYM3     | Cantaro Gordo   | GUARDA     | nat_cache  | 40.34 | -7.59 | MULTI      | REGULAR    | 3.00 | 5.00 | AVAILABLE  | 2005/12/10 | 125 | 9 | 47 | -9999999
+|GC15PP6    | Railroad Station - Ponte de Sor {Projecto Geogare}PORTALEGRE | PORTALEGRE | manelov    | 39.27 | -8.01 | TRADITIONAL | MICRO      | 2.50 | 1.00 | AVAILABLE  | 2007/09/05 | 450 | 7 | 0 | 117
+|GC127CE    | Baia do Seixal  | SETUBAL    | PPereira   | 38.64 | -9.11 | TRADITIONAL | SMALL      | 1.50 | 1.00 | AVAILABLE  | 2007/04/16 | 964 | 19 | 5 | 5
+|GC10ZWG    | Church of S.Lourenco [Almancil] | FARO       | Torgut     | 37.08 | -8.01 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/02/20 | 971 | 12 | 7 | 33
+|GC1C89     | A Praia e o Rio [Ericeira] | LISBOA     | btrodrigues | 38.94 | -9.41 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2001/09/11 | 524 | 8 | 40 | 61
+|GCWKW2     | Era uma vez... no Jardim da Alameda | FARO       | rifkindsss | 37.01 | -7.93 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2006/06/04 | 999 | 89 | 7 | -9999999
+|GC15YPF    | Capela do Calvario [Ferreira do Alentejo] | BEJA       | MightyReek | 38.06 | -8.12 | MULTI      | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/09/14 | 326 | 12 | 4 | 134
+|GC1778M    | Palhota [Cartaxo] | SANTAREM   | FamiliaSilvestre | 39.06 | -8.78 | MULTI      | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/11/03 | 224 | 8 | 7 | 6
+|GCXGD6     | La Raya - A Raia | BRAGANCA   | Aliste     | 41.58 | -6.21 | MULTI      | REGULAR    | 2.00 | 3.50 | AVAILABLE  | 2006/08/04 | 35 | 6 | 10 | 762
+|GC16JE9    | YACIN - Coa [Sabugal] | GUARDA     | HDV        | 40.28 | -6.87 | TRADITIONAL | LARGE      | 2.00 | 2.50 | AVAILABLE  | 2007/10/10 | 78 | 1 | 6 | 1158
+|GC15NYZ    | The Lagos 6+1: #7 - BONUS CACHE | FARO       | Team Caracache | 37.13 | -8.70 | PUZZLE     | SMALL      | 3.00 | 1.50 | AVAILABLE  | 2007/09/04 | 102 | 2 | 10 | 34
+|GC16F1A    | OASIS           | ARQUIPELAGO DA MADEIRA | Luis Pestana | 32.74 | -16.69 | TRADITIONAL | SMALL      | 2.50 | 3.50 | AVAILABLE  | 2007/10/06 | 1990 | 50 | 178 | -9999999
+|GC11TK4    | ALCOA PASSA ... POR ALCOBACA | LEIRIA     | NSilva & Gorete | 39.54 | -8.94 | MULTI      | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2007/03/31 | 178 | 10 | 5 | 63
+|GCJW6E     | Cristo Rei [Almada] | SETUBAL    | btrodrigues | 38.68 | -9.17 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2004/07/03 | 1813 | 43 | 55 | -9999999
+|GC1654H    | Nobre Terra Hospitaleira [Mangualde] | VISEU      | cmatos     | 40.60 | -7.76 | PUZZLE     | SMALL      | 2.00 | 1.00 | DISABLED   | 2007/09/23 | 191 | 13 | 2 | 539
+|GCHRP5     | Madrinha [Monchique] | FARO       | Torgut     | 37.31 | -8.61 | TRADITIONAL | REGULAR    | 3.00 | 2.00 | AVAILABLE  | 2004/02/24 | 419 | 8 | 5 | 774
+|GCMD0V     | A crianca que veio do passado [Leiria] | LEIRIA     | Baunilha & Chocolate | 39.76 | -8.73 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2005/01/01 | 389 | 19 | 11 | -9999999
+|GCXQVQ     | Minho Verde [Pte de Lima - pt+en]] | VIANA DO CASTELO | caixeiros  | 41.69 | -8.58 | MULTI      | SMALL      | 2.50 | 2.50 | AVAILABLE  | 2006/08/15 | 60 | 6 | 0 | 239
+|GCVWZ4     | A cache do Roger [Orion's Belt] | LISBOA     | RogerOliveira | 38.76 | -9.48 | TRADITIONAL | REGULAR    | 1.00 | 3.50 | AVAILABLE  | 2006/05/07 | 190 | 1 | 27 | 28
+|GC14JYA    | Praia da Falesia [Vilamoura] | FARO       | prodrive   | 37.08 | -8.14 | TRADITIONAL | REGULAR    | 1.00 | 2.00 | AVAILABLE  | 2007/07/23 | 1280 | 33 | 24 | 7
+|GCM9H1     | Louzan          | COIMBRA    | maillart   | 40.07 | -8.24 | TRADITIONAL | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2004/12/16 | 131 | 13 | 6 | -9999999
+|GCXTNF     | Coracao Brigantino | BRAGANCA   | dj green   | 41.80 | -6.75 | TRADITIONAL | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2006/08/19 | 403 | 12 | 5 | -9999999
+|GCMA7E     | Na Mouche       | LISBOA     | btrodrigues | 38.79 | -9.09 | PUZZLE     | REGULAR    | 3.00 | 1.50 | AVAILABLE  | 2004/12/20 | 434 | 65 | 14 | 0
+|GC13JKY    | Castelo de Alcanede [Santarem] | SANTAREM   | HDV        | 39.42 | -8.82 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/06/11 | 435 | 4 | 5 | 116
+|GCR5C1     | Sao Macario     | VISEU      | rifkindsss | 40.88 | -8.06 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/10/23 | 231 | 6 | 16 | -9999999
+|GC15KMM    | Barragem da Bouca | LEIRIA     | salta-pocinhas | 39.85 | -8.22 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/09/02 | 128 | 4 | 4 | -9999999
+|GC101DW    | As Duas Torres [Minas Tirith] | SETUBAL    | almeidara  | 38.63 | -9.19 | MULTI      | REGULAR    | 2.50 | 2.50 | AVAILABLE  | 2007/01/01 | 193 | 25 | 8 | 49
+|GCX43C     | Saint Claire [Barragem de Santa Clara] | BEJA       | CrisLuiz   | 37.53 | -8.44 | TRADITIONAL | SMALL      | 1.50 | 3.50 | AVAILABLE  | 2006/07/12 | 66 | 2 | 9 | 125
+|GCXZY2     | Toledo Spot     | SETUBAL    | pmateus21  | 38.48 | -8.98 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2006/08/26 | 407 | 8 | 13 | 23
+|GC15DFN    | TF-05 Alto da Cova da Velha | LEIRIA     | trifaisca  | 39.56 | -8.81 | TRADITIONAL | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2007/08/25 | 300 | 2 | 38 | 506
+|GC17AKM    | Forte do Cavalo - Farois de Portugal | SETUBAL    | PPereira   | 38.43 | -9.12 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2007/11/10 | 849 | 15 | 1 | 8
+|GC1213C    | O Ultimo Uivo   | BRAGA      | TheCelticSpirit | 41.74 | -8.35 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/04/08 | 89 | 0 | 3 | 672
+|GCZWE8     | All roads lead to Rome | BRAGANCA   | danieloliveira | 41.79 | -6.89 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2006/12/19 | 86 | 0 | 4 | 744
+|GCZ62Y     | Linhas de Torres - Forte de Sao Vicente [T Vedras]LISBOA | LISBOA     | vsergios   | 39.10 | -9.27 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2006/11/03 | 698 | 22 | 11 | -9999999
+|GC13JN5    | Penedo de Pena Maior [Braganca] | BRAGANCA   | Bargao_Henriques | 41.71 | -6.66 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/06/09 | 32 | 0 | 3 | 654
+|GCMFRX     | Cerro de S. Miguel [Moncarapacho] | FARO       | Torgut     | 37.10 | -7.83 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/01/11 | 410 | 5 | 13 | 363
+|GCVVZH     | Expedicao Scientifica a Serra da Estrella | GUARDA     | Os Cacheiros Viajantes | 40.35 | -7.62 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2006/04/25 | 192 | 7 | 5 | 1838
+|GC15VRB    | Moinho das Pernadas [Odeleite] | FARO       | NFreitas   | 37.35 | -7.47 | TRADITIONAL | MICRO      | 1.50 | 1.00 | AVAILABLE  | 2007/09/10 | 149 | 3 | 7 | 17
+|GC1119W    | Serra Sagrada de Grandola | SETUBAL    | os_cinco_airados | 38.17 | -8.59 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/02/19 | 251 | 2 | 4 | 139
+|GC11BZ3    | Castelo de Abrantes | SANTAREM   | Kitiara & Sal | 39.46 | -8.19 | MULTI      | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/03/11 | 333 | 47 | 11 | 182
+|GC15WCE    | Rappel na Ponte [Ponte de Sor] | PORTALEGRE | fjpm777    | 39.30 | -7.96 | MULTI      | REGULAR    | 3.50 | 5.00 | AVAILABLE  | 2007/09/11 | 45 | 3 | 8 | 134
+|GCTAT9     | Rotas Lusitanas - Cabeco das Fraguas | GUARDA     | beirabaixa.net | 40.42 | -7.22 | TRADITIONAL | REGULAR    | 3.50 | 4.00 | AVAILABLE  | 2006/02/04 | 46 | 1 | 7 | -9999999
+|GC15X3H    | AsSeteColinas #2 - Sto. Andre | LISBOA     | WIMM Team  | 38.72 | -9.13 | TRADITIONAL | OTHER_SIZE | 2.50 | 1.00 | AVAILABLE  | 2007/09/12 | 909 | 90 | 16 | 78
+|GCZCAW     | eMula [Sintra]  | LISBOA     | SUp3rFM & Cruella | 38.76 | -9.42 | PUZZLE     | SMALL      | 3.00 | 2.50 | AVAILABLE  | 2006/11/15 | 222 | 24 | 11 | -9999999
+|GCN5HB     | Stone Verses    | LISBOA     | Kelux      | 38.70 | -9.30 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2005/03/20 | 1226 | 41 | 34 | 77
+|GCG1YD     | 16 (silly name, isn't it?) [Loule] | FARO       | afonso_loureiro | 37.16 | -8.03 | TRADITIONAL | MICRO      | 1.50 | 1.00 | AVAILABLE  | 2003/05/05 | 510 | 8 | 2 | 291
+|GC12G4N    | Ribeira da Meimoa - dos Lusitanos ao Rock | CASTELO BRANCO | Blue_Trekkers | 40.23 | -7.19 | MULTI      | SMALL      | 3.00 | 2.00 | AVAILABLE  | 2007/04/28 | 93 | 7 | 0 | 475
+|GC11CPZ    | #400 [Lisboa]   | LISBOA     | B.O.D.A.   | 38.74 | -9.19 | MULTI      | REGULAR    | 5.00 | 5.00 | AVAILABLE  | 2007/03/11 | 251 | 9 | 82 | 93
+|GCNCBT     | The Secret of St. John's Arganauts [Caminha] | VIANA DO CASTELO | Os Cacheiros Viajantes | 41.84 | -8.73 | TRADITIONAL | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2005/04/03 | 265 | 8 | 19 | 439
+|GCRX74     | Monte Abraao Stonehenge | LISBOA     | Lopesco    | 38.77 | -9.26 | TRADITIONAL | SMALL      | 3.00 | 3.00 | AVAILABLE  | 2006/01/07 | 311 | 16 | 4 | -9999999
+|GCJDQ0     | Alto da Boa Viagem [Caxias] | LISBOA     | btrodrigues | 38.70 | -9.26 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2004/05/10 | 734 | 61 | 6 | -9999999
+|GC144NK    | Santa Rita [Tavira] | FARO       | alieri     | 37.19 | -7.57 | MULTI      | SMALL      | 1.00 | 2.00 | AVAILABLE  | 2007/06/30 | 310 | 3 | 1 | 114
+|GC10Q5F    | PROJECTO VG - MONTES ALTOS [ALQUEVA] | EVORA      | Portelada  | 38.32 | -7.39 | TRADITIONAL | MICRO      | 2.00 | 1.50 | AVAILABLE  | 2007/02/02 | 90 | 1 | 0 | 169
+|GC14Y15    | GT Friends Cache [Serra do Sintra] [Lisbon] | LISBOA     | golden-team | 38.78 | -9.41 | TRADITIONAL | REGULAR    | 1.00 | 4.50 | AVAILABLE  | 2007/08/05 | 280 | 18 | 73 | 409
+|GC144JJ    | Senhora da Penha [Portalegre] | PORTALEGRE | Saldanha Team | 39.30 | -7.44 | TRADITIONAL | SMALL      | 1.00 | 2.00 | AVAILABLE  | 2007/07/05 | 731 | 2 | 5 | 471
+|GC8C23     | Picture your Flag [Lisboa] | LISBOA     | ricardobsilva | 38.77 | -9.09 | VIRTUAL    | VIRTUAL    | 1.00 | 1.00 | AVAILABLE  | 2002/09/09 | 3821 | 1 | 144 | 0
+|GC167C2    | Ermidas-Sado [Santiago do Cacem] | SETUBAL    | MightyReek | 38.00 | -8.41 | MULTI      | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/09/25 | 95 | 19 | 5 | -9999999
+|GCF508     | Far away, so close | CASTELO BRANCO | GreenShades | 39.64 | -7.69 | TRADITIONAL | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2003/04/06 | 206 | 21 | 71 | 165
+|GCTYTF     | Dress Code [Lisboa] | LISBOA     | B.O.D.A.   | 38.78 | -9.16 | MULTI      | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2006/03/19 | 263 | 13 | 53 | 69
+|GCGGC1     | Historical Villages - Castelo Novo | CASTELO BRANCO | MAntunes   | 40.08 | -7.50 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2003/07/20 | 526 | 9 | 34 | 632
+|GC13HFZ    | Vassouras de raposa | SANTAREM   | juquinha   | 39.51 | -8.03 | TRADITIONAL | REGULAR    | 1.00 | 2.00 | AVAILABLE  | 2007/06/10 | 130 | 0 | 0 | -9999999
+|GCT5Z4     | Maunca          | LEIRIA     | SERGIO CRUZ | 39.67 | -8.76 | TRADITIONAL | REGULAR    | 1.00 | 4.50 | AVAILABLE  | 2006/01/25 | 226 | 11 | 7 | 404
+|GCWJ4A     | PROJECTO VG - PATAIAS - [Alcobaca] | LEIRIA     | viperunderground | 39.69 | -9.00 | TRADITIONAL | SMALL      | 1.50 | 3.00 | AVAILABLE  | 2006/06/12 | 257 | 8 | 4 | -9999999
+|GCGP33     | Stairway to...  | VISEU      | jppina     | 40.61 | -7.75 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2003/08/18 | 583 | 16 | 3 | 564
+|GCP750     | Fontes da Machada | SETUBAL    | LuckyRed   | 38.62 | -9.04 | MULTI      | REGULAR    | 3.00 | 3.00 | AVAILABLE  | 2005/06/05 | 233 | 41 | 14 | 30
+|GCXFPA     | Escada do Ceu   | ARQUIPELAGO DOS ACORES | pattertwig | 39.46 | -31.25 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2006/07/28 | 90 | 2 | 17 | -9999999
+|GC11VE3    | na Paz do Parque (again) [parque da paz #1] | SETUBAL    | bolacha    | 38.66 | -9.17 | TRADITIONAL | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2007/04/01 | 813 | 94 | 8 | 25
+|GCRH8W     | A walk in the Park [Lisboa] | LISBOA     | Felinos    | 38.73 | -9.15 | MULTI      | SMALL      | 2.00 | 1.50 | DISABLED   | 2005/12/02 | 1076 | 83 | 24 | 73
+|GCYVR7     | Miradouros [Vouzela, Viseu] | VISEU      | almeidara  | 40.72 | -8.13 | MULTI      | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/10/13 | 129 | 6 | 4 | 430
+|GCYK7Y     | Vigia do Soutelo | COIMBRA    | ToMarta    | 40.22 | -8.31 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2006/09/30 | 154 | 5 | 0 | -9999999
+|GC17620    | Parque dos Moutidos | PORTO      | My Greenway Tours | 41.21 | -8.57 | TRADITIONAL | MICRO      | 1.00 | 1.50 | AVAILABLE  | 2007/04/11 | 423 | 7 | 3 | -9999999
+|GCTC0T     | Historical Villages - Almeida | GUARDA     | Blue_Trekkers | 40.73 | -6.91 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2006/02/07 | 621 | 25 | 23 | 749
+|GC14VBW    | A Aldeia Abandonada do Funcho [Silves] | FARO       | clcortez   | 37.27 | -8.37 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/09/09 | 333 | 1 | 35 | 97
+|GCT68J     | Senhora da Luz  | LEIRIA     | nunaum     | 39.69 | -8.88 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2006/01/27 | 552 | 23 | 14 | 120
+|GCPRK6     | Parque Natural de S. Matias | VISEU      | jorgeconceicao | 40.79 | -7.66 | TRADITIONAL | REGULAR    | 1.00 | 2.00 | AVAILABLE  | 2005/07/17 | 79 | 2 | 4 | 719
+|GC17460    | Cabo Raso - Farois de Portugal | LISBOA     | zepe_ly    | 38.71 | -9.49 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/11/01 | 1294 | 16 | 17 | 0
+|GC145CT    | Olha os Passarinhos !!! [Lagoa de Obidos] | LEIRIA     | McPenha    | 39.40 | -9.19 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/07/06 | 391 | 6 | 5 | 5
+|GC1220J    | Aldeia Subaquatica [Vilarinho das Furnas - Geres] | BRAGA      | jcr        | 41.78 | -8.20 | TRADITIONAL | SMALL      | 3.50 | 3.00 | AVAILABLE  | 2007/04/09 | 511 | 42 | 65 | 566
+|GC126T1    | Cavalo de Ferro [Entroncamento] | SANTAREM   | mtrevas    | 39.47 | -8.47 | TRADITIONAL | SMALL      | 3.50 | 2.50 | AVAILABLE  | 2007/04/15 | 424 | 54 | 132 | 38
+|GC16K7J    | Da Oliveira a Penha II [Guimaraes] | BRAGA      | hfilipe    | 41.45 | -8.29 | MULTI      | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2006/04/30 | 249 | 13 | 12 | 205
+|GC16B2G    | Espigueiros de Soajo | VIANA DO CASTELO | Fernando Rei | 41.87 | -8.26 | MULTI      | SMALL      | 3.00 | 2.00 | AVAILABLE  | 2007/09/30 | 181 | 20 | 31 | 282
+|GC141XD    | Moinho das Doze Pedras | COIMBRA    | Tres Marias | 40.11 | -8.82 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/07/01 | 254 | 7 | 6 | 6
+|GC150DG    | A ver estrelas... | PORTO      | p@Che      | 41.15 | -8.64 | PUZZLE     | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2007/09/11 | 265 | 8 | 6 | -9999999
+|GCJJBV     | A View To The West [Mafra] | LISBOA     | Bargao_Henriques | 39.00 | -9.43 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2004/05/29 | 505 | 7 | 19 | 15
+|GC1563P    | MOSTEIRO DE CETE | PORTO      | eterlusitano | 41.18 | -8.37 | TRADITIONAL | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2007/08/15 | 350 | 17 | 3 | 153
+|GC10V1Z    | A Grande Castanheira [Vinhais] | BRAGANCA   | Pinaster   | 41.86 | -7.03 | MULTI      | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/02/08 | 78 | 1 | 4 | 818
+|GC16XN1    |  Potholes - who dunnit? - DP/EC13 | BRAGANCA   | danieloliveira | 41.89 | -6.93 | EARTHCACHE | NOT_CHOSEN | 1.00 | 1.00 | AVAILABLE  | 2007/10/23 | 74 | 0 | 3 | 660
+|GCV4HP     | Era uma vez... na Serra da Boa Viagem | COIMBRA    | rifkindsss | 40.19 | -8.88 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/03/29 | 669 | 67 | 5 | 238
+|GCRGDY     | BH21 Les Aventures de Tintin [Lisboa] | LISBOA     | prodrive   | 38.73 | -9.23 | TRADITIONAL | SMALL      | 1.00 | 2.00 | AVAILABLE  | 2005/11/29 | 633 | 18 | 20 | -9999999
+|GCYNHZ     | Cinco Quinas [Sabugal] | GUARDA     | pipl       | 40.35 | -7.09 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2006/10/04 | 467 | 7 | 4 | 746
+|GC10YAH    | Serra do Caldeirao [S.B. Alportel] | FARO       | Torgut     | 37.21 | -7.89 | MULTI      | REGULAR    | 3.00 | 3.00 | AVAILABLE  | 2007/02/19 | 50 | 8 | 7 | 463
+|GCPR5F     | Castelo e Meio  | COIMBRA    | maillart   | 40.03 | -8.39 | MULTI      | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2005/07/17 | 220 | 52 | 16 | 264
+|GC16Q0V    | Capela dos Ossos (Evora) | EVORA      | tirapicos team | 38.57 | -7.91 | TRADITIONAL | MICRO      | 2.50 | 1.50 | AVAILABLE  | 2007/10/14 | 2114 | 118 | 26 | 284
+|GC14Z6Y    | VISTAS DE S. DOMINGOS  | AVEIRO     | eterlusitano | 41.03 | -8.35 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/08/06 | 152 | 15 | 12 | 390
+|GCF83C     | A fronteira de Baixo [Castro Laboreiro] | VIANA DO CASTELO | rob_geo    | 41.95 | -8.18 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2003/04/12 | 88 | 7 | 11 | 571
+|GC164Z9    | TP65- E tudo o vento levou [Cabeco de Montachique]LISBOA | LISBOA     | btrodrigues | 38.90 | -9.19 | TRADITIONAL | SMALL      | 1.50 | 3.00 | AVAILABLE  | 2007/09/23 | 592 | 21 | 45 | -9999999
+|GCVCCN     | Fontes de Estombar (Lagoa) | FARO       | Psipsina   | 37.16 | -8.49 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2006/04/12 | 646 | 11 | 20 | 10
+|GC15CA6    | SR. DO CASTELO  | PORTO      | eterlusitano | 41.23 | -8.03 | TRADITIONAL | MICRO      | 2.00 | 2.50 | AVAILABLE  | 2007/08/24 | 71 | 3 | 3 | 488
+|GC142TP    | Lucky Key       | PORTO      | kidloco    | 41.19 | -8.71 | PUZZLE     | SMALL      | 3.50 | 1.50 | AVAILABLE  | 2007/07/03 | 360 | 14 | 6 | 4
+|GC14XPA    | Oasis no Alentejo [Galveias] | PORTALEGRE | RobinWood23 | 39.16 | -7.99 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/08/05 | 214 | 0 | 0 | 224
+|GC171VN    | Viriatus eram prognatus hic [Lusitania] | GUARDA     | almeidara  | 40.32 | -7.69 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/10/29 | 126 | 12 | 4 | 811
+|GCNGJQ     | Salta Fronteiras entre Fafe Felgueiras | BRAGA      | saltafronteiras | 41.41 | -8.18 | TRADITIONAL | SMALL      | 3.00 | 3.00 | AVAILABLE  | 2005/04/16 | 76 | 5 | 1 | -9999999
+|GC9E71     | Pulo do Lobo    | BEJA       | MAntunes   | 37.80 | -7.63 | TRADITIONAL | REGULAR    | 3.00 | 3.50 | AVAILABLE  | 2002/10/20 | 152 | 34 | 35 | 68
+|GC174M5    | ARRIFE Twins V  | SANTAREM   | sammendes  | 39.56 | -8.57 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2007/11/02 | 105 | 2 | 5 | 200
+|GCTEQE     | Linhas de Torres - Forte da Feira [ Malveira ] | LISBOA     | clcortez   | 38.94 | -9.26 | TRADITIONAL | SMALL      | 3.00 | 2.00 | AVAILABLE  | 2006/02/13 | 630 | 22 | 15 | 247
+|GC1471Q    | Heart of Darkness [Geres] | BRAGA      | Os Cacheiros Viajantes | 41.76 | -8.12 | MULTI      | REGULAR    | 3.00 | 4.00 | AVAILABLE  | 2007/07/07 | 119 | 5 | 56 | -9999999
+|GCN9EN     | Castelo de Santiago | SETUBAL    | clcortez   | 38.01 | -8.70 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/03/30 | 631 | 22 | 17 | 249
+|GC11BE     | LIS Spotter's Place | LISBOA     | dmatos     | 38.78 | -9.14 | VIRTUAL    | VIRTUAL    | 2.00 | 3.00 | AVAILABLE  | 2001/07/21 | 1202 | 3 | 58 | 117
+|GCHEMB     | Windmill Route [Palmela] | SETUBAL    | B.O.D.A.   | 38.55 | -8.97 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2004/01/03 | 366 | 6 | 6 | -9999999
+|GC15861    | Miradouro de Senharei  [Arcos de Valdevez] | VIANA DO CASTELO | Jafqa      | 41.89 | -8.48 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2007/08/18 | 179 | 2 | 2 | 536
+|GCG39A     | The Tin Man [Lisboa] | LISBOA     | btrodrigues | 38.77 | -9.12 | TRADITIONAL | SMALL      | 1.50 | 1.50 | DISABLED   | 2003/05/11 | 1368 | 52 | 18 | 43
+|GC16ZKC    | Igreja Matriz da Golega | SANTAREM   | sammendes  | 39.40 | -8.49 | TRADITIONAL | NOT_CHOSEN | 1.50 | 1.50 | AVAILABLE  | 2007/10/26 | 756 | 21 | 3 | -9999999
+|GCXMV2     | Forte de Milreus [Mafra] | LISBOA     | Bargao_Henriques | 38.98 | -9.42 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2006/08/11 | 861 | 2 | 40 | 20
+|GC10VPJ    | Penha do Meio-Dia - Montejunto | LISBOA     | McPenha    | 39.19 | -9.05 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/02/09 | 403 | 2 | 46 | 544
+|GC13Y2K    | Aqueduto da Amoreira - Elvas | PORTALEGRE | JorgeDraco & Anjo | 38.88 | -7.17 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/06/26 | 776 | 28 | 10 | 297
+|GCM8AA     | Mosteiro de Cos [Alcobaca] | LEIRIA     | olharapo   | 39.61 | -8.95 | TRADITIONAL | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2004/12/10 | 404 | 16 | 4 | 82
+|GC12TEZ    | Oporto Botanical Garden | PORTO      | kidloco    | 41.15 | -8.64 | PUZZLE     | SMALL      | 3.50 | 1.50 | AVAILABLE  | 2007/05/19 | 153 | 14 | 7 | 70
+|GC16M14    | Santuario da Senhora da Rocha | LISBOA     | Kelux      | 38.72 | -9.25 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/10/12 | 317 | 28 | 7 | 28
+|GCY9RQ     | TP01 - O Sofa de Bucelas [Bucelas] | LISBOA     | Peter!     | 38.88 | -9.13 | TRADITIONAL | SMALL      | 3.50 | 5.00 | AVAILABLE  | 2006/09/14 | 81 | 5 | 20 | 126
+|GCH37D     | Alto da Memoria | LISBOA     | B.O.D.A.   | 38.78 | -9.44 | TRADITIONAL | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2003/10/19 | 561 | 15 | 18 | -9999999
+|GC15994    | Moinho da Tramaga | PORTALEGRE | TonyMary   | 39.23 | -8.03 | MULTI      | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/08/19 | 126 | 11 | 7 | -9999999
+|GC13KTF    | Telheiras - Porta do Ceu | LISBOA     | acasim     | 38.76 | -9.17 | MULTI      | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/06/13 | 467 | 47 | 53 | 97
+|GCRM3D     | Rio Paleozoico [Valongo - pt+en] | PORTO      | caixeiros  | 41.15 | -8.48 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2005/12/10 | 261 | 6 | 5 | 44
+|GC11Z6V    | Marco dos 4 Concelhos [ARC-VFR-CPV-GDM] | AVEIRO     | daraopedal | 41.00 | -8.39 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/04/06 | 90 | 1 | 5 | 460
+|GCQXCZ     | Costa Azul [Santiago Cacem] | SETUBAL    | G@tos      | 38.06 | -8.82 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2005/10/08 | 253 | 3 | 11 | 22
+|GCPJEG     | Moinhos de Vento [Barcelos - pt+en] | BRAGA      | caixeiros  | 41.45 | -8.58 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2005/07/03 | 151 | 3 | 0 | -9999999
+|GC1289R    | SENHORA DA GRACA I  | VILA REAL  | eterlusitano | 41.42 | -7.92 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2007/04/17 | 416 | 6 | 15 | 889
+|GCHB7M     | AiAi... tou que nem posso! [Amiosinho] | COIMBRA    | & Company  | 40.04 | -8.10 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2003/12/08 | 53 | 16 | 5 | 382
+|GC12K45    | A Lenda [Sancta Irena] | SANTAREM   | s.paula    | 39.24 | -8.67 | MULTI      | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/05/01 | 212 | 32 | 5 | 15
+|GC14VBQ    | Varanda de Pilatos [Peniche] | LEIRIA     | clcortez   | 39.36 | -9.41 | TRADITIONAL | SMALL      | 3.50 | 2.00 | AVAILABLE  | 2007/08/19 | 1167 | 413 | 123 | 30
+|GCYGR8     | The Pythagoras Project | FARO       | Team Caracache | 37.03 | -8.91 | PUZZLE     | REGULAR    | 3.00 | 2.50 | AVAILABLE  | 2006/09/25 | 63 | 3 | 12 | 49
+|GC14HF4    | Antas da Masmorra | FARO       | GadgetTracker | 37.38 | -7.86 | TRADITIONAL | REGULAR    | 1.00 | 3.00 | AVAILABLE  | 2007/07/22 | 71 | 5 | 2 | 351
+|GCTC1P     | The Watchtower [Lisboa] | LISBOA     | Felinos    | 38.73 | -9.13 | TRADITIONAL | SMALL      | 1.50 | 2.00 | DISABLED   | 2006/02/07 | 870 | 46 | 25 | 91
+|GCY2ZY     | Moinhos Montedor | VIANA DO CASTELO | cou        | 41.75 | -8.88 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2006/08/31 | 507 | 5 | 11 | 11
+|GC159NY    | CIRCUITO DOS MOINHOS DE ARGONTIM | BRAGA      | eterlusitano | 41.43 | -8.08 | MULTI      | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/08/21 | 33 | 12 | 2 | -9999999
+|GC15CGK    | Ingrina Beach [Vila do Bispo] | FARO       | Jdmarques  | 37.04 | -8.88 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/08/24 | 665 | 2 | 14 | 5
+|GC16TVF    | Ganda Pedrada ... [Serra da Peneda] | VIANA DO CASTELO | pxlobo     | 41.93 | -8.29 | TRADITIONAL | REGULAR    | 2.00 | 4.50 | AVAILABLE  | 2007/10/14 | 48 | 0 | 16 | 1393
+|GC1672R    | ST14 - SRA. DE FATIMA | BRAGA      | SPY_Team   | 41.50 | -8.45 | MULTI      | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/09/25 | 246 | 2 | 0 | 295
+|GC1483D    | CORNOS DAS ALTURAS! | VILA REAL  | Drager     | 41.71 | -7.82 | MULTI      | REGULAR    | 4.00 | 3.50 | AVAILABLE  | 2007/07/09 | 35 | 6 | 5 | -9999999
+|GCWQ24     | Passeio Publico [Lisboa Romantica] | LISBOA     | almeidara  | 38.72 | -9.14 | MULTI      | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2006/06/26 | 416 | 40 | 34 | 22
+|GCWDDE     | Prado do Vidoal [Geres - pt+en] | BRAGA      | caixeiros  | 41.77 | -8.15 | MULTI      | SMALL      | 2.50 | 3.00 | AVAILABLE  | 2006/06/03 | 155 | 6 | 41 | 860
+|GCY3MF     | Black Pit [Penafiel] | PORTO      | Silvana    | 41.06 | -8.37 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2006/09/02 | 64 | 9 | 7 | 33
+|GC15B20    | E fez-se luz! [Arouca - pt+en] | AVEIRO     | caixeiros  | 40.88 | -8.13 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/08/21 | 302 | 5 | 18 | 667
+|GCMXZR     | Senhora do Monte | LISBOA     | [Walrus]   | 38.72 | -9.13 | TRADITIONAL | MICRO      | 2.50 | 1.50 | AVAILABLE  | 2005/02/27 | 1017 | 151 | 39 | 80
+|GC12QF5    | Miradouro de  Boticas | VILA REAL  | Silvana    | 41.69 | -7.67 | MULTI      | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/05/06 | 129 | 8 | 7 | -9999999
+|GCRTEH     | Monte Redondo   | LEIRIA     | mafilll    | 39.89 | -8.84 | TRADITIONAL | SMALL      | 2.50 | 3.00 | AVAILABLE  | 2007/04/08 | 369 | 17 | 4 | 60
+|GC119PC    | M.A.N. - Movimento Anti Nos  [Estoril] | LISBOA     | Portelada  | 38.72 | -9.39 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2007/03/06 | 311 | 6 | 8 | 73
+|GCVJ73     | Penedo da Amizade [Sintra] | LISBOA     | play mobil | 38.79 | -9.39 | TRADITIONAL | REGULAR    | 2.00 | 3.50 | AVAILABLE  | 2006/04/24 | 596 | 32 | 147 | 370
+|GCNQZZ     | Historical Villages - Idanha-a-Velha | CASTELO BRANCO | PauloJFMartins | 40.00 | -7.15 | TRADITIONAL | REGULAR    | 1.00 | 1.00 | AVAILABLE  | 2005/07/04 | 431 | 22 | 12 | -9999999
+|GCR5QP     | The Fishing Spot - Obidos | LEIRIA     | Trupe Geocaching | 39.42 | -9.24 | TRADITIONAL | SMALL      | 1.00 | 1.00 | AVAILABLE  | 2005/10/30 | 632 | 10 | 4 | 30
+|GCX64D     | Posto de Vigia Monte Redondo [Arganil] | COIMBRA    | maillart   | 40.21 | -7.96 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2006/07/16 | 130 | 0 | 5 | 950
+|GC15G66    | S. MAMEDE DE NEGRELOS  | PORTO      | eterlusitano | 41.34 | -8.35 | TRADITIONAL | SMALL      | 3.50 | 1.50 | AVAILABLE  | 2007/08/28 | 180 | 10 | 1 | 256
+|GC13D90    | Cruziana [Penha Garcia] | CASTELO BRANCO | Bargao_Henriques | 40.04 | -7.01 | EARTHCACHE | NOT_CHOSEN | 1.50 | 2.00 | AVAILABLE  | 2007/06/04 | 209 | 2 | 32 | 500
+|GC14R59    | Parque Eolico de Serra D'El Rei [Peniche] | LEIRIA     | B.O.D.A.   | 39.32 | -9.27 | TRADITIONAL | REGULAR    | 2.50 | 1.50 | AVAILABLE  | 2007/07/28 | 306 | 7 | 1 | 143
+|GC15J9Z    | Circuito de Vila do Conde | PORTO      | cmcfaria   | 41.34 | -8.75 | TRADITIONAL | MICRO      | 1.50 | 1.00 | AVAILABLE  | 2007/08/31 | 935 | 45 | 0 | 4
+|GCZRB4     | Penamacor       | CASTELO BRANCO | Ogato      | 40.17 | -7.17 | TRADITIONAL | NOT_CHOSEN | 1.50 | 1.50 | AVAILABLE  | 2006/12/09 | 365 | 20 | 9 | 574
+|GC16QCW    | The Secret      | LISBOA     | antunesn   | 38.73 | -9.15 | TRADITIONAL | MICRO      | 2.00 | 1.00 | AVAILABLE  | 2007/10/16 | 2091 | 123 | 1 | 75
+|GCAE48     | Miradouro       | ARQUIPELAGO DOS ACORES | Leemax     | 37.79 | -25.15 | VIRTUAL    | VIRTUAL    | 1.00 | 1.00 | AVAILABLE  | 2002/11/14 | 672 | 1 | 35 | 248
+|GC17887    | Acude da Agolada (Coruche) | SANTAREM   | ftomar     | 38.96 | -8.56 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/11/07 | 187 | 18 | 7 | 61
+|GCZ5JP     | Cucos Valley [Torres Vedras] | LISBOA     | MONTE DA LUA | 39.09 | -9.24 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/11/01 | 611 | 6 | 9 | 40
+|GC15536    | Termas da Piedade [ Alcobaca] | LEIRIA     | dakidali   | 39.57 | -9.00 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/08/14 | 652 | 10 | 1 | 7
+|GCRM1W     | Umbilicu Patriae [Sardoal] | SANTAREM   | HDV        | 39.62 | -8.17 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/12/11 | 270 | 4 | 24 | -9999999
+|GC11J2N    | Sr. dos Desamparados | BRAGA      | Agostinho e Sandra | 41.54 | -8.74 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2007/03/18 | 402 | 3 | 2 | 111
+|GCW978     | Placido [Pte de Lima - pt+en] | VIANA DO CASTELO | caixeiros  | 41.78 | -8.61 | TRADITIONAL | SMALL      | 1.00 | 1.00 | AVAILABLE  | 2006/05/27 | 472 | 1 | 10 | 214
+|GC176YG    | Poco das Pias   | GUARDA     | nmcouto    | 40.46 | -7.40 | TRADITIONAL | REGULAR    | 4.00 | 4.50 | AVAILABLE  | 2007/11/05 | 47 | 3 | 1 | 917
+|GC11BWX    | DP32 - Vila Boa de Ousilhao | BRAGANCA   | danieloliveira | 41.81 | -6.92 | TRADITIONAL | SMALL      | 1.50 | 3.00 | AVAILABLE  | 2007/03/08 | 45 | 0 | 0 | 639
+|GCVDGM     | Matinha de Queluz #2 | LISBOA     | afonso_loureiro | 38.74 | -9.26 | TRADITIONAL | SMALL      | 2.00 | 2.00 | DISABLED   | 2006/07/23 | 607 | 9 | 2 | -9999999
+|GCRE96     | BH19 Scene from above [Portugal...] | LISBOA     | prodrive   | 39.00 | -9.50 | PUZZLE     | SMALL      | 3.00 | 1.50 | AVAILABLE  | 2005/11/23 | 173 | 13 | 9 | 0
+|GC101CB    | Monte da Ciradelha [Vinhais] | BRAGANCA   | Pinaster   | 41.85 | -6.99 | TRADITIONAL | SMALL      | 2.00 | 2.50 | DISABLED   | 2006/12/28 | 138 | 4 | 16 | 1004
+|GCJ639     | Bicas Beach [Aldeia do Meco] | SETUBAL    | B.O.D.A.   | 38.46 | -9.20 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2004/04/12 | 311 | 21 | 14 | -9999999
+|GC16670    | LAMEIRINHA      | BRAGA      | eterlusitano | 41.49 | -8.07 | TRADITIONAL | SMALL      | 3.00 | 2.00 | AVAILABLE  | 2007/09/23 | 193 | 6 | 33 | -9999999
+|GC15386    | Penedo do Eido  | VIANA DO CASTELO | Fernando Rei | 41.80 | -8.27 | TRADITIONAL | REGULAR    | 3.00 | 3.00 | AVAILABLE  | 2007/08/11 | 50 | 1 | 14 | 675
+|GCPJQV     | SweetCam        | FARO       | argonauta  | 37.10 | -8.47 | WEBCAM     | OTHER_SIZE | 1.00 | 1.00 | AVAILABLE  | 2005/07/04 | 1395 | 7 | 103 | 14
+|GCZWBW     | Radha Krishna [Hinduismo] | LISBOA     | almeidara  | 38.77 | -9.17 | MULTI      | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2006/12/18 | 535 | 25 | 4 | 107
+|GC171VF    | PR1 - Trilho das Jans | PORTALEGRE | almeidara  | 39.54 | -7.83 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2007/10/29 | 33 | 3 | 5 | 65
+|GC16EQK    | LOUSADA 1       | PORTO      | eterlusitano | 41.27 | -8.26 | MULTI      | MICRO      | 1.50 | 2.00 | AVAILABLE  | 2007/10/05 | 114 | 5 | 1 | 197
+|GCPX7M     | Passagem para a liberdade [Vilamoura] | FARO       | olharapo   | 37.07 | -8.12 | TRADITIONAL | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2005/07/23 | 2016 | 94 | 16 | 3
+|GC15V3N    | OBRAS DO FIDALGO  | PORTO      | eterlusitano | 41.21 | -8.19 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/09/09 | 232 | 2 | 26 | -9999999
+|GC12D55    | Fragas de S. Simao | LEIRIA     | Paulo Martins | 39.92 | -8.32 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/04/22 | 525 | 3 | 52 | -9999999
+|GCQPJ1     | S. Minho (Serra Arga-Viana Castelo) | VIANA DO CASTELO | cou        | 41.80 | -8.69 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/09/25 | 297 | 4 | 3 | -9999999
+|GCQM5B     | The Waterfall [Pitoes das Junias] | VILA REAL  | razalas    | 41.83 | -7.95 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2005/09/14 | 473 | 4 | 52 | 950
+|GCNEHE     | DP5- Nutty Toon Cache | LISBOA     | danieloliveira | 38.75 | -9.43 | TRADITIONAL | SMALL      | 3.50 | 4.50 | AVAILABLE  | 2005/04/11 | 204 | 15 | 32 | -9999999
+|GC15XNT    | Lenda de N. Sra. das Neves [Bagunte-Vila do Conde]PORTO | PORTO      | eniel      | 41.39 | -8.64 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/09/13 | 297 | 1 | 3 | -9999999
+|GCG9P6     | Taipa [Paderne] | FARO       | afonso_loureiro | 37.16 | -8.20 | TRADITIONAL | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2003/06/15 | 667 | 5 | 9 | -9999999
+|GCHYTT     | Alvao - Ranhadouro | VILA REAL  | vfalco     | 41.34 | -7.82 | TRADITIONAL | REGULAR    | 2.00 | 1.00 | AVAILABLE  | 2004/03/14 | 111 | 1 | 2 | 1156
+|GC1627H    | 460 million year old bookshop - DP/EC12  | COIMBRA    | danieloliveira | 40.28 | -8.27 | EARTHCACHE | NOT_CHOSEN | 1.00 | 1.00 | AVAILABLE  | 2007/09/19 | 416 | 5 | 25 | 54
+|GC13006    | S. BENTO DAS PERAS | BRAGA      | eterlusitano | 41.38 | -8.29 | TRADITIONAL | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2007/05/17 | 234 | 14 | 5 | 430
+|GC1020Z    | GT Dino's Lunch Box [Sintra] [Lisbon} | LISBOA     | golden-team | 38.81 | -9.48 | TRADITIONAL | LARGE      | 1.50 | 1.50 | AVAILABLE  | 2006/12/29 | 387 | 9 | 17 | 57
+|GCMA2Z     | Nascentes do Liz [Leiria] | LEIRIA     | olharapo   | 39.68 | -8.77 | TRADITIONAL | REGULAR    | 2.00 | 3.50 | AVAILABLE  | 2004/12/19 | 512 | 27 | 6 | 101
+|GCV43A     | GnE IV - Regueira [Rio Maior] | SANTAREM   | TattaTeam  | 39.37 | -8.95 | TRADITIONAL | LARGE      | 1.50 | 2.50 | AVAILABLE  | 2006/03/28 | 341 | 8 | 2 | 104
+|GCZGT0     | ALAGOA          | ARQUIPELAGO DOS ACORES | Ccota      | 38.79 | -27.19 | TRADITIONAL | SMALL      | 3.50 | 2.00 | AVAILABLE  | 2006/11/24 | 199 | 45 | 1 | 9
+|GCQ7JZ     | O Ascensor da Bica / The Bica Funicular | LISBOA     | rifkindsss | 38.71 | -9.15 | TRADITIONAL | MICRO      | 2.00 | 1.50 | DISABLED   | 2005/08/21 | 1373 | 122 | 61 | 20
+|GC140Y9    | Ponto Novo      | LEIRIA     | dupladepeso | 39.77 | -9.00 | MULTI      | SMALL      | 3.00 | 2.50 | AVAILABLE  | 2007/06/30 | 442 | 39 | 5 | 93
+|GC154F9    | Neves do Pinheiro | AVEIRO     | triplebrand | 40.47 | -8.42 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/08/13 | 381 | 3 | 0 | 53
+|GCRFDP     | Pateira de Fermentelos [Agueda] | AVEIRO     | Macafe     | 40.57 | -8.53 | MULTI      | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2005/11/26 | 343 | 7 | 16 | 16
+|GC14M5D    | Bonjoia Heraldic Riddle | PORTO      | kidloco    | 41.15 | -8.58 | PUZZLE     | SMALL      | 3.00 | 1.50 | AVAILABLE  | 2007/07/26 | 229 | 8 | 7 | 39
+|GC14RM9    | Curral do Negro [Gouveia] | GUARDA     | cmatos     | 40.49 | -7.57 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/07/28 | 292 | 1 | 6 | 887
+|GC16E3D    | Belas Cache     | LISBOA     | sduarte    | 38.79 | -9.26 | MULTI      | LARGE      | 2.50 | 2.50 | AVAILABLE  | 2007/10/20 | 148 | 9 | 13 | 179
+|GC16PZM    | O Moinho [Cacilhas] | SETUBAL    | tmob       | 38.69 | -9.15 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/10/15 | 1084 | 16 | 9 | 6
+|GC15TPE    | Sr. da Saude [Vale de Cambra] | AVEIRO     | daraopedal | 40.80 | -8.38 | TRADITIONAL | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2007/09/08 | 233 | 2 | 0 | 687
+|GCPTNN     | Castro de Sao Paio [Labruge - Vila do Conde] | PORTO      | protoZoa   | 41.28 | -8.73 | TRADITIONAL | REGULAR    | 1.00 | 2.00 | AVAILABLE  | 2005/07/20 | 743 | 5 | 39 | 7
+|GC16GB3    | Nossa Sr. d'Aires (Viana Alentejo) | EVORA      | tirapicos team | 38.34 | -7.99 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2007/10/07 | 347 | 13 | 10 | 212
+|GC16FRZ    | APULIA - PMI 2  | BRAGA      | eterlusitano | 41.49 | -8.78 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/10/07 | 540 | 65 | 1 | 3
+|GC1563H    | Capela Sao Luis da Serra [Setubal] | SETUBAL    | NFreitas   | 38.53 | -8.93 | MULTI      | REGULAR    | 3.00 | 2.50 | AVAILABLE  | 2007/08/15 | 319 | 5 | 1 | 154
+|GC158JW    | Down Under      | FARO       | kidloco    | 37.07 | -8.29 | PUZZLE     | REGULAR    | 3.00 | 2.00 | AVAILABLE  | 2007/09/18 | 465 | 34 | 135 | 15
+|GC173T7    | Farol do cabo (Sesimbra) | SETUBAL    | Os Galaxy  | 38.41 | -9.22 | TRADITIONAL | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2007/11/01 | 1292 | 19 | 11 | 121
+|GC10K6Z    | The Enigma Experience | FARO       | Team Caracache | 37.11 | -8.68 | PUZZLE     | REGULAR    | 2.50 | 1.00 | AVAILABLE  | 2007/01/27 | 193 | 6 | 21 | -9999999
+|GC1223G    | Portas de Montemuro | VISEU      | almeidara  | 40.97 | -8.01 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/04/09 | 176 | 1 | 5 | 1203
+|GCQ0JQ     | Mafra Real      | LISBOA     | play mobil | 38.94 | -9.32 | TRADITIONAL | REGULAR    | 1.50 | 1.00 | AVAILABLE  | 2005/08/05 | 1265 | 50 | 21 | 245
+|GC513F     | A great view of Lisbon [Lisboa] | LISBOA     | orebelo    | 38.71 | -9.13 | VIRTUAL    | VIRTUAL    | 1.00 | 1.00 | AVAILABLE  | 2002/04/25 | 2612 | 8 | 297 | 84
+|GCXB38     | Passeio pelo Parque de Montachique [ Loures ] | LISBOA     | B.O.D.A.   | 38.90 | -9.18 | TRADITIONAL | SMALL      | 3.50 | 3.00 | AVAILABLE  | 2006/07/22 | 608 | 10 | 2 | -9999999
+|GC14NKV    | Bureau de Change | FARO       | cmma07     | 37.25 | -7.58 | TRADITIONAL | SMALL      | 1.50 | 3.00 | AVAILABLE  | 2007/07/27 | 105 | 0 | 3 | 265
+|GC12MV8    | Santo Isidro de Pegoes [Montijo] | SETUBAL    | Tanyne     | 38.68 | -8.66 | TRADITIONAL | SMALL      | 1.00 | 1.00 | AVAILABLE  | 2007/05/05 | 542 | 11 | 7 | 60
+|GCR5F7     | Senhora Emigrantes-(Castelo Neiva) | VIANA DO CASTELO | cou        | 41.61 | -8.78 | TRADITIONAL | REGULAR    | 4.00 | 4.00 | AVAILABLE  | 2005/10/23 | 402 | 10 | 19 | -9999999
+|GCQJTW     | Cerro da Cabeca Karren field [Olhao] | FARO       | alieri     | 37.11 | -7.78 | TRADITIONAL | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2005/09/16 | 156 | 5 | 39 | 226
+|GC167NE    | Barros PE - Projecto VG [Az. Barros-Grandola] | SETUBAL    | MightyReek | 38.05 | -8.44 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/09/26 | 220 | 0 | 3 | -9999999
+|GCZ84D     | Albandeira [Lagoa] | FARO       | prodrive   | 37.09 | -8.40 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2006/10/29 | 1112 | 25 | 59 | 0
+|GC14T2P    | Aqueduto dos Pegoes [Thomar] | SANTAREM   | paulohercules | 39.61 | -8.44 | MULTI      | SMALL      | 2.00 | 4.00 | AVAILABLE  | 2007/08/19 | 495 | 16 | 165 | 105
+|GCGGAY     | The Lonely Lookout | LISBOA     | GreenShades | 38.77 | -9.49 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2003/07/12 | 232 | 5 | 66 | 67
+|GC16330    | Eolo - Deus do vento[Coto do Boi-Geoparque Arouca]AVEIRO | AVEIRO     | daraopedal | 40.89 | -8.23 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/09/20 | 73 | 3 | 6 | 958
+|GC11R16    | Monte da Tumba [Torrao] | SETUBAL    | almeidara  | 38.28 | -8.23 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/03/28 | 189 | 5 | 4 | -9999999
+|GCXMV1     | Ribeira d'Ilhas [Mafra] | LISBOA     | Bargao_Henriques | 38.99 | -9.42 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2006/08/11 | 782 | 10 | 24 | 16
+|GC156CP    | Ponta do Landeiro [Milfontes Powertrail #6] | BEJA       | btrodrigues | 37.75 | -8.81 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2007/08/13 | 403 | 0 | 11 | 19
+|GC10DPG    | Buy, Buy, Buy [Colombo] | LISBOA     | almeidara  | 38.76 | -9.19 | MULTI      | MICRO      | 2.00 | 1.50 | AVAILABLE  | 2007/01/16 | 265 | 16 | 19 | 94
+|GCZ9WE     | Stadium Algarve [Faro - Loule] | FARO       | Torgut     | 37.09 | -7.98 | MULTI      | REGULAR    | 1.00 | 1.00 | AVAILABLE  | 2006/11/10 | 512 | 11 | 8 | 41
+|GC174X7    | ARRIFE Total    | SANTAREM   | sammendes  | 39.51 | -8.57 | PUZZLE     | OTHER_SIZE | 2.50 | 2.50 | AVAILABLE  | 2007/11/03 | 76 | 0 | 17 | 119
+|GCQDE4     | POR CAMINHOS ESQUECIDOS! | LISBOA     | toscanatt  | 38.86 | -9.35 | MULTI      | SMALL      | 2.50 | 3.50 | AVAILABLE  | 2005/09/03 | 184 | 14 | 24 | 61
+|GC16555    | Castro das Caldas [Gondizalves] | BRAGA      | 20 ver     | 41.54 | -8.47 | TRADITIONAL | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2007/09/23 | 141 | 2 | 1 | 263
+|GC15WEE    | QUE VISTA BEM APARECIDA !! | PORTO      | eterlusitano | 41.37 | -8.15 | TRADITIONAL | MICRO      | 2.50 | 2.00 | AVAILABLE  | 2007/09/11 | 88 | 17 | 3 | -9999999
+|GC115GG    | Footprints in the sand - DP/EC8 | LISBOA     | danieloliveira | 38.81 | -9.48 | EARTHCACHE | NOT_CHOSEN | 1.50 | 3.00 | AVAILABLE  | 2007/02/26 | 248 | 1 | 31 | 49
+|GC16AY7    | Funicular dos Guindais | PORTO      | Macafe     | 41.14 | -8.61 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/09/02 | 2402 | 56 | 70 | 81
+|GCW37V     | Lost in Cabeca [Seia] | GUARDA     | Geografo   | 40.32 | -7.74 | TRADITIONAL | SMALL      | 1.50 | 2.50 | DISABLED   | 2006/05/17 | 135 | 19 | 10 | 477
+|GCW061     | GnE II e - Sushi Nemo (DP 16) | LISBOA     | danieloliveira | 38.75 | -9.47 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2006/05/19 | 296 | 1 | 8 | 60
+|GC13B9B    | The Electro Box | LISBOA     | clcortez   | 38.88 | -9.14 | TRADITIONAL | LARGE      | 3.50 | 4.00 | AVAILABLE  | 2007/06/01 | 124 | 14 | 19 | 195
+|GC172GE    | Barragem do Pego da Moura [Grandola] | SETUBAL    | MightyReek | 38.16 | -8.58 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/10/27 | 369 | 14 | 7 | -9999999
+|GCMA39     | The Covelo Park (Porto) | PORTO      | zoom_bee   | 41.17 | -8.61 | TRADITIONAL | MICRO      | 1.50 | 1.00 | DISABLED   | 2004/12/19 | 778 | 51 | 6 | 129
+|GCV5JJ     | Santa Eufemia da Serra [Sintra] | LISBOA     | play mobil | 38.79 | -9.39 | TRADITIONAL | SMALL      | 2.50 | 2.00 | AVAILABLE  | 2006/04/01 | 1139 | 31 | 69 | 437
+|GC11YE6    | The Peak of Peaks [Braga] | BRAGA      | jcr        | 41.57 | -8.34 | TRADITIONAL | REGULAR    | 3.50 | 4.00 | AVAILABLE  | 2007/04/05 | 119 | 5 | 7 | 549
+|GCXVWF     | Casa Florestal do Pisao | VISEU      | Panda Becas | 40.80 | -8.13 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2006/08/20 | 231 | 2 | 4 | 521
+|GCX3Y3     | 22.5 House Barao Sao Joao area, Algarve | FARO       | Team Caracache | 37.16 | -8.80 | MULTI      | SMALL      | 3.00 | 3.00 | AVAILABLE  | 2006/07/12 | 61 | 4 | 3 | 143
+|GC15P9Z    | AA11 - Dom Quixote | SANTAREM   | K!mPossible | 39.59 | -8.67 | TRADITIONAL | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2007/09/04 | 167 | 3 | 0 | 459
+|GCKNMB     | Old Dam Wall    | FARO       | outonaboat | 37.15 | -8.69 | TRADITIONAL | REGULAR    | 2.00 | 1.00 | AVAILABLE  | 2004/09/28 | 255 | 7 | 3 | -9999999
+|GC111CZ    | The Circuit of the Coke [:)] | BEJA       | almeidara  | 37.58 | -8.26 | MULTI      | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/02/19 | 93 | 4 | 5 | 209
+|GC1598Y    | PORTO D'OLHO    | BRAGA      | eterlusitano | 41.58 | -7.97 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/08/20 | 73 | 2 | 5 | -9999999
+|GCT7ET     | PORTAS DE S.PEDRO | PORTO      | tapauere   | 41.29 | -8.61 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2006/01/29 | 569 | 17 | 1 | 132
+|GC13G35    | SANTO ANTONINO  | BRAGA      | eterlusitano | 41.44 | -8.24 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/06/08 | 119 | 23 | 1 | 488
+|GC16EGD    | ST15 - CAMPO DE AVIACAO | BRAGA      | SPY_Team   | 41.59 | -8.44 | MULTI      | REGULAR    | 2.50 | 1.50 | AVAILABLE  | 2007/10/05 | 234 | 3 | 1 | -9999999
+|GC16R8A    | ST20 - CASTRO SABROSO | BRAGA      | SPY_Team   | 41.51 | -8.34 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2007/10/17 | 92 | 1 | 2 | -9999999
+|GC140YD    | Where is the river? | PORTALEGRE | manelov    | 39.34 | -7.89 | TRADITIONAL | REGULAR    | 1.00 | 2.50 | AVAILABLE  | 2007/06/30 | 86 | 0 | 5 | 171
+|GCYM2B     | Olh'o Castelo [Torres Vedras] | LISBOA     | vsergios   | 39.09 | -9.26 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2006/10/01 | 650 | 22 | 9 | 32
+|GC12ETJ    | Cidai Pilgrim   | PORTO      | kidloco    | 41.32 | -8.59 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/04/26 | 412 | 8 | 3 | 181
+|GC16JJM    | Milagre ao Amanhecer (Nazare) | LEIRIA     | Lancenorte | 39.60 | -9.08 | TRADITIONAL | MICRO      | 1.00 | 1.00 | AVAILABLE  | 2007/10/10 | 1795 | 34 | 28 | 59
+|GC4B0D     | The Bear Treasure | LEIRIA     | GreenShades | 39.99 | -8.91 | TRADITIONAL | LARGE      | 2.00 | 3.00 | AVAILABLE  | 2002/04/07 | 316 | 4 | 37 | 7
+|GCN0N8     | Rocha dos Louros | ARQUIPELAGO DA MADEIRA | macmurphy  | 32.76 | -17.14 | TRADITIONAL | MICRO      | 3.00 | 4.00 | AVAILABLE  | 2005/03/01 | 1178 | 18 | 39 | 1001
+|GC11JM4    | Pousada [Almada] | SETUBAL    | almeidara  | 38.68 | -9.18 | MULTI      | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/03/20 | 202 | 17 | 9 | -9999999
+|GCYKH1     | Tremelgo nas alturas [Marinha Grande] | LEIRIA     | olharapo   | 39.74 | -8.97 | TRADITIONAL | REGULAR    | 2.00 | 5.00 | AVAILABLE  | 2006/09/17 | 197 | 21 | 73 | 81
+|GCRR0E     | Os Calvarios    | BEJA       | MAntunes   | 37.70 | -7.45 | MULTI      | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2005/12/26 | 36 | 3 | 17 | 63
+|GC16DN4    | The Ghost Bridge | PORTALEGRE | mytipower  | 39.24 | -8.00 | TRADITIONAL | MICRO      | 2.50 | 2.00 | AVAILABLE  | 2007/10/04 | 232 | 13 | 11 | 106
+|GC178D3    | A torre do javali | EVORA      | Francis Carm | 38.22 | -7.48 | MULTI      | REGULAR    | 4.00 | 4.00 | AVAILABLE  | 2007/11/05 | 16 | 0 | 3 | 151
+|GCX9P2     | Pedra da Ferida [Penela] | COIMBRA    | gredinha   | 40.02 | -8.32 | MULTI      | SMALL      | 3.00 | 2.50 | AVAILABLE  | 2006/07/22 | 175 | 21 | 46 | -9999999
+|GC15X30    | CASTELO DE BODE | SANTAREM   | Paulo Martins | 39.54 | -8.32 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2007/09/12 | 473 | 1 | 25 | 72
+|GCW1JD     | Amon Hen II - O Cume da Visao | LISBOA     | MAntunes   | 38.78 | -9.46 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2006/05/14 | 375 | 54 | 86 | -9999999
+|GCJRPT     | Castelo         | LISBOA     | bye_xinha  | 38.72 | -9.28 | TRADITIONAL | SMALL      | 3.00 | 2.50 | AVAILABLE  | 2004/06/22 | 349 | 5 | 14 | 100
+|GC12CTB    | My name is Sor, Ponte de Sor | PORTALEGRE | manelov    | 39.24 | -8.00 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/04/23 | 178 | 6 | 3 | 171
+|GC16A3V    | Sea on the rocks | LISBOA     | geosuchs   | 38.89 | -9.44 | TRADITIONAL | REGULAR    | 3.00 | 1.50 | AVAILABLE  | 2007/09/29 | 224 | 2 | 1 | 51
+|GC13Z4G    | Tongobriga Roman City | PORTO      | kidloco    | 41.17 | -8.15 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/06/29 | 224 | 5 | 8 | -9999999
+|GCY1YC     | SE de Portugal [V.R. Sto. Antonio] | FARO       | NFreitas   | 37.19 | -7.42 | MULTI      | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2006/08/31 | 515 | 62 | 5 | 2
+|GC10ZNM    | DP30 - Montesinho | BRAGANCA   | danieloliveira | 41.95 | -6.76 | TRADITIONAL | REGULAR    | 1.00 | 2.00 | AVAILABLE  | 2007/03/05 | 124 | 0 | 3 | 1213
+|GC12CRJ    | The End of the World [Sagres] | FARO       | funkymunkyzone | 37.02 | -9.00 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/04/23 | 3761 | 9 | 440 | 32
+|GCQ50D     | Secret door to Cornusela | GUARDA     | afonso_loureiro | 40.35 | -7.17 | MULTI      | SMALL      | 3.00 | 4.50 | AVAILABLE  | 2005/08/10 | 43 | 10 | 10 | 906
+|GCQQ9H     | Penedos de Gois | COIMBRA    | grade      | 40.11 | -8.13 | TRADITIONAL | LARGE      | 4.00 | 4.00 | AVAILABLE  | 2005/09/25 | 126 | 1 | 59 | -9999999
+|GCTN9M     | Monte de Sao Gabriel | GUARDA     | [Walrus]   | 41.03 | -7.08 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2006/02/28 | 227 | 0 | 14 | 555
+|GC16Y7F    | # 11-PR-BAO-CAMINHO DE JACINTO: TORMES | PORTO      | eterlusitano | 41.12 | -8.00 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/10/24 | 131 | 11 | 0 | 338
+|GCPAZT     | Historical Villages - Castelo Mendo | GUARDA     | [Walrus]   | 40.59 | -6.95 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2005/06/16 | 357 | 6 | 22 | 705
+|GC161RH    | ANTIGA ESTALAGEM  | PORTO      | eterlusitano | 41.30 | -7.99 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/09/18 | 72 | 2 | 6 | -9999999
+|GC13TFV    | Cerro dos Negros [Salir - Loule] | FARO       | daraopedal | 37.26 | -8.05 | TRADITIONAL | SMALL      | 2.00 | 4.00 | AVAILABLE  | 2007/06/20 | 80 | 1 | 9 | 454
+|GC13DXT    | Medieval Challenge | PORTO      | kidloco    | 41.14 | -8.61 | MULTI      | MICRO      | 4.50 | 3.50 | AVAILABLE  | 2007/06/06 | 186 | 33 | 22 | -9999999
+|GCYHJ1     | Silhas dos Ursos [Parque Nacional Peneda-Geres] | BRAGA      | razalas    | 41.75 | -8.17 | MULTI      | REGULAR    | 2.50 | 4.00 | AVAILABLE  | 2006/09/15 | 138 | 5 | 26 | 915
+|GC11C9F    | DP 33 - Serra de Bornes | BRAGANCA   | danieloliveira | 41.43 | -7.01 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/03/09 | 94 | 7 | 8 | 1134
+|GC163XK    | Centro Cultural e de Congressos [Aveiro] | AVEIRO     | dfsilva    | 40.64 | -8.65 | TRADITIONAL | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2007/09/21 | 1633 | 41 | 8 | -9999999
+|GCXEAK     | PROJECTO VG - ALTER PEDROSO | PORTALEGRE | Portelada  | 39.19 | -7.62 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2006/07/31 | 250 | 12 | 14 | 380
+|GC14GPJ    | MOSTEIRO DE RORIZ | PORTO      | eterlusitano | 41.34 | -8.38 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2007/07/20 | 264 | 5 | 2 | 216
+|GCK9AJ     | Tronqueira      | ARQUIPELAGO DOS ACORES | nurbocris  | 37.80 | -25.18 | TRADITIONAL | MICRO      | 2.50 | 1.50 | AVAILABLE  | 2004/08/12 | 229 | 22 | 14 | 657
+|GCP9A4     | Lapa da Columbeira [Bombarral] | LEIRIA     | paulohercules | 39.30 | -9.20 | TRADITIONAL | REGULAR    | 2.50 | 4.00 | AVAILABLE  | 2005/06/12 | 275 | 11 | 45 | 108
+|GCWDRF     | Paul de Arzila [Coimbra] | COIMBRA    | cachespoter | 40.18 | -8.55 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/06/02 | 392 | 9 | 12 | -9999999
+|GC14562    | Foz Castle      | PORTO      | kidloco    | 41.15 | -8.67 | MULTI      | MICRO      | 2.00 | 1.50 | AVAILABLE  | 2007/07/12 | 242 | 36 | 7 | 7
+|GC14QEY    | Percurso Aldeia Nova [Monte Gordo] | FARO       | alieri     | 37.18 | -7.47 | TRADITIONAL | SMALL      | 2.50 | 1.50 | AVAILABLE  | 2007/07/28 | 627 | 11 | 8 | 5
+|GC1779Z    | A Passagem [Cartaxo] | SANTAREM   | FamiliaSilvestre | 39.10 | -8.73 | TRADITIONAL | SMALL      | 2.50 | 2.50 | AVAILABLE  | 2007/11/03 | 348 | 15 | 23 | 5
+|GCVN3W     | The Mountain Shrine [Lousa] | COIMBRA    | Geografo   | 40.10 | -8.24 | TRADITIONAL | MICRO      | 3.50 | 2.00 | AVAILABLE  | 2006/04/24 | 585 | 7 | 30 | -9999999
+|GC10WZ9    | Mamoas de Fulom [Junqueira - Vila do Conde] | PORTO      | eniel      | 41.39 | -8.67 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/02/11 | 288 | 4 | 1 | 50
+|GC16VWB    | ST22 - PONTE DO PORTO | BRAGA      | plntrplntr | 41.62 | -8.34 | TRADITIONAL | MICRO      | 2.00 | 1.50 | AVAILABLE  | 2007/10/21 | 422 | 26 | 5 | 31
+|GC15E3K    | Colcurinho [Oliveira do Hospital] | COIMBRA    | team.fafnir | 40.28 | -7.83 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/08/26 | 130 | 6 | 37 | 650
+|GCQB3A     | Lagoas Bertiandos (Ponte Lima) | VIANA DO CASTELO | cou        | 41.77 | -8.63 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2005/08/28 | 302 | 8 | 15 | -9999999
+|GCRQT1     | Guns of Navarone [Trafaria] | SETUBAL    | B.O.D.A.   | 38.67 | -9.24 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/12/26 | 612 | 9 | 100 | -9999999
+|GCTYDB     | Ruinas do Pharol do Cabo Mondego | COIMBRA    | rifkindsss | 40.18 | -8.91 | MULTI      | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2006/03/18 | 551 | 12 | 6 | 61
+|GCKN5V     | Obidos          | LEIRIA     | hulkman    | 39.36 | -9.16 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2004/09/26 | 1403 | 64 | 39 | 43
+|GC7177     | Monumentos Megaliticos (Castelo de Vide) | PORTALEGRE | acaciolobo | 39.40 | -7.49 | MULTI      | OTHER_SIZE | 1.50 | 1.50 | AVAILABLE  | 2002/07/15 | 185 | 4 | 16 | 401
+|GC14J75    | Seaside Heights [Albufeira] | FARO       | Bringer    | 37.09 | -8.17 | MULTI      | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/07/22 | 610 | 15 | 48 | 12
+|GCQHWR     | Vicky           | VILA REAL  | Amaro_Team | 41.81 | -7.96 | TRADITIONAL | REGULAR    | 4.00 | 3.50 | AVAILABLE  | 2005/09/10 | 38 | 0 | 12 | 808
+|GC13MBB    | Fogo            | VILA REAL  | Reino Maravilhoso | 41.17 | -7.67 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/06/14 | 95 | 2 | 4 | 616
+|GCG2QA     | Palmela         | SETUBAL    | Chris & Martha | 38.57 | -8.90 | VIRTUAL    | VIRTUAL    | 1.50 | 2.50 | AVAILABLE  | 2003/05/07 | 768 | 5 | 45 | 238
+|GC14RQQ    | Into the Unknown [Torredeita, Viseu] | VISEU      | Bringer    | 40.63 | -8.03 | MULTI      | REGULAR    | 2.00 | 3.50 | AVAILABLE  | 2007/07/28 | 67 | 7 | 3 | 420
+|GC177GZ    | Por Terras da Cereja | CASTELO BRANCO | nmcouto    | 40.11 | -7.50 | MULTI      | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2007/11/06 | 87 | 13 | 4 | 1136
+|GCA16D     | Tale of Pedra da Mua | SETUBAL    | MAntunes   | 38.43 | -9.21 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2002/10/27 | 635 | 15 | 29 | 84
+|GCHZA1     | Curral          | ARQUIPELAGO DA MADEIRA | bacalhau   | 32.71 | -16.96 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2004/02/16 | 917 | 14 | 53 | -9999999
+|GC154CN    | My Precious...  | SANTAREM   | tiand      | 39.55 | -8.29 | TRADITIONAL | REGULAR    | 3.00 | 5.00 | AVAILABLE  | 2007/07/31 | 269 | 5 | 23 | -9999999
+|GC15527    | E A PONTE LOURIDO ?! | PORTO      | eterlusitano | 41.35 | -7.99 | TRADITIONAL | SMALL      | 2.50 | 3.00 | AVAILABLE  | 2007/08/14 | 25 | 11 | 5 | 116
+|GCQ6JN     | Senhora da Guia [Belinho - Esposende] | BRAGA      | Paulo618   | 41.59 | -8.78 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2005/08/18 | 621 | 8 | 10 | -9999999
+|GCKQG3     | Antenas do Marao | VILA REAL  | loilok     | 41.25 | -7.89 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2004/09/09 | 185 | 16 | 7 | 1401
+|GC11KQR    | 360. View [Aroeira] | SETUBAL    | Blue_Trekkers | 38.57 | -9.19 | MULTI      | NOT_CHOSEN | 2.50 | 2.50 | AVAILABLE  | 2007/03/22 | 396 | 9 | 16 | 75
+|GCQM5Z     | The River [Vilar da Veiga- Geres] | BRAGA      | razalas    | 41.71 | -8.09 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2005/09/16 | 339 | 6 | 15 | 420
+|GCZCZ8     | Upheaval at 90 million years - DP/EC4 | LISBOA     | danieloliveira | 38.74 | -9.46 | EARTHCACHE | NOT_CHOSEN | 3.00 | 1.00 | AVAILABLE  | 2006/11/20 | 228 | 0 | 2 | 52
+|GCW68V     | Cerro do Guilhim [Faro] | FARO       | Campina82  | 37.10 | -7.93 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2006/05/22 | 208 | 1 | 11 | 284
+|GCQ8H0     | Em busca das nascentes do Sado | BEJA       | MAntunes   | 37.65 | -8.26 | MULTI      | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2005/08/21 | 42 | 7 | 7 | 154
+|GC14KTH    | Barragem de Paradela | VILA REAL  | os_cinco_airados | 41.77 | -7.97 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2007/07/24 | 133 | 6 | 0 | 726
+|GCPZ38     | Lost Lagoon     | VILA REAL  | World_Photographer | 41.76 | -8.03 | TRADITIONAL | REGULAR    | 2.50 | 2.50 | AVAILABLE  | 2006/04/06 | 121 | 6 | 23 | 736
+|GC13ZX0    | Nascente do Rio Este | BRAGA      | jcr        | 41.58 | -8.33 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/06/28 | 198 | 5 | 1 | 479
+|GCXQ8F     | Catorze [Milfontes Powertrail #2] | BEJA       | btrodrigues | 37.77 | -8.81 | TRADITIONAL | SMALL      | 1.50 | 2.50 | AVAILABLE  | 2006/08/14 | 391 | 1 | 10 | 19
+|GCZBTH     | Pe de Cabril [Geres] | BRAGA      | Os Cacheiros Viajantes | 41.77 | -8.16 | TRADITIONAL | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2006/10/28 | 188 | 4 | 64 | 1153
+|GCH0Z3     | Loca do Gato [Loures] | LISBOA     | clcortez   | 38.86 | -9.22 | TRADITIONAL | REGULAR    | 3.50 | 3.50 | AVAILABLE  | 2003/08/24 | 220 | 18 | 63 | 247
+|GCWA0A     | Surf Spot [Mafra] | LISBOA     | Bargao_Henriques | 39.00 | -9.43 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2006/05/29 | 520 | 2 | 12 | 10
+|GC15XEX    | SEIXOSO         | PORTO      | eterlusitano | 41.34 | -8.13 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/09/13 | 65 | 5 | 1 | 504
+|GC16Y7B    | Marina colours [Albufeira] | FARO       | alieri     | 37.08 | -8.26 | MULTI      | SMALL      | 1.50 | 2.50 | AVAILABLE  | 2007/10/24 | 887 | 17 | 43 | 3
+|GCYGZA     | Enigma          | SETUBAL    | NFreitas   | 38.64 | -9.16 | PUZZLE     | NOT_CHOSEN | 3.50 | 1.00 | AVAILABLE  | 2006/09/25 | 300 | 57 | 28 | 6
+|GC14FK2    | Castle [Tavira] | FARO       | alieri     | 37.13 | -7.65 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2007/07/19 | 1381 | 64 | 56 | 10
+|GC174WT    | ARRIFE Twins VI | SANTAREM   | sammendes  | 39.58 | -8.54 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2007/11/03 | 114 | 2 | 6 | 155
+|GC1216J    | CRASTO          | VILA REAL  | NSilva & Gorete | 41.40 | -7.38 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2007/04/08 | 77 | 0 | 5 | -9999999
+|GCGP35     | The lost world  | VISEU      | jppina     | 40.69 | -7.77 | TRADITIONAL | REGULAR    | 2.00 | 3.50 | AVAILABLE  | 2003/08/18 | 75 | 10 | 12 | 367
+|GCV4GD     | Era uma vez... no Fontelo | VISEU      | rifkindsss | 40.66 | -7.90 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2006/03/29 | 1091 | 24 | 4 | 495
+|GC10H2Z    | PROJECTO VG - S. GENS (SERRA D'OSSA) | EVORA      | Portelada  | 38.74 | -7.58 | TRADITIONAL | MICRO      | 1.50 | 4.00 | AVAILABLE  | 2007/01/20 | 115 | 7 | 3 | -9999999
+|GC169NM    | Mae Soberana [Loule] | FARO       | VespaFriendsAlgarve | 37.14 | -8.04 | MULTI      | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/09/29 | 473 | 4 | 6 | 173
+|GCYP99     | Nossa Senhora da Abadia - Bouro Sta Maria, Amares | BRAGA      | Jafqa      | 41.67 | -8.26 | MULTI      | REGULAR    | 2.50 | 4.00 | AVAILABLE  | 2006/10/05 | 125 | 14 | 7 | -9999999
+|GC16QE3    | Over the Rainbow [Serra D'Aire] | LEIRIA     | Limao      | 39.56 | -8.76 | TRADITIONAL | REGULAR    | 2.00 | 3.50 | AVAILABLE  | 2007/10/14 | 119 | 1 | 5 | -9999999
+|GCXPYB     | Cabeco da Neve [Tondela, Viseu] | VISEU      | almeidara  | 40.55 | -8.18 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/08/14 | 366 | 12 | 8 | 975
+|GCY37F     | XXL Challenge - [Minas dos Carris] | VILA REAL  | Walcarr    | 41.81 | -8.04 | TRADITIONAL | REGULAR    | 2.00 | 4.50 | AVAILABLE  | 2006/09/02 | 254 | 4 | 54 | 1391
+|GC130DA    | Cerro de Cabeco de Camara [Loule] | FARO       | Torgut     | 37.11 | -8.06 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/05/18 | 230 | 2 | 4 | 220
+|GC179EE    | Nossa Senhora da Arrabida | SETUBAL    | Os Galaxy  | 38.49 | -8.97 | TRADITIONAL | REGULAR    | 1.50 | 1.00 | AVAILABLE  | 2007/11/09 | 689 | 17 | 10 | -9999999
+|GC16TT0    | Terreiro de Sansao | COIMBRA    | lestro     | 40.21 | -8.43 | TRADITIONAL | MICRO      | 2.00 | 1.00 | DISABLED   | 2007/10/20 | 1699 | 53 | 58 | 30
+|GCT86B     | Aire [Ourem]    | SANTAREM   | HDV        | 39.54 | -8.64 | TRADITIONAL | REGULAR    | 1.00 | 3.00 | AVAILABLE  | 2006/01/30 | 218 | 1 | 11 | 672
+|GC12ZAB    | Palacio de Monserrate [Sintra] | LISBOA     | All Happy  | 38.79 | -9.42 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2007/05/18 | 405 | 6 | 30 | 214
+|GC8F8B     | The Lying Man [ Valenca ] | VIANA DO CASTELO | flashkent  | 41.99 | -8.55 | TRADITIONAL | REGULAR    | 3.50 | 3.50 | AVAILABLE  | 2002/09/15 | 73 | 3 | 23 | 582
+|GC132ZY    | A mais antiga! [Lamego] | VISEU      | almeidara  | 41.11 | -7.78 | MULTI      | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/05/21 | 97 | 14 | 2 | 280
+|GCK9AV     | Lopo Vaz        | ARQUIPELAGO DOS ACORES | nurbocris  | 39.38 | -31.21 | TRADITIONAL | MICRO      | 2.00 | 4.00 | AVAILABLE  | 2004/08/04 | 92 | 6 | 8 | 11
+|GCY503     | Navarone's Fortress [Trafaria] | SETUBAL    | B.O.D.A.   | 38.66 | -9.23 | MULTI      | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2006/10/26 | 390 | 19 | 86 | 80
+|GC7196     | Megalithic Monuments (English version) | PORTALEGRE | acaciolobo | 39.42 | -7.48 | MULTI      | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2002/07/15 | 137 | 1 | 8 | 473
+|GC13J9M    | Seaside Paradise | FARO       | kidloco    | 37.09 | -8.20 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/06/29 | 1182 | 17 | 67 | 3
+|GC11317    | Ponte da Boutaca [Batalha] | LEIRIA     | olharapo   | 39.66 | -8.83 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2007/02/22 | 918 | 44 | 13 | 75
+|GC13MBA    | Agua            | VILA REAL  | Reino Maravilhoso | 41.17 | -7.67 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/06/14 | 79 | 6 | 5 | 616
+|GC15AWK    | Minas do Ouro Negro [Geoparque Arouca] | AVEIRO     | daraopedal | 40.88 | -8.14 | TRADITIONAL | SMALL      | 1.50 | 2.50 | AVAILABLE  | 2007/08/21 | 319 | 2 | 23 | 671
+|GC17ANM    | Molhe de Sesimbra - Farois de Portugal | SETUBAL    | PPereira   | 38.44 | -9.11 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/11/10 | 1119 | 37 | 13 | 1
+|GCW9N5     | Quinta do Major [Malcata] | CASTELO BRANCO | olharapo   | 40.22 | -7.04 | TRADITIONAL | REGULAR    | 1.50 | 4.50 | AVAILABLE  | 2006/05/22 | 31 | 5 | 2 | -9999999
+|GC16EGA    | Grande Chamine [Vala do Carregado] | LISBOA     | mtrevas    | 39.01 | -8.95 | TRADITIONAL | MICRO      | 2.50 | 1.50 | AVAILABLE  | 2007/10/05 | 427 | 3 | 2 | -9999999
+|GC110VR    | Senhora do Monte [Leiria] | LEIRIA     | cc_pt      | 39.69 | -8.76 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/02/18 | 601 | 1 | 2 | 281
+|GCPAA4     | A Hora do Lobo [Mafra] | LISBOA     | btrodrigues | 38.96 | -9.27 | MULTI      | REGULAR    | 2.50 | 2.50 | AVAILABLE  | 2005/06/14 | 180 | 8 | 8 | 190
+|GC14FT6    | Castelo dos Templarios | SANTAREM   | ftomar     | 39.60 | -8.42 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/07/19 | 1214 | 41 | 51 | 108
+|GCRTE1     | Vila da Povoa de Mon Real | LEIRIA     | CastorSereno | 39.85 | -8.86 | TRADITIONAL | MICRO      | 2.50 | 1.50 | AVAILABLE  | 2005/12/31 | 695 | 39 | 5 | 38
+|GCKPHV     | The dreamer?s door [Lisboa] | LISBOA     | btrodrigues | 38.74 | -9.16 | TRADITIONAL | MICRO      | 2.50 | 2.00 | AVAILABLE  | 2004/10/02 | 1103 | 78 | 13 | 55
+|GC14NV8    | Alegrete        | PORTALEGRE | luis74     | 39.24 | -7.32 | TRADITIONAL | SMALL      | 1.00 | 1.50 | DISABLED   | 2007/07/27 | 126 | 22 | 11 | -9999999
+|GCN6YP     | The sun watch of Margiochi | EVORA      | Zimbra Team | 38.57 | -7.91 | TRADITIONAL | SMALL      | 1.50 | 1.50 | DISABLED   | 2005/03/24 | 1197 | 86 | 3 | -9999999
+|GC11WKC    | Senhor dos Martires [Alcacer do Sal] | SETUBAL    | almeidara  | 38.37 | -8.52 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/04/02 | 862 | 25 | 20 | 28
+|GC640F     | Stairway to Heaven | VIANA DO CASTELO | GreenShades | 41.97 | -8.23 | TRADITIONAL | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2002/06/09 | 169 | 2 | 46 | -9999999
+|GCTC0Y     | O Tejo e mais belo [Lisboa] | LISBOA     | Felinos    | 38.70 | -9.18 | TRADITIONAL | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2006/02/07 | 1173 | 144 | 18 | 2
+|GCP6G6     | Azenha do Tenente  [Fragoso ? Barcelos] | BRAGA      | OlhoMeirinho | 41.62 | -8.71 | TRADITIONAL | NOT_CHOSEN | 2.00 | 2.50 | AVAILABLE  | 2005/06/05 | 242 | 11 | 0 | 25
+|GCJN1H     | Cabo da Roca II - The W point of Europa | LISBOA     | Portelada  | 38.78 | -9.50 | TRADITIONAL | REGULAR    | 1.50 | 3.50 | AVAILABLE  | 2004/06/07 | 692 | 9 | 66 | 57
+|GC177AB    | A Beira Rio [Cartaxo] | SANTAREM   | FamiliaSilvestre | 39.08 | -8.76 | MULTI      | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/11/03 | 161 | 22 | 1 | 9
+|GC15QX7    | PX1- Praia da Falca | LEIRIA     | papoilix   | 39.65 | -9.07 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/09/07 | 459 | 2 | 7 | 15
+|GC132J9    | CITaNIA DE SANFINS (Pacos de Ferreira) | PORTO      | eterlusitano | 41.32 | -8.37 | MULTI      | SMALL      | 2.50 | 2.50 | AVAILABLE  | 2007/05/18 | 112 | 9 | 11 | -9999999
+|GCVV68     | Fernando Pessoa [Lisboa] | LISBOA     | btrodrigues | 38.71 | -9.14 | TRADITIONAL | MICRO      | 2.00 | 1.00 | DISABLED   | 2006/05/03 | 1701 | 140 | 155 | 40
+|GC15C9T    | Ribat da Arrifana [Aljezur] | FARO       | acasim     | 37.32 | -8.88 | TRADITIONAL | SMALL      | 1.00 | 2.50 | AVAILABLE  | 2007/08/23 | 521 | 3 | 29 | 30
+|GCV6HF     | Ribeira do Espirito Santo [Gaia - pt+en] | PORTO      | Drive-In Team | 41.07 | -8.66 | MULTI      | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2006/03/18 | 309 | 28 | 7 | -9999999
+|GC12B4D    | Tojeira         | LISBOA     | dasfadania | 39.19 | -9.08 | TRADITIONAL | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2007/04/21 | 227 | 3 | 0 | 294
+|GC1519F    | Serra do Larouco - Montalegre | VILA REAL  | Silvana    | 41.88 | -7.72 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/08/01 | 139 | 1 | 12 | 1482
+|GCT93B     | Contacto [Almada, Setubal] | SETUBAL    | almeidara  | 38.63 | -9.23 | PUZZLE     | SMALL      | 3.50 | 1.00 | AVAILABLE  | 2006/02/07 | 246 | 6 | 7 | 0
+|GCQWCG     | Bridge [Matosinhos] | PORTO      | PauloJota  | 41.22 | -8.65 | MULTI      | SMALL      | 3.00 | 2.00 | AVAILABLE  | 2005/10/08 | 230 | 28 | 1 | 19
+|GC15CA3    | AVENTURA NO RIO oLO | PORTO      | eterlusitano | 41.31 | -8.00 | TRADITIONAL | SMALL      | 2.50 | 3.00 | AVAILABLE  | 2007/08/24 | 22 | 5 | 4 | 133
+|GCVRYQ     | Torstens Corner | FARO       | zappelfry  | 37.06 | -8.85 | TRADITIONAL | REGULAR    | 3.00 | 3.50 | AVAILABLE  | 2006/05/01 | 143 | 25 | 25 | -9999999
+|GCQ2BN     | S. Lourenco Beach [Mafra] | LISBOA     | Bargao_Henriques | 39.01 | -9.43 | MULTI      | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2005/08/08 | 369 | 4 | 18 | 4
+|GC15PPR    | The Lagos 6 + 1 - #4 Odiaxere | FARO       | Team Caracache | 37.15 | -8.66 | MULTI      | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2007/09/05 | 164 | 15 | 14 | 12
+|GCQN3Q     | Mata do Bussaco | AVEIRO     | clcortez   | 40.37 | -8.37 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/09/21 | 1007 | 21 | 55 | -9999999
+|GCHWVE     | Afloramentos Graniticos | LISBOA     | RASD       | 38.76 | -9.44 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2004/03/11 | 544 | 12 | 81 | 329
+|GC16HG3    | PILAR           | PORTO      | eterlusitano | 41.29 | -8.43 | TRADITIONAL | SMALL      | 3.50 | 2.50 | AVAILABLE  | 2007/10/08 | 174 | 1 | 3 | 472
+|GCPZHC     | The Lost Nazi Mine [Arouca] | AVEIRO     | Os Cacheiros Viajantes | 40.87 | -8.19 | TRADITIONAL | SMALL      | 2.50 | 2.50 | AVAILABLE  | 2005/07/29 | 636 | 2 | 208 | -9999999
+|GC12PRD    | Contencas de Cima [Mangualde] | VISEU      | Pedro Matos | 40.56 | -7.72 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/05/06 | 195 | 0 | 1 | 474
+|GC88D3     | Castelo dos Mouros | LISBOA     | MAntunes   | 38.79 | -9.39 | TRADITIONAL | REGULAR    | 4.00 | 3.50 | AVAILABLE  | 2002/09/01 | 706 | 184 | 123 | 388
+|GC14NYB    | Montargil [08]: O Patriarca | PORTALEGRE | Matusarum  | 39.12 | -8.13 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/07/27 | 301 | 3 | 24 | -9999999
+|GC176H2    | UBI - Universidade da Beira Interior [Covilha] | CASTELO BRANCO | pEtErpAn&sInInhO | 40.27 | -7.51 | MULTI      | REGULAR    | 3.00 | 1.50 | AVAILABLE  | 2007/11/05 | 381 | 16 | 11 | 682
+|GCTMQN     | Condestavel [Ourem] | SANTAREM   | HDV        | 39.64 | -8.59 | TRADITIONAL | SMALL      | 1.50 | 1.00 | AVAILABLE  | 2006/02/27 | 980 | 5 | 26 | 308
+|GC127DV    | Santuario do Senhor Do Monte | VILA REAL  | Silvana    | 41.68 | -7.62 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/04/10 | 94 | 1 | 0 | 641
+|GCV3TK     | Castelo de Castro Laboreiro | VIANA DO CASTELO | rifkindsss | 42.02 | -8.16 | TRADITIONAL | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2006/04/20 | 468 | 10 | 83 | 984
+|GC12Y4J    | The Masterpiece (Serralves) | PORTO      | kidloco    | 41.16 | -8.66 | PUZZLE     | SMALL      | 4.00 | 1.50 | AVAILABLE  | 2007/05/19 | 235 | 33 | 24 | -9999999
+|GC16ZJ3    | PARQUE DA CIDADE DE PAREDES | PORTO      | eterlusitano | 41.21 | -8.33 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/10/26 | 315 | 83 | 1 | -9999999
+|GCPFNG     | Linhas de Torres Monumento e Forte de Alhandra | LISBOA     | lamas      | 38.93 | -9.02 | MULTI      | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2005/06/26 | 278 | 13 | 9 | 65
+|GCXVT1     | Areeiro - Pinhal de Leiria | LEIRIA     | MR.MAG00   | 39.81 | -8.97 | TRADITIONAL | REGULAR    | 2.50 | 3.50 | AVAILABLE  | 2006/08/20 | 350 | 6 | 32 | 67
+|GC173X8    | ARRIFE Twins I  | SANTAREM   | sammendes  | 39.50 | -8.63 | TRADITIONAL | SMALL      | 1.50 | 3.50 | AVAILABLE  | 2007/11/01 | 107 | 1 | 9 | 207
+|GC1575N    | BlackJack       | LISBOA     | Blue_Trekkers | 38.76 | -9.06 | PUZZLE     | MICRO      | 3.00 | 1.00 | AVAILABLE  | 2007/08/18 | 413 | 66 | 2 | 0
+|GC14VBT    | Praca Forte de Peniche | LEIRIA     | B.O.D.A.   | 39.35 | -9.38 | MULTI      | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/08/31 | 913 | 131 | 7 | -9999999
+|GCTZTA     | Judiaria [Lisboa Medieval] | LISBOA     | almeidara  | 38.71 | -9.14 | TRADITIONAL | MICRO      | 1.50 | 1.00 | DISABLED   | 2006/03/20 | 2112 | 323 | 31 | 12
+|GC161R1    | PICOTO (VG)     | PORTO      | eterlusitano | 41.29 | -8.02 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/09/18 | 77 | 5 | 1 | 526
+|GC15WJK    | [Siglas Poveiras] Senhora da Guia | PORTO      | emlino     | 41.34 | -8.75 | TRADITIONAL | OTHER_SIZE | 2.00 | 1.50 | AVAILABLE  | 2007/09/11 | 485 | 53 | 7 | -9999999
+|GC172XN    | ROTA DOS ROMEIROS  | BRAGA      | eterlusitano | 41.49 | -8.13 | TRADITIONAL | MICRO      | 3.00 | 2.00 | AVAILABLE  | 2007/10/31 | 75 | 0 | 0 | 547
+|GC137DE    | Ermida do Livramento | SETUBAL    | riraposo   | 38.11 | -8.68 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/05/28 | 209 | 2 | 20 | 288
+|GC15984    | VG OUTEIRAO, A 922 MTS DE SI... | BRAGA      | eterlusitano | 41.60 | -8.03 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/08/20 | 49 | 4 | 3 | 891
+|GC12M20    | Capela de Santa Marta [Benquerenca] | CASTELO BRANCO | Blue_Trekkers | 40.21 | -7.24 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2007/04/28 | 54 | 3 | 0 | 792
+|GCW5H3     | Baleal [Peniche] | LEIRIA     | paulohercules | 39.37 | -9.34 | TRADITIONAL | OTHER_SIZE | 2.00 | 1.50 | AVAILABLE  | 2006/05/21 | 1648 | 37 | 15 | 3
+|GC11FRJ    | SANTA TECLA     | BRAGA      | eterlusitano | 41.42 | -8.41 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/03/14 | 302 | 12 | 3 | 288
+|GC15M5W    | Santo Antonio dos Capuchos [Leiria] | LEIRIA     | AntMadeira | 39.74 | -8.81 | TRADITIONAL | SMALL      | 1.00 | 1.50 | DISABLED   | 2007/09/02 | 1304 | 37 | 0 | 61
+|GC165J7    | Uma Quinta na Granja | LISBOA     | Daniel C   | 38.85 | -9.11 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/09/21 | 394 | 4 | 4 | 5
+|GC16JGV    | O Mar Salgado... | LISBOA     | Team Ferreira | 38.83 | -9.47 | MULTI      | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/10/10 | 240 | 12 | 5 | 3
+|GC132Q8    | Geol. Time: an Ordovician perspective - DP/EC11 | BEJA       | danieloliveira | 38.15 | -6.99 | EARTHCACHE | NOT_CHOSEN | 1.00 | 1.00 | AVAILABLE  | 2007/05/21 | 72 | 0 | 7 | 183
+|GC1704M    | Forno das Feiticeiras [Outao - Setubal] | SETUBAL    | truta      | 38.49 | -8.94 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2007/10/21 | 412 | 12 | 70 | 19
+|GCYHNG     | TP02 - NO REINO DOS BURII [Pte da Barca] | VIANA DO CASTELO | Fernando Rei | 41.77 | -8.37 | TRADITIONAL | REGULAR    | 3.50 | 4.00 | AVAILABLE  | 2006/09/27 | 99 | 3 | 20 | 720
+|GC1409E    | Arvores de Interesse Publico [Lx] | LISBOA     | RuiJSDuarte | 38.72 | -9.15 | MULTI      | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/06/29 | 110 | 21 | 20 | -9999999
+|GC12WX3    | Anta... [Mangualde] | VISEU      | cmatos     | 40.57 | -7.77 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/05/12 | 270 | 4 | 5 | 398
+|GCGZCK     | Fenda da Calcedonia | BRAGA      | Silvana    | 41.73 | -8.20 | TRADITIONAL | REGULAR    | 2.00 | 4.50 | AVAILABLE  | 2003/09/20 | 732 | 60 | 207 | 851
+|GCZ85M     | Alte la baixo [Alte] | FARO       | & Company  | 37.23 | -8.18 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2006/11/01 | 527 | 29 | 69 | 150
+|GC8D56     | Rubber          | ARQUIPELAGO DOS ACORES | frenne     | 37.74 | -25.68 | VIRTUAL    | VIRTUAL    | 1.00 | 1.00 | AVAILABLE  | 2002/09/09 | 1346 | 2 | 137 | 33
+|GC14ADZ    | Vale da Lapa - B44 | LEIRIA     | bmps2003   | 39.59 | -8.72 | TRADITIONAL | REGULAR    | 3.00 | 4.00 | AVAILABLE  | 2007/07/12 | 162 | 9 | 7 | 424
+|GC16AZ6    | AA13 - A Nossa Praia [Praia do Pedrogao] | LEIRIA     | Paulo_Domingues | 39.92 | -8.95 | TRADITIONAL | SMALL      | 2.50 | 2.00 | AVAILABLE  | 2007/09/30 | 820 | 30 | 1 | 2
+|GC127B0    | Ermida de Sao Domingos | VISEU      | Saltacachinhas | 41.12 | -7.75 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2007/04/14 | 227 | 11 | 0 | 716
+|GC15NXD    | The Lagos 6+1: #5 - Sao Sebastiao | FARO       | Team Caracache | 37.10 | -8.68 | MULTI      | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/09/04 | 187 | 2 | 3 | -9999999
+|GC156QQ    | Burca [Milfontes Powertrail #3]   | BEJA       | vsergios   | 37.76 | -8.81 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2007/08/13 | 344 | 11 | 10 | 19
+|GCV5AY     | RUDIAN (Arrabida) | SETUBAL    | samcam     | 38.48 | -8.98 | MULTI      | OTHER_SIZE | 4.00 | 4.50 | AVAILABLE  | 2006/03/31 | 257 | 9 | 117 | 91
+|GC12B2D    | Nascente do Almonda [Torres Novas] | SANTAREM   | olharapo   | 39.51 | -8.61 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/04/21 | 336 | 1 | 9 | 85
+|GCED4F     | The Jewell of Saphire | EVORA      | GreenShades | 38.62 | -8.32 | TRADITIONAL | LARGE      | 2.00 | 1.00 | AVAILABLE  | 2003/03/02 | 484 | 26 | 118 | 204
+|GC152JC    | Igreja de S.Bento de Vairao [Vila do Conde] | PORTO      | cmcfaria   | 41.33 | -8.67 | MULTI      | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2007/08/11 | 282 | 3 | 0 | 61
+|GC168Y6    | Ponte de Sequeiros | GUARDA     | sammendes  | 40.48 | -7.00 | MULTI      | SMALL      | 2.50 | 2.50 | AVAILABLE  | 2007/09/28 | 80 | 6 | 7 | 656
+|GCVNAD     | Arvores [Lindoso] | VIANA DO CASTELO | K!nder     | 41.87 | -8.20 | TRADITIONAL | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2006/04/24 | 598 | 24 | 41 | 448
+|GC12D5F    | Nossa Senhora de Cervaes [Mangualde] | VISEU      | cmatos     | 40.58 | -7.70 | TRADITIONAL | REGULAR    | 1.50 | 1.00 | AVAILABLE  | 2007/04/21 | 211 | 2 | 0 | 544
+|GC11501    | Cividade de Bagunte | PORTO      | kidloco    | 41.38 | -8.66 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/02/25 | 389 | 2 | 6 | 193
+|GC16TB3    | Castelo Branco - Sra de Mercoles | CASTELO BRANCO | khukhas    | 39.82 | -7.45 | MULTI      | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/10/19 | 301 | 4 | 0 | -9999999
+|GCMD9X     | The Prophet     | ARQUIPELAGO DA MADEIRA | Crocodilo  | 33.09 | -16.36 | MULTI      | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2005/01/02 | 123 | 4 | 7 | -9999999
+|GCVYZR     | FTF!! FTF!! FTF!! | LISBOA     | Felinos    | 38.74 | -9.14 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2006/05/09 | 1331 | 48 | 5 | 84
+|GC13JN6    | Moinho do Penigueto [Braganca] | BRAGANCA   | Bargao_Henriques | 41.72 | -6.66 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/06/09 | 25 | 0 | 3 | -9999999
+|GCQYE3     | Lenda de S. Pedro de Rates, Povoa de Varzim | PORTO      | ar-my      | 41.42 | -8.67 | MULTI      | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2005/10/12 | 415 | 1 | 3 | 40
+|GCRJZR     | A cache que ja esteve num vulcao | LISBOA     | lynx pardinus | 38.86 | -9.45 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/12/08 | 350 | 2 | 2 | 79
+|GC15HGH    | Monte Ermo      | BRAGANCA   | pvasques   | 41.10 | -6.80 | TRADITIONAL | SMALL      | 3.00 | 2.00 | AVAILABLE  | 2007/08/29 | 147 | 2 | 4 | 591
+|GC110RM    | Moinhos do Oeste [Montejunto] | LISBOA     | NFreitas   | 39.17 | -9.09 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/02/18 | 181 | 3 | 8 | 366
+|GC15CGR    | Zavial Beach [Vila do Bispo] | FARO       | Jdmarques  | 37.05 | -8.87 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2007/08/24 | 609 | 12 | 24 | 6
+|GCVJ0A     | Tangram [Lisboa] | LISBOA     | hulkman    | 38.70 | -9.15 | PUZZLE     | SMALL      | 4.00 | 1.50 | AVAILABLE  | 2006/04/24 | 176 | 18 | 20 | 0
+|GC147F4    | Conto de Fadas II - [Monsaraz] | EVORA      | NestumMel  | 38.45 | -7.38 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/07/08 | 841 | 4 | 28 | 296
+|GC15M9F    | Lapas - Torres Novas | SANTAREM   | pedantunes | 39.49 | -8.56 | MULTI      | SMALL      | 2.00 | 2.00 | DISABLED   | 2007/09/02 | 175 | 17 | 5 | 53
+|GC103AM    | A Salto         | CASTELO BRANCO | MAntunes   | 39.82 | -6.97 | MULTI      | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2006/12/30 | 75 | 4 | 14 | -9999999
+|GC12Z01    | Obelisco da Memoria [Perafita - Matosinhos] | PORTO      | p@Che      | 41.23 | -8.72 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2007/05/16 | 1103 | 26 | 9 | 6
+|GCP007     | Moorish River   | COIMBRA    | Geografo   | 40.10 | -8.50 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2005/05/19 | 270 | 9 | 64 | -9999999
+|GC161M4    | Salvem o Rio Ave | PORTO      | emlino     | 41.37 | -8.70 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/09/18 | 200 | 19 | 1 | 7
+|GC1059M    | Nossa Senhora Mae de Deus e dos Homens [Pragal] | SETUBAL    | cyclopes   | 38.67 | -9.17 | TRADITIONAL | MICRO      | 1.50 | 1.00 | AVAILABLE  | 2007/01/01 | 945 | 32 | 1 | 74
+|GCT7QN     | What time is it? / Que horas sao? [Lisboa] | LISBOA     | rebordao   | 38.71 | -9.14 | PUZZLE     | SMALL      | 3.50 | 2.00 | AVAILABLE  | 2006/02/11 | 173 | 9 | 9 | 5
+|GCZFEJ     | Po-de-Anjo [Palmela, Setubal] | SETUBAL    | almeidara  | 38.56 | -8.94 | MULTI      | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2006/11/26 | 201 | 40 | 5 | 95
+|GC16W9B    | Vamos a banhos [Mangualde] | VISEU      | cmatos     | 40.60 | -7.87 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/10/21 | 297 | 2 | 5 | 232
+|GC16MM8    | RELOGIO DE SOL - ALPEDRIZ | LEIRIA     | NSilva & Gorete | 39.63 | -8.95 | MULTI      | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/10/13 | 304 | 3 | 0 | 42
+|GC12DVZ    | Barquinha e o Tejo aqui ao lado | SANTAREM   | Paulo Martins | 39.46 | -8.43 | MULTI      | REGULAR    | 1.50 | 1.00 | AVAILABLE  | 2007/04/24 | 490 | 32 | 7 | 25
+|GC148QM    | penedo das letras (braga) | BRAGA      | vitinhaxXx | 41.47 | -8.46 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/07/10 | 157 | 8 | 8 | 442
+|GC14WVG    | Castro da Carcoda - Andancas 2007 [S. Pedro Sul] | VISEU      | daraopedal | 40.80 | -8.12 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2007/08/03 | 144 | 1 | 4 | 541
+|GCPM58     | The Giants of Don Quijote - Sabugal | GUARDA     | amoreira   | 40.31 | -7.16 | PUZZLE     | REGULAR    | 1.00 | 1.00 | AVAILABLE  | 2005/07/08 | 70 | 3 | 1 | -9999999
+|GC174K8    | ARRIFE Twins III | SANTAREM   | sammendes  | 39.53 | -8.60 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2007/11/02 | 107 | 4 | 6 | 184
+|GCXXY4     | Sudoku Symphony of the Serras | FARO       | Team Caracache | 37.27 | -8.70 | PUZZLE     | REGULAR    | 3.00 | 3.00 | AVAILABLE  | 2006/09/11 | 40 | 5 | 5 | -9999999
+|GCW5EA     | A FENDA [Lourinha] | LISBOA     | miguelrk   | 39.30 | -9.20 | TRADITIONAL | REGULAR    | 3.00 | 5.00 | AVAILABLE  | 2006/05/21 | 118 | 7 | 63 | 88
+|GC1585G    | AA10 - Parque Tematico da Lagoa | LEIRIA     | H3A        | 39.83 | -8.86 | MULTI      | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/08/18 | 235 | 11 | 0 | 14
+|GCXF5A     | Rota das Capelas | SETUBAL    | papaleguas | 38.47 | -9.00 | TRADITIONAL | SMALL      | 2.00 | 4.00 | AVAILABLE  | 2006/08/01 | 300 | 20 | 4 | -9999999
+|GC10CWT    | masseiras       | PORTO      | emlino     | 41.46 | -8.77 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/01/14 | 551 | 2 | 1 | 7
+|GCXQQ9     | Estela-Menir [Tondela, Viseu] | VISEU      | almeidara  | 40.63 | -8.09 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2006/08/15 | 287 | 1 | 0 | -9999999
+|GCRH48     | Monte Branco [Nazare] | LEIRIA     | olharapo   | 39.60 | -9.07 | TRADITIONAL | REGULAR    | 1.00 | 3.00 | AVAILABLE  | 2005/11/27 | 1048 | 7 | 8 | 36
+|GC10ZNQ    | DP31 - Serra Serrada | BRAGANCA   | danieloliveira | 41.97 | -6.78 | TRADITIONAL | REGULAR    | 2.50 | 1.50 | AVAILABLE  | 2007/03/06 | 113 | 0 | 7 | 1256
+|GCH2DB     | OuohhmmmOuohhmmmm [Pampilhosa da Serra] | COIMBRA    | ftomar     | 40.11 | -8.04 | MULTI      | OTHER_SIZE | 1.00 | 2.00 | AVAILABLE  | 2003/10/11 | 75 | 3 | 6 | 991
+|GC11NCC    | Walking on SW Cliff?s | FARO       | tfernandes | 37.43 | -8.81 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2007/03/24 | 289 | 0 | 10 | 27
+|GC14F51    | A BROA TEM UM MUSEU | PORTO      | eterlusitano | 41.11 | -8.35 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/07/18 | 223 | 3 | 10 | 237
+|GC1050A    | BH37 Devils in Danger - Portugal [Lisboa] | LISBOA     | prodrive   | 38.74 | -9.19 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/01/05 | 749 | 38 | 1 | 123
+|GC13JYV    | A Cache do Luis | PORTALEGRE | luis74     | 38.92 | -7.65 | TRADITIONAL | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2007/06/07 | 44 | 2 | 4 | 449
+|GC16KER    | Barca do Lago   | BRAGA      | curious_seagull | 41.52 | -8.74 | TRADITIONAL | SMALL      | 3.50 | 2.50 | AVAILABLE  | 2007/10/11 | 301 | 18 | 5 | -9999999
+|GC13RR7    | TF-04 O Eremita | LEIRIA     | trifaisca  | 39.54 | -8.73 | TRADITIONAL | REGULAR    | 4.00 | 4.00 | AVAILABLE  | 2007/06/20 | 112 | 7 | 41 | 462
+|GCPRKF     | Penedo do Lexim Earthcache | LISBOA     | lynx pardinus | 38.89 | -9.31 | EARTHCACHE | NOT_CHOSEN | 1.00 | 1.00 | AVAILABLE  | 2005/07/18 | 335 | 0 | 45 | 186
+|GC16ZJ0    | Aroeira VS Freixo [Valongo] | PORTALEGRE | NGCAvis    | 39.17 | -7.87 | MULTI      | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/10/26 | 82 | 0 | 0 | 190
+|GC13JZ6    | Monte S. Joao de Valinhas [Arouca] | AVEIRO     | daraopedal | 40.94 | -8.26 | TRADITIONAL | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2007/06/08 | 93 | 3 | 1 | 429
+|GC13K9C    | Rio de Onor [PN Montezinho] | BRAGANCA   | almeidara  | 41.94 | -6.62 | MULTI      | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/05/17 | 90 | 8 | 8 | -9999999
+|GCKJ9A     | Feel The Wind   | LISBOA     | MAntunes   | 38.77 | -9.46 | TRADITIONAL | LARGE      | 1.50 | 2.50 | AVAILABLE  | 2004/09/16 | 835 | 19 | 45 | 456
+|GC174KW    | ARRIFE Twins IV | SANTAREM   | sammendes  | 39.55 | -8.59 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2007/11/02 | 99 | 2 | 4 | 186
+|GC14Y7J    | Entre-Aguas - Benavila | PORTALEGRE | NGCAvis    | 39.12 | -7.87 | TRADITIONAL | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2007/08/05 | 226 | 5 | 4 | 127
+|GC13MBE    | Terra           | VILA REAL  | Reino Maravilhoso | 41.17 | -7.67 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/06/14 | 80 | 3 | 4 | 616
+|GCNVB0     | Forte do Pessegueiro | SETUBAL    | GlorfindelPT | 37.83 | -8.79 | TRADITIONAL | REGULAR    | 1.00 | 2.00 | AVAILABLE  | 2005/05/08 | 1473 | 9 | 73 | -9999999
+|GC158WW    | Farol [Ferragudo] | FARO       | mtrevas    | 37.11 | -8.52 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/08/17 | 1347 | 13 | 17 | 6
+|GCKKCN     | Vale dos Pirilampos (Fonte da Felicia) | LEIRIA     | Palmilhas  | 39.76 | -8.98 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2004/09/19 | 723 | 44 | 52 | 74
+|GC16P3C    | Castro de Praganca [Cadaval] | LISBOA     | HDV        | 39.20 | -9.06 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/10/14 | 338 | 5 | 18 | 294
+|GCR7GG     | O Misterio de Gualdim [Pombal] | LEIRIA     | argonauta  | 39.90 | -8.62 | PUZZLE     | NOT_CHOSEN | 4.00 | 3.50 | AVAILABLE  | 2005/11/05 | 100 | 15 | 27 | 133
+|GC176CK    | Tapada's Secrets [Lisboa] | LISBOA     | Bringer    | 38.71 | -9.18 | MULTI      | REGULAR    | 2.50 | 2.50 | AVAILABLE  | 2007/11/04 | 187 | 11 | 41 | 41
+|GC14DBM    | The Stargate Mystery | SETUBAL    | Blue_Trekkers | 38.62 | -9.23 | PUZZLE     | SMALL      | 2.50 | 1.50 | AVAILABLE  | 2007/11/07 | 280 | 3 | 5 | 0
+|GC13MJ9    | Cruz de Portugal [Xelb] | FARO       | clcortez   | 37.19 | -8.43 | TRADITIONAL | MICRO      | 2.50 | 1.50 | AVAILABLE  | 2007/06/13 | 969 | 91 | 0 | 11
+|GCY6CB     | three mountains | VISEU      | rescue_man | 41.00 | -7.80 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/09/07 | 128 | 2 | 0 | 1082
+|GC10ZPT    | Paul do Boquilobo [Golega] | SANTAREM   | CrisLuiz   | 39.39 | -8.54 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2007/02/03 | 190 | 2 | 2 | 15
+|GC16657    | Fafiao - Varanda das Sombrosas | BRAGA      | naventuras | 41.73 | -8.08 | TRADITIONAL | SMALL      | 1.50 | 4.00 | AVAILABLE  | 2007/09/23 | 87 | 1 | 21 | 815
+|GCWQ23     | Sao Jeronimo [Lisboa da Expansao] | LISBOA     | almeidara  | 38.70 | -9.21 | PUZZLE     | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2006/06/21 | 395 | 50 | 8 | 55
+|GCKC67     | Pico da Vara    | ARQUIPELAGO DOS ACORES | Tech of Sweden | 37.81 | -25.21 | TRADITIONAL | REGULAR    | 1.50 | 3.50 | AVAILABLE  | 2004/08/19 | 230 | 2 | 14 | 1026
+|GC166H1    | Capela de Sao Filipe de Gens | BRAGA      | Callaeci   | 41.55 | -8.48 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/09/24 | 203 | 6 | 0 | 242
+|GC16J4Y    | Anta de Pavia   | EVORA      | almeidara  | 38.89 | -8.02 | MULTI      | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/10/09 | 238 | 20 | 17 | -9999999
+|GC110R1    | Stay in Peace - Lazarus | SANTAREM   | lynx pardinus | 38.88 | -8.40 | TRADITIONAL | REGULAR    | 1.00 | 2.00 | AVAILABLE  | 2007/02/18 | 229 | 8 | 5 | 104
+|GCZW14     | Agua Formosa    | LEIRIA     | Paulo_Domingues | 39.84 | -8.92 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2006/12/17 | 434 | 45 | 0 | 42
+|GC15GRG    | The Lagos 6 + 1 - #2 Barao Sao Joao | FARO       | Team Caracache | 37.14 | -8.78 | MULTI      | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/08/29 | 187 | 2 | 2 | -9999999
+|GCZ820     | ENCYCLOPAEDIA GALACTICA [Constancia] | SANTAREM   | Paulo Martins | 39.50 | -8.32 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2006/11/06 | 571 | 2 | 23 | 152
+|GCK8F1     | J-ATBASH-te Banho? [VN1000F] | BEJA       | paulohercules | 37.72 | -8.78 | TRADITIONAL | SMALL      | 2.00 | 4.00 | AVAILABLE  | 2004/08/01 | 499 | 56 | 108 | 33
+|GCTV7D     | Monsanto Subterraneo [Lisboa] | LISBOA     | Bargao_Henriques | 38.73 | -9.18 | TRADITIONAL | REGULAR    | 2.50 | 3.50 | AVAILABLE  | 2006/03/11 | 572 | 21 | 193 | 119
+|GC178CM    | Ilha da Pomba   | EVORA      | Francis Carm | 38.22 | -7.47 | TRADITIONAL | REGULAR    | 2.50 | 4.50 | AVAILABLE  | 2007/11/07 | 34 | 0 | 1 | 142
+|GC13V51    | Douro Eterno [Casal de Loivos] | VILA REAL  | cucureal   | 41.20 | -7.53 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/06/22 | 159 | 16 | 12 | 423
+|GC15TAE    | A Piece of Alaska In Portugal | LISBOA     | Ladybug Kids | 38.72 | -9.20 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/09/10 | 973 | 9 | 5 | 153
+|GCKN4F     | FOJO!!!         | LISBOA     | lynx pardinus | 38.80 | -9.49 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2004/09/26 | 414 | 27 | 18 | 62
+|GC14VBN    | Ciclopista Guimaraes-Fafe | BRAGA      | jmaferreira | 41.42 | -8.23 | TRADITIONAL | REGULAR    | 1.00 | 3.00 | AVAILABLE  | 2007/08/01 | 296 | 0 | 1 | 275
+|GC15KW3    | ST43 - CONVENTO FRANCISCANO DE MONTARIOL | BRAGA      | SPY_Team   | 41.57 | -8.41 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/09/02 | 529 | 3 | 1 | 246
+|GC1563F    | BALTAR ALTANEIRO | PORTO      | eterlusitano | 41.20 | -8.39 | TRADITIONAL | SMALL      | 2.50 | 2.00 | AVAILABLE  | 2007/08/15 | 200 | 24 | 6 | 463
+|GC16D8X    | Caca ao Tesouro | SANTAREM   | ftomar     | 39.69 | -8.23 | TRADITIONAL | SMALL      | 1.00 | 1.00 | AVAILABLE  | 2007/09/29 | 322 | 1 | 11 | 185
+|GCYXQT     | Brufe, Terras de Bouro | BRAGA      | Jafqa      | 41.77 | -8.23 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2006/10/16 | 206 | 11 | 9 | -9999999
+|GC15R79    | Capela do Vale  | SANTAREM   | sammendes  | 39.49 | -8.54 | TRADITIONAL | SMALL      | 2.50 | 2.00 | AVAILABLE  | 2007/09/07 | 702 | 22 | 14 | 32
+|GC12J2Z    | Poco do Inferno | GUARDA     | clcortez   | 40.37 | -7.52 | TRADITIONAL | REGULAR    | 2.00 | 3.50 | AVAILABLE  | 2007/04/29 | 288 | 28 | 40 | 1098
+|GC16J8A    | Mosteiro de Santa Clara a Velha | COIMBRA    | All Happy  | 40.20 | -8.43 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/10/26 | 2574 | 27 | 29 | -9999999
+|GC148CG    | Dunas de Ovar v2 | AVEIRO     | Malok0     | 40.87 | -8.64 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/07/02 | 571 | 21 | 1 | 11
+|GC105X2    | Vilar Maior [Sabugal] | GUARDA     | HDV        | 40.48 | -6.94 | MULTI      | LARGE      | 3.00 | 3.00 | AVAILABLE  | 2007/01/03 | 40 | 8 | 3 | 775
+|GC13HQD    | Amadeo          | PORTO      | kidloco    | 41.27 | -8.08 | TRADITIONAL | MICRO      | 2.00 | 1.50 | AVAILABLE  | 2007/06/29 | 144 | 42 | 1 | -9999999
+|GCQM5V     | Have a Pen? [Pedra Bela- Geres] | BRAGA      | razalas    | 41.72 | -8.15 | TRADITIONAL | NOT_CHOSEN | 2.00 | 2.50 | AVAILABLE  | 2005/09/10 | 1167 | 83 | 48 | 794
+|GC16673    | ONDE MELHOR SE VE GUIMARAES | BRAGA      | eterlusitano | 41.43 | -8.27 | TRADITIONAL | MICRO      | 2.50 | 1.50 | AVAILABLE  | 2007/09/24 | 790 | 45 | 14 | 557
+|GC15QZW    | POCO DA BARACEIRA | VIANA DO CASTELO | TheCelticSpirit | 41.82 | -8.30 | MULTI      | REGULAR    | 3.00 | 3.00 | AVAILABLE  | 2007/08/21 | 76 | 3 | 33 | -9999999
+|GC4T2NQ    | First cache in Madeira | ARQUIPELAGO DA MADEIRA | Geocalheta | 32.64 | -16.94 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2001/11/07 | 539 | 35 | 24 | 125
+|GCGE98     | Vale das Buracas | COIMBRA    | MAntunes   | 40.05 | -8.50 | TRADITIONAL | REGULAR    | 2.50 | 3.50 | AVAILABLE  | 2003/07/09 | 369 | 30 | 56 | 293
+|GC15NV6    | Carvalheira - Geres | BRAGA      | naventuras | 41.75 | -8.23 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/09/02 | 235 | 8 | 1 | 664
+|GCHQ5N     | Vaca            | ARQUIPELAGO DA MADEIRA | macmurphy  | 32.81 | -17.20 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2004/02/14 | 1270 | 19 | 5 | 1100
+|GCXR5Z     | Indiana Jones e o Comboio Fantasma [Viseu] | VISEU      | almeidara  | 40.64 | -8.02 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/08/16 | 395 | 38 | 29 | 417
+|GC12D6E    | Gruta do Porto Covo [Alcabideche] | LISBOA     | MakoShark2 | 38.75 | -9.42 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/04/22 | 488 | 27 | 12 | 107
+|GCG349     | Mouriscas [Setubal] | SETUBAL    | orebelo    | 38.53 | -8.81 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | DISABLED   | 2003/05/10 | 459 | 25 | 3 | 4
+|GCV4H1     | Era uma vez... no Jardim da Sereia | COIMBRA    | rifkindsss | 40.21 | -8.42 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2006/03/29 | 1934 | 49 | 4 | 90
+|GC14AHX    | CONVENTO DE ALPENDURADA | PORTO      | eterlusitano | 41.08 | -8.24 | MULTI      | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/07/12 | 130 | 9 | 8 | 117
+|GC11CMZ    | [Siglas Poveiras] Santo Andre das Almas | PORTO      | eniel      | 41.41 | -8.79 | TRADITIONAL | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2007/03/11 | 383 | 5 | 0 | 4
+|GC159Q4    | Arronches - Pinturas Rupestres da Lapa dos GaivoesPORTALEGRE | PORTALEGRE | meiolimao  | 39.15 | -7.17 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/08/15 | 122 | 8 | 2 | 349
+|GCVTP5     | Evoramonte [Estremoz] | EVORA      | clcortez   | 38.77 | -7.71 | TRADITIONAL | SMALL      | 1.50 | 2.50 | AVAILABLE  | 2006/05/02 | 563 | 23 | 20 | 456
+|GCG3TW     | Aldeia Jose Franco [Mafra] | LISBOA     | Rechena    | 38.96 | -9.35 | VIRTUAL    | VIRTUAL    | 2.00 | 1.00 | AVAILABLE  | 2003/05/14 | 843 | 5 | 112 | 177
+|GCPFJA     | Serra da Estrela - Lagoa da Paixao | GUARDA     | meiolimao  | 40.34 | -7.61 | TRADITIONAL | REGULAR    | 3.00 | 3.50 | AVAILABLE  | 2005/06/25 | 91 | 0 | 19 | 1666
+|GC178TB    | LAGOA AO VENTO (VG) | BRAGA      | eterlusitano | 41.51 | -8.09 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/11/08 | 150 | 0 | 2 | 733
+|GCPB0A     | Povoa de Cervaes/Serra da Poisada | VISEU      | saltafronteiras | 40.57 | -7.68 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2005/06/12 | 66 | 2 | 5 | 463
+|GCW449     | GnE II a - Segue o Coelho certo! / Down the RabbitLISBOA | LISBOA     | B.O.D.A.   | 38.75 | -9.47 | TRADITIONAL | LARGE      | 3.00 | 2.50 | AVAILABLE  | 2006/05/19 | 314 | 15 | 2 | 26
+|GCGX69     | Under... where?? [Ponte de Lousa] | LISBOA     | vsergios   | 38.87 | -9.22 | TRADITIONAL | REGULAR    | 3.00 | 3.00 | AVAILABLE  | 2003/09/14 | 167 | 2 | 35 | 195
+|GCZFDX     | A'caca no Sal   | SETUBAL    | almeidara  | 38.37 | -8.51 | MULTI      | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/11/21 | 445 | 8 | 10 | 42
+|GCG7H1     | Enjoy Alcochete [Alcochete] | SETUBAL    | rebordao   | 38.75 | -8.98 | MULTI      | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2003/06/06 | 283 | 21 | 20 | -9999999
+|GCG1YK     | Homage to Kazuo Dan [Torres Vedras] | LISBOA     | Lobo Astuto | 39.14 | -9.38 | VIRTUAL    | VIRTUAL    | 1.00 | 1.00 | AVAILABLE  | 2003/05/03 | 838 | 0 | 22 | 17
+|GC176VP    | [Siglas Poveiras] S. Bento da Porta Aberta | BRAGA      | eniel      | 41.69 | -8.20 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/11/04 | 885 | 9 | 1 | 312
+|GC12653    | Senhora do Castelo [Aljustrel] | BEJA       | MightyReek | 37.88 | -8.17 | TRADITIONAL | SMALL      | 3.00 | 2.50 | AVAILABLE  | 2007/04/08 | 363 | 24 | 24 | -9999999
+|GCVYCY     | Couto de Baixo [Viseu] | VISEU      | almeidara  | 40.66 | -8.01 | MULTI      | REGULAR    | 1.00 | 1.00 | AVAILABLE  | 2006/05/08 | 159 | 6 | 1 | 382
+|GC11WWT    | A View To The North [Minde] | SANTAREM   | Bargao_Henriques | 39.51 | -8.69 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2007/04/01 | 136 | 5 | 23 | -9999999
+|GCKMJH     | Dinosaur Trackways Natural Monument | SANTAREM   | CarFil     | 39.57 | -8.59 | TRADITIONAL | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2004/10/02 | 422 | 6 | 11 | 316
+|GC16041    | R12 Fojo Lobal [Cabreira - Vieira do Minho] | BRAGA      | jcr        | 41.63 | -8.03 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/09/16 | 42 | 2 | 0 | 1082
+|GCM88K     | Agua e Gelo [Castanheira de Pera] | LEIRIA     | Baunilha & Chocolate | 40.08 | -8.16 | MULTI      | REGULAR    | 3.50 | 3.50 | AVAILABLE  | 2004/12/09 | 123 | 7 | 38 | -9999999
+|GC12TRC    | Cobras, lagartos & cobroes [VVRodao] | CASTELO BRANCO | rebordao   | 39.73 | -7.76 | MULTI      | REGULAR    | 1.50 | 4.00 | AVAILABLE  | 2007/05/10 | 56 | 3 | 12 | 187
+|GCRMBB     | Castelo de Sta. Cruz [Arcos de Valdevez] | VIANA DO CASTELO | marioafonso | 41.85 | -8.45 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/12/21 | 256 | 7 | 14 | 392
+|GC15QGW    | Em busca do vale encantado I [Senhora da Carvalha]GUARDA | GUARDA     | paulomatos | 41.06 | -7.21 | TRADITIONAL | REGULAR    | 1.00 | 1.00 | AVAILABLE  | 2007/09/02 | 185 | 0 | 0 | 593
+|GCJVQV     | Water Mills     | BRAGANCA   | afonso_loureiro | 41.40 | -6.37 | TRADITIONAL | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2004/06/26 | 82 | 4 | 8 | -9999999
+|GC11KW6    | Anta da Foz do Rio Frio [Ortiga] | SANTAREM   | Kitiara & Sal | 39.47 | -8.06 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/03/22 | 265 | 1 | 10 | 48
+|GC112BQ    | As Meninas d'Odivelas | LISBOA     | vsergios   | 38.79 | -9.18 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2007/02/21 | 761 | 39 | 7 | -9999999
+|GCYBF5     | Cividade Terroso | PORTO      | Jafqa      | 41.41 | -8.72 | MULTI      | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2006/09/16 | 170 | 13 | 7 | 135
+|GCMN6V     | Anta de Alter Pedroso | PORTALEGRE | Geografo   | 39.19 | -7.63 | TRADITIONAL | REGULAR    | 1.50 | 1.00 | AVAILABLE  | 2004/11/20 | 247 | 9 | 3 | 330
+|GC12RXH    | Funchal Walkabout | ARQUIPELAGO DA MADEIRA | The Garlands | 32.65 | -16.91 | MULTI      | MICRO      | 2.00 | 1.50 | AVAILABLE  | 2007/07/24 | 1823 | 74 | 172 | 0
+|GCQCGD     | VALE DO TAMEL(TAMEL S.PEDRO FINS) | BRAGA      | teotonio   | 41.60 | -8.62 | TRADITIONAL | SMALL      | 3.00 | 4.50 | AVAILABLE  | 2005/09/01 | 127 | 2 | 0 | 285
+|GC16FRW    | Casa Estudio Carlos Relvas | SANTAREM   | sammendes  | 39.40 | -8.49 | TRADITIONAL | REGULAR    | 1.50 | 1.00 | AVAILABLE  | 2007/10/07 | 643 | 9 | 23 | 23
+|GC16Z6D    | Um museu original | LISBOA     | clcortez   | 38.86 | -9.33 | TRADITIONAL | MICRO      | 3.00 | 1.50 | AVAILABLE  | 2007/10/26 | 546 | 13 | 34 | 134
+|GCYNJ1     | Na Preguica I - Cascata de Leonte [Peneda-Geres] | BRAGA      | CrisLuiz   | 41.75 | -8.15 | MULTI      | SMALL      | 2.00 | 4.00 | AVAILABLE  | 2006/09/26 | 140 | 4 | 2 | 762
+|GCM7X7     | HELP            | LISBOA     | k a k a u  | 39.02 | -9.23 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2004/12/08 | 412 | 2 | 19 | 376
+|GC15HQV    | Teatro Solar [Faro] | FARO       | alieri     | 37.03 | -7.94 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/08/30 | 872 | 19 | 3 | -9999999
+|GCXEYT     | A Margem do Meio [V.F.Xira, Lisboa] | LISBOA     | almeidara  | 38.83 | -8.97 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2006/08/01 | 168 | 12 | 11 | 4
+|GCWQFK     | The Last Eagle [Cabo Sardao] | BEJA       | Limao      | 37.60 | -8.82 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2006/06/17 | 866 | 44 | 17 | 44
+|GC174KB    | Moinhos da Fornea (Folgosinho) | GUARDA     | smercel    | 40.50 | -7.51 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/11/02 | 158 | 7 | 5 | -9999999
+|GCPA00     | Linhas de Torres Forte do Zambujal [Ericeira] | LISBOA     | play mobil | 38.95 | -9.39 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2005/06/13 | 506 | 4 | 47 | 66
+|GC16F96    | Percurso da Agua | LISBOA     | Kelux      | 38.76 | -9.26 | MULTI      | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/10/06 | 293 | 89 | 8 | 86
+|GCQ05J     | O Mar e as Gentes [Ericeira] | LISBOA     | Bargao_Henriques | 38.97 | -9.42 | MULTI      | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2005/08/03 | 627 | 7 | 54 | 31
+|GC16QDA    | Capela de St. Amaro [Vila do Conde] | PORTO      | cmcfaria   | 41.36 | -8.74 | PUZZLE     | MICRO      | 3.00 | 1.00 | AVAILABLE  | 2007/10/16 | 352 | 13 | 0 | 22
+|GC16X2A    | BG03 - Parapente | LEIRIA     | BVGeMCM    | 39.55 | -8.79 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/10/21 | 125 | 4 | 0 | 578
+|GCZW2A     | Judaismo [Sinagoga] | LISBOA     | almeidara  | 38.72 | -9.15 | MULTI      | MICRO      | 2.50 | 1.50 | AVAILABLE  | 2006/12/17 | 515 | 13 | 3 | 84
+|GC16DF8    | Capela de Sao Lourenco [Thomar] | SANTAREM   | paulohercules | 39.59 | -8.41 | TRADITIONAL | SMALL      | 1.00 | 1.00 | AVAILABLE  | 2007/10/27 | 772 | 6 | 1 | 48
+|GC166KP    | MIRADOURO DA BONECA | BRAGA      | teotonio   | 41.73 | -8.17 | TRADITIONAL | SMALL      | 2.50 | 4.00 | AVAILABLE  | 2007/09/24 | 426 | 6 | 35 | 683
+|GCTHFG     | Numb3rs [Lisboa] | LISBOA     | almeidara  | 38.76 | -9.10 | PUZZLE     | MICRO      | 2.00 | 1.00 | AVAILABLE  | 2006/02/20 | 1217 | 34 | 8 | 7
+|GCZ4JT     | Fonte Santa da Fornalha [Alferce, Monchique] | FARO       | ShadowLord | 37.30 | -8.49 | TRADITIONAL | SMALL      | 2.50 | 3.50 | AVAILABLE  | 2006/10/29 | 128 | 12 | 25 | 101
+|GC155XY    | Age of Aquarius | LISBOA     | juquinha   | 38.70 | -9.24 | PUZZLE     | SMALL      | 2.50 | 1.00 | DISABLED   | 2007/08/15 | 344 | 29 | 2 | 4
+|GC151A2    | Beleza da Barragem do Alto Rabagao | VILA REAL  | Silvana    | 41.75 | -7.78 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/08/04 | 158 | 0 | 8 | 884
+|GC161RE    | Barragem Eng. Duarte Pacheco -Vale Cambra | AVEIRO     | daraopedal | 40.85 | -8.35 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2007/09/18 | 255 | 5 | 6 | 356
+|GCGTWC     | Armacao do Barril | FARO       | NCarvalho  | 37.09 | -7.66 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2003/08/29 | 678 | 20 | 7 | 3
+|GC16KXG    | Espelho de Agua [Beja] | BEJA       | alieri     | 38.02 | -7.87 | TRADITIONAL | MICRO      | 1.50 | 1.00 | AVAILABLE  | 2007/10/07 | 571 | 20 | 8 | 235
+|GC15WT1    | Mas afinal o que e isto? [Azurara - Vila do Conde]PORTO | PORTO      | eniel      | 41.34 | -8.73 | PUZZLE     | SMALL      | 3.00 | 1.50 | AVAILABLE  | 2007/09/11 | 291 | 5 | 2 | 12
+|GC10KYW    | TF-01 Nascentes do Lena [Porto de Mos] | LEIRIA     | trifaisca  | 39.58 | -8.81 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/01/28 | 233 | 2 | 3 | 192
+|GC16Z5Y    | ES A GRACA DE VILA CAIZ | PORTO      | eterlusitano | 41.24 | -8.14 | TRADITIONAL | SMALL      | 2.50 | 3.00 | AVAILABLE  | 2007/10/26 | 75 | 10 | 1 | 440
+|GCN5ND     | Epigenia do Ceira | COIMBRA    | grade      | 40.18 | -8.17 | TRADITIONAL | REGULAR    | 4.00 | 4.00 | AVAILABLE  | 2005/03/19 | 217 | 21 | 63 | 148
+|GCQ7QE     | O Ascensor do Lavra / The Lavra Funicular | LISBOA     | rifkindsss | 38.72 | -9.14 | TRADITIONAL | MICRO      | 2.00 | 2.50 | AVAILABLE  | 2005/08/21 | 1853 | 34 | 28 | -9999999
+|GC152MJ    | Caixinha de Musica | LISBOA     | nunogil    | 38.75 | -9.18 | MULTI      | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2007/08/11 | 391 | 34 | 12 | -9999999
+|GCMJ6D     | Cava de Viriato / Viriato's Wall [Viseu] | VISEU      | rifkindsss | 40.67 | -7.91 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2004/12/27 | 1178 | 87 | 11 | 449
+|GC15FJM    | Arnadelo (Vila Real) | VILA REAL  | prodrive   | 41.26 | -7.79 | TRADITIONAL | SMALL      | 1.00 | 2.00 | AVAILABLE  | 2007/08/27 | 132 | 1 | 2 | 679
+|GCPAQZ     | A Geologia e as Linhas de Torres [Mafra] | LISBOA     | Bargao_Henriques | 39.02 | -9.38 | MULTI      | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2005/06/13 | 128 | 10 | 11 | -9999999
+|GCT93C     | Piago           | VILA REAL  | pascoa     | 41.67 | -7.32 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2006/01/29 | 75 | 3 | 5 | 590
+|GC10QP1    | Brick in the Wall [Aldeia Galega da Merceana] | LISBOA     | NFreitas   | 39.09 | -9.11 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/02/03 | 257 | 13 | 3 | -9999999
+|GCKH20     | BH06 Estrela Garden [Lisboa] | LISBOA     | prodrive   | 38.71 | -9.16 | TRADITIONAL | MICRO      | 2.00 | 2.00 | DISABLED   | 2004/09/11 | 935 | 74 | 11 | 84
+|GC14EE5    | ?Just another Spot? [Cordoama] | FARO       | Walcarr    | 37.11 | -8.94 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/07/16 | 420 | 3 | 17 | 94
+|GC15ZQA    | BALNEARIO DO CASTRO  PENA GRANDE  GALEGOS-BARCELOSBRAGA | BRAGA      | teotonio   | 41.57 | -8.57 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2007/09/16 | 237 | 2 | 0 | 173
+|GC1594G    | PRAIA FLUVIAL DE FERMIL | BRAGA      | eterlusitano | 41.43 | -7.98 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/08/20 | 172 | 1 | 8 | 173
+|GCX69C     | O Naufragio do San Pedro de Alcantara [Peniche] | LEIRIA     | paulohercules | 39.38 | -9.38 | TRADITIONAL | OTHER_SIZE | 2.00 | 2.00 | AVAILABLE  | 2006/07/16 | 1492 | 49 | 69 | 2
+|GCWVKQ     | The Stolen Gold of Romarigaes  [Paredes de Coura] | VIANA DO CASTELO | Os Cacheiros Viajantes | 41.87 | -8.63 | MULTI      | REGULAR    | 3.50 | 3.50 | AVAILABLE  | 2006/06/28 | 52 | 4 | 9 | 231
+|GCZKKP     | Hike it! [Lagoa de Santo Andre] | SETUBAL    | FGV        | 38.09 | -8.78 | TRADITIONAL | MICRO      | 1.00 | 2.00 | AVAILABLE  | 2006/11/21 | 329 | 43 | 6 | 7
+|GC155DB    | Sao Rafael [Albufeira] | FARO       | hulkman    | 37.07 | -8.28 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/08/11 | 1553 | 19 | 97 | -9999999
+|GCKGDF     | Tou a Nora... [Galafura] | VILA REAL  | Silvana    | 41.17 | -7.67 | MULTI      | REGULAR    | 1.00 | 1.00 | AVAILABLE  | 2004/09/05 | 126 | 9 | 12 | 617
+|GC112QB    | Alcabri Que?    | LISBOA     | PLnauta    | 39.17 | -9.35 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | DISABLED   | 2007/03/21 | 228 | 7 | 15 | 80
+|GCJ014     | 2# PT Travassos   aka    TRAVASSOS  [Vila Real] | VILA REAL  | Portelada  | 41.43 | -7.84 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2004/03/23 | 101 | 3 | 1 | 696
+|GCZZ8B     | Tou Xim [Odivelas] | LISBOA     | almeidara  | 38.78 | -9.20 | TRADITIONAL | REGULAR    | 1.00 | 2.50 | AVAILABLE  | 2006/12/27 | 321 | 14 | 6 | -9999999
+|GC10TD6    | Dia de Sao Valentim [Lisboa] | LISBOA     | Gui&Saavedra | 38.71 | -9.17 | MULTI      | NOT_CHOSEN | 1.00 | 1.50 | AVAILABLE  | 2007/02/05 | 339 | 11 | 25 | 37
+|GCRAQA     | Cabreia Paradise (Sever do Vouga) | AVEIRO     | zoom_bee   | 40.75 | -8.39 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2005/11/13 | 511 | 21 | 77 | 260
+|GC16W4E    | Miradouro de Montemor-o-Velho | COIMBRA    | Tres Marias | 40.18 | -8.68 | TRADITIONAL | MICRO      | 1.00 | 2.00 | AVAILABLE  | 2007/10/20 | 684 | 4 | 0 | 78
+|GCN2CV     | Goldra on the 8th degree | FARO       | talkgb     | 37.11 | -8.00 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2005/03/06 | 370 | 0 | 9 | 277
+|GCXQFP     | Sal da Cobra [Figueira da Foz] | COIMBRA    | rebordao   | 40.11 | -8.83 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2006/08/16 | 499 | 10 | 47 | 3
+|GC14Y9J    | Moinhos Gemieira (Ecopista Ponte Lima-Ponte Barca)VIANA DO CASTELO | VIANA DO CASTELO | cou        | 41.78 | -8.52 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/08/05 | 342 | 4 | 22 | -9999999
+|GC9F38     | The Treasure Island | SANTAREM   | MAntunes   | 39.46 | -8.38 | TRADITIONAL | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2002/10/19 | 741 | 31 | 103 | 21
+|GCWKCV     | Escadinhas - Carvoeiro | FARO       | matela     | 37.09 | -8.47 | TRADITIONAL | SMALL      | 3.50 | 2.00 | AVAILABLE  | 2006/08/06 | 1605 | 71 | 378 | 10
+|GC16Y7Q    | A freguesia mais pequena de Portugal | EVORA      | luis74     | 38.92 | -7.51 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/10/20 | 125 | 3 | 7 | -9999999
+|GC14F1X    | Nossa Senhora da Memoria | LEIRIA     | GEOCHUSSOS | 39.81 | -8.40 | TRADITIONAL | REGULAR    | 1.00 | 3.00 | AVAILABLE  | 2007/07/18 | 234 | 0 | 8 | 398
+|GC16GEA    | Alem Splash Cache | PORTALEGRE | geosuchs   | 39.04 | -7.76 | TRADITIONAL | NOT_CHOSEN | 1.50 | 1.50 | AVAILABLE  | 2007/10/07 | 114 | 1 | 4 | 125
+|GC1136Y    | 497 tiratira metemete [Lourel] | LISBOA     | 2 Cotas    | 38.82 | -9.39 | MULTI      | NOT_CHOSEN | 2.50 | 1.50 | AVAILABLE  | 2007/02/23 | 132 | 41 | 17 | 144
+|GCQ6ZB     | Ria de Alvor - E preciso proteger | FARO       | Psipsina   | 37.12 | -8.61 | TRADITIONAL | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2005/08/19 | 849 | 15 | 15 | 3
+|GC16FTZ    | Mondadeiras de V. de Maceiras sobre 99 passadeirasPORTALEGRE | PORTALEGRE | geosuchs   | 39.06 | -7.59 | TRADITIONAL | REGULAR    | 1.00 | 1.00 | AVAILABLE  | 2007/10/07 | 66 | 1 | 2 | 179
+|GC14BRP    | Forgotten Gardens [Oeiras] | LISBOA     | Bringer    | 38.70 | -9.32 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/07/14 | 561 | 10 | 121 | 14
+|GCTAGF     | North / South [Lisboa] | LISBOA     | Felinos    | 38.71 | -9.18 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2006/02/04 | 513 | 17 | 7 | 71
+|GC15D70    | Rego do Boi [Arouca] | AVEIRO     | daraopedal | 40.97 | -8.14 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/08/25 | 94 | 2 | 5 | 579
+|GCN1A1     | Porta da Traicao | LEIRIA     | olharapo   | 39.75 | -8.81 | TRADITIONAL | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2005/03/07 | 1126 | 52 | 157 | -9999999
+|GC11NWC    | O Mundo Dividido [Alcacovas] | EVORA      | almeidara  | 38.40 | -8.15 | MULTI      | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/03/24 | 159 | 13 | 3 | 217
+|GCWMCG     | Fortaleza de Santa Catarina [Portimao] | FARO       | clcortez   | 37.12 | -8.53 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2006/06/12 | 2393 | 77 | 24 | -9999999
+|GCPPXN     | The Green Deep  | VIANA DO CASTELO | zoom_bee   | 42.04 | -8.16 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/07/09 | 285 | 15 | 8 | 940
+|GC25BB     | Pela Pre-Historia do Alentejo | EVORA      | MAntunes   | 38.54 | -8.01 | MULTI      | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2001/10/30 | 194 | 15 | 27 | 219
+|GC10QP0    | Real Fabrica do Gelo [Montejunto] | LISBOA     | NFreitas   | 39.18 | -9.05 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/02/03 | 555 | 20 | 38 | 537
+|GC157ZG    | K6 Fojo [Arrabida] | SETUBAL    | bolacha    | 38.45 | -9.02 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2007/08/18 | 198 | 19 | 66 | 5
+|GCMZMQ     | Petals Around The Rose [Lisboa] | LISBOA     | btrodrigues | 38.75 | -9.08 | PUZZLE     | SMALL      | 2.50 | 1.50 | AVAILABLE  | 2005/03/03 | 428 | 41 | 27 | 0
+|GC14N3M    | Castro de Romariz [S.M. Feira] | AVEIRO     | daraopedal | 40.95 | -8.46 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/07/22 | 193 | 7 | 6 | 355
+|GC1777K    | PR5 - ROTA DOS ESPIGUEIROS - CRUZ DO PENSAL  | BRAGA      | eterlusitano | 41.51 | -8.06 | TRADITIONAL | MICRO      | 2.50 | 2.00 | AVAILABLE  | 2007/11/05 | 53 | 0 | 0 | 522
+|GCGQQ5     | Up, up, up !    | CASTELO BRANCO | jppina     | 40.32 | -7.61 | TRADITIONAL | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2003/08/24 | 2227 | 33 | 66 | 1987
+|GC15210    | BA02 - Barragem Marechal Carmona - Idanha-a-Nova | CASTELO BRANCO | bruno&ana.co | 39.95 | -7.20 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | DISABLED   | 2007/08/07 | 269 | 7 | 3 | 277
+|GC11GEN    | Alenquer Vila Presepio | LISBOA     | mtrevas    | 39.05 | -9.00 | MULTI      | REGULAR    | 3.00 | 3.00 | AVAILABLE  | 2007/03/17 | 92 | 7 | 19 | 93
+|GC15PYK    | O FAMOSO CANAL... | PORTO      | eterlusitano | 41.39 | -8.18 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/09/05 | 76 | 4 | 4 | 364
+|GC14ECK    | Fornos II - Ruinas de Abul [Alcacer do Sal] | SETUBAL    | clcortez   | 38.43 | -8.68 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/07/17 | 101 | 1 | 23 | 5
+|GCNJ7E     | S. Domingos Mine Earthcache - DP/PT/EC1 | BEJA       | danieloliveira | 37.67 | -7.49 | EARTHCACHE | NOT_CHOSEN | 1.00 | 1.50 | AVAILABLE  | 2005/04/19 | 244 | 1 | 33 | -9999999
+|GC142PK    | Capela Sao Joao - Pitoes da Junias | VILA REAL  | Panda Becas | 41.83 | -7.97 | TRADITIONAL | MICRO      | 2.00 | 3.50 | AVAILABLE  | 2007/07/02 | 93 | 3 | 22 | 1083
+|GCT6B6     | As Muralhas do Mondego | COIMBRA    | lestro     | 40.18 | -8.68 | TRADITIONAL | REGULAR    | 1.00 | 1.50 | AVAILABLE  | 2006/01/27 | 1015 | 9 | 20 | 48
+|GC1632B    | SANTO OVIDIO    | BRAGA      | eterlusitano | 41.46 | -8.18 | TRADITIONAL | SMALL      | 2.50 | 3.50 | AVAILABLE  | 2007/09/20 | 137 | 13 | 1 | 302
+|GC10W81    | Conventos e Radares - Montejunto | LISBOA     | McPenha    | 39.17 | -9.06 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/02/10 | 693 | 12 | 37 | 639
+|GCP9Y5     | Miel Cache      | FARO       | Team Goofy | 37.18 | -8.91 | TRADITIONAL | REGULAR    | 1.00 | 2.50 | DISABLED   | 2005/06/13 | 674 | 3 | 8 | -9999999
+|GC14VBR    | Forte do Paimogo [Lourinha] | LISBOA     | paulohercules | 39.29 | -9.34 | MULTI      | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/08/19 | 451 | 19 | 20 | 24
+|GC12TRR    | 3 toneladas de Ouro/ 3 tons of gold [Nisa] | PORTALEGRE | rebordao   | 39.64 | -7.69 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2007/09/15 | 83 | 1 | 16 | 104
+|GCYVG5     | Monte de Sao Silvestre [Viana do Castelo] | VIANA DO CASTELO | marioafonso | 41.72 | -8.75 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2006/10/13 | 269 | 1 | 14 | 251
+|GC15NY9    | The Lagos 6+1: #6 - Santa Maria | FARO       | Team Caracache | 37.10 | -8.68 | MULTI      | MICRO      | 2.00 | 2.00 | AVAILABLE  | 2007/09/04 | 227 | 16 | 6 | -9999999
+|GCMD9N     | Calcada Romana e a Portuguesa | LEIRIA     | olharapo   | 39.61 | -8.77 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2005/01/02 | 289 | 5 | 2 | 372
+|GC15XJQ    | Nas curvas do Paiva - Whitewaters [Arouca] | AVEIRO     | daraopedal | 40.99 | -8.21 | TRADITIONAL | MICRO      | 2.00 | 2.50 | AVAILABLE  | 2007/09/13 | 263 | 5 | 6 | -9999999
+|GC13G32    | Parque Ambiental [Vilamoura] | FARO       | Torgut     | 37.10 | -8.15 | MULTI      | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2007/06/13 | 332 | 8 | 21 | 5
+|GC14Z2W    | Santa Marta Hill | SANTAREM   | sammendes  | 39.49 | -8.67 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/08/06 | 150 | 9 | 5 | 176
+|GC162D8    | MARANCINHO      | PORTO      | eterlusitano | 41.26 | -8.03 | MULTI      | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/09/19 | 38 | 7 | 1 | 255
+|GC16EQA    | ST48 - MONTE DE S. PEDRO FINS | BRAGA      | SPY_Team   | 41.66 | -8.36 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/10/05 | 118 | 1 | 2 | 510
+|GC13D6D    | Mole Mathematics | FARO       | Team Caracache | 37.12 | -8.62 | MULTI      | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/06/04 | 206 | 10 | 22 | 0
+|GCVTQC     | E Aqui Nasceu Portugal [Guimaraes] | BRAGA      | Pedro_Alvares_Cabral  | 41.45 | -8.29 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2006/04/30 | 649 | 18 | 6 | -9999999
+|GCQGW1     | Sudokache       | LISBOA     | B.O.D.A.   | 38.80 | -9.22 | PUZZLE     | SMALL      | 3.00 | 2.50 | AVAILABLE  | 2005/09/11 | 222 | 15 | 7 | 233
+|GC123K9    | PR1 Rota dos Laranjais | VISEU      | almeidara  | 40.55 | -8.16 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/04/11 | 152 | 8 | 5 | -9999999
+|GC10M83    | Isle of Faro [Faro] | FARO       | Torgut     | 36.99 | -7.97 | TRADITIONAL | MICRO      | 1.00 | 2.00 | AVAILABLE  | 2007/01/28 | 427 | 18 | 14 | 6
+|GCTBEB     | Ponte Jugais    | GUARDA     | [Walrus]   | 40.38 | -7.70 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2006/02/05 | 179 | 4 | 13 | 633
+|GCPQVX     | Have a Minute? [Montemor-o-Novo] | EVORA      | CrisLuiz   | 38.67 | -8.09 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2005/07/14 | 199 | 10 | 13 | 253
+|GCW29Z     | PROJECTO VG - MANIQUE  | LISBOA     | All Happy  | 38.75 | -9.36 | TRADITIONAL | SMALL      | 1.50 | 3.00 | AVAILABLE  | 2006/05/15 | 275 | 26 | 5 | 175
+|GC173YM    | ARRIFE Twins II | SANTAREM   | sammendes  | 39.51 | -8.61 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2007/11/01 | 99 | 1 | 5 | 209
+|GC16X2H    | ST50 - LENDA DAS COBRAS | BRAGA      | SPY_Team   | 41.63 | -8.43 | MULTI      | NOT_CHOSEN | 2.00 | 1.00 | AVAILABLE  | 2007/11/10 | 262 | 12 | 1 | 78
+|GC11DQ2    | Parque de Sao Lourenco [Abrantes] | SANTAREM   | Kitiara & Sal | 39.48 | -8.22 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/03/11 | 592 | 7 | 3 | 115
+|GC153VK    | Arouca - visita guiada / A guided visit | AVEIRO     | daraopedal | 40.93 | -8.25 | MULTI      | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/08/12 | 243 | 3 | 18 | -9999999
+|GCGMQ7     | Fraga da Pena [Arganil] | COIMBRA    | ricardobsilva | 40.22 | -7.94 | TRADITIONAL | REGULAR    | 2.00 | 3.50 | AVAILABLE  | 2003/08/12 | 406 | 47 | 95 | 447
+|GC169XX    | Monte Clerigo II | FARO       | Psipsina   | 37.34 | -8.85 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/09/29 | 584 | 19 | 2 | 45
+|GCHJTZ     | Chaves          | VILA REAL  | gusi       | 41.78 | -7.37 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2004/01/25 | 84 | 5 | 0 | 562
+|GC13KZ4    | Termas da Amieira | COIMBRA    | Tres Marias | 40.10 | -8.75 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/06/13 | 381 | 5 | 19 | 11
+|GC12QG5    | KING OF THE WORLD | VILA REAL  | Silvana    | 41.60 | -7.73 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/05/06 | 47 | 0 | 5 | 860
+|GC15CWJ    | Vila Romana de Casais Velhos [Cascais] | LISBOA     | MakoShark2 | 38.73 | -9.46 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/08/25 | 627 | 5 | 7 | 43
+|GCQCH5     | Ecopista Rio Minho (Moncao) | VIANA DO CASTELO | cou        | 42.06 | -8.53 | TRADITIONAL | REGULAR    | 4.00 | 4.00 | AVAILABLE  | 2005/08/31 | 176 | 11 | 5 | 17
+|GC155R7    | s. mamede       | BRAGA      | vitinhaxXx | 41.63 | -8.24 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/08/15 | 230 | 6 | 2 | 652
+|GCQ7HK     | O Ascensor da Gloria / The Glory Funicular | LISBOA     | rifkindsss | 38.72 | -9.14 | TRADITIONAL | MICRO      | 2.00 | 2.50 | AVAILABLE  | 2005/08/20 | 2088 | 163 | 32 | 30
+|GCN7YB     | Pego do Altar [Alcacer do Sal] | SETUBAL    | CrisLuiz   | 38.42 | -8.39 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2005/03/26 | 166 | 11 | 3 | 66
+|GC15BVW    | The Lagos 6+1: #1- Luz | FARO       | Team Caracache | 37.09 | -8.73 | MULTI      | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/08/23 | 295 | 10 | 4 | 25
+|GCWZWZ     | Mother's cache [Milky Way] | LISBOA     | danieloliveira | 38.76 | -9.49 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2006/07/06 | 228 | 1 | 30 | -9999999
+|GC12ZEP    | Mosteiro de S. Bento  ? Santo Tirso | PORTO      | Silvana    | 41.35 | -8.47 | TRADITIONAL | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2007/05/16 | 850 | 11 | 4 | 51
+|GC15MGZ    | MONTE DO CASTRO MOZINHO  | PORTO      | eterlusitano | 41.15 | -8.31 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/09/03 | 242 | 1 | 9 | 386
+|GC156T3    | Parque de lazer da Palma [Arouca] | AVEIRO     | lamas      | 40.90 | -8.23 | TRADITIONAL | REGULAR    | 1.00 | 2.00 | AVAILABLE  | 2007/08/16 | 66 | 1 | 1 | 630
+|GC11JB8    | Moinho Ruivo [A-dos-Ruivos - Bombarral] | LEIRIA     | hulkman    | 39.28 | -9.12 | MULTI      | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/03/19 | 210 | 10 | 2 | -9999999
+|GC1128F    | Monte dos Moinhos | BRAGA      | emlino     | 41.46 | -8.69 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/02/20 | 242 | 2 | 0 | 87
+|GCZ5KE     | Castro Zambujal [Torres Vedras] | LISBOA     | MONTE DA LUA | 39.07 | -9.28 | TRADITIONAL | REGULAR    | 2.50 | 1.50 | AVAILABLE  | 2006/11/01 | 354 | 3 | 6 | -9999999
+|GCQNA5     | Penedo da Saudade [Coimbra] | COIMBRA    | gredinha   | 40.20 | -8.42 | TRADITIONAL | SMALL      | 2.00 | 1.00 | AVAILABLE  | 2005/09/22 | 2254 | 27 | 42 | 97
+|GC156CZ    | Baia do Burdo [Milfontes Powertrail #4] | BEJA       | btrodrigues | 37.76 | -8.81 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2007/08/13 | 329 | 7 | 11 | 30
+|GC17A3V    | Monte da Armada -Capela S.Lourenco de Gondufe | BRAGA      | teotonio   | 41.74 | -8.50 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2007/11/06 | 91 | 9 | 2 | -9999999
+|GC152KA    | Meco - Entre Ceu & Mar. | SETUBAL    | Busca-Busca.pt | 38.47 | -9.19 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/08/11 | 288 | 13 | 6 | 31
+|GCW8TE     | Samarra [Sintra] | LISBOA     | paulohercules | 38.90 | -9.44 | TRADITIONAL | SMALL      | 2.50 | 2.50 | AVAILABLE  | 2006/05/27 | 326 | 43 | 19 | -9999999
+|GC15D76    | 14 - Powertrail do Montemuro - S. Pedro do Campo | VISEU      | daraopedal | 41.01 | -8.09 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/08/25 | 150 | 5 | 6 | 1115
+|GCPD17     | Escape from the Mysterious Island [Caminha] | VIANA DO CASTELO | Os Cacheiros Viajantes | 41.86 | -8.87 | TRADITIONAL | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2005/06/20 | 114 | 2 | 35 | 0
+|GCPGVQ     | The Enigma of Sistelo's Viscounts [Arcos Valdevez]VIANA DO CASTELO | VIANA DO CASTELO | Os Cacheiros Viajantes | 41.97 | -8.37 | MULTI      | OTHER_SIZE | 3.00 | 2.50 | AVAILABLE  | 2005/06/30 | 78 | 3 | 10 | 266
+|GC15G7E    | Aula Magna      | LISBOA     | lufi69     | 38.75 | -9.16 | PUZZLE     | MICRO      | 3.00 | 1.50 | AVAILABLE  | 2007/08/28 | 585 | 17 | 1 | 82
+|GC15RTQ    | TF-06 Pedra Rolante | LEIRIA     | trifaisca  | 39.57 | -8.85 | MULTI      | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/09/08 | 115 | 5 | 3 | 490
+|GC174W7    | Alcaria Ruiva [ Mertola ] | BEJA       | alieri     | 37.70 | -7.76 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2007/11/03 | 96 | 1 | 11 | 350
+|GC156RW    | Praia da Angra da Cerva [Milfontes Powertrail #5] | BEJA       | vsergios   | 37.75 | -8.81 | TRADITIONAL | SMALL      | 1.50 | 2.50 | AVAILABLE  | 2007/08/13 | 407 | 2 | 15 | 33
+|GC1596Q    | MOINHOS DE REI  | BRAGA      | eterlusitano | 41.57 | -7.98 | TRADITIONAL | MICRO      | 2.50 | 2.00 | AVAILABLE  | 2007/08/20 | 70 | 6 | 3 | 831
+|GCVRZB     | Sabor Romano [Braganca] | BRAGANCA   | Bargao_Henriques | 41.70 | -6.64 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2006/05/01 | 45 | 2 | 8 | -9999999
+|GCA14F     | Cave of Santa Margarida | SETUBAL    | MAntunes   | 38.47 | -8.99 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2002/10/27 | 850 | 54 | 138 | 11
+|GCRM30     | Santa Paleozoica [Valongo - pt+en] | PORTO      | caixeiros  | 41.14 | -8.47 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2005/12/10 | 197 | 5 | 7 | 347
+|GC57A6     | Convent of the Storks [Figueira da Foz] | COIMBRA    | rifkindsss | 40.05 | -8.78 | TRADITIONAL | REGULAR    | 1.00 | 2.50 | AVAILABLE  | 2002/05/12 | 576 | 2 | 50 | 21
+|GCVPTW     | O Mar e a Terra | COIMBRA    | miguelmjeronimo | 40.20 | -8.89 | TRADITIONAL | MICRO      | 2.00 | 3.00 | AVAILABLE  | 2006/04/28 | 300 | 37 | 11 | 176
+|GC173Q1    | Nos e Mos ao Vento!!! | LEIRIA     | Lusitana Paixao | 39.56 | -9.08 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/11/01 | 614 | 15 | 5 | 150
+|GCVG5P     | SHOW ME THE MONEY! A tribute to Alves dos Reis. | PORTALEGRE | Geografo   | 39.12 | -7.72 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2006/04/16 | 80 | 1 | 4 | 170
+|GC174NQ    | PR2 - MONTE DO MEROUCO - FOJO VELHO  | BRAGA      | eterlusitano | 41.55 | -8.16 | TRADITIONAL | SMALL      | 2.00 | 3.50 | AVAILABLE  | 2007/11/02 | 35 | 3 | 5 | 536
+|GC15APG    | Nascente do Vale da Pipa [Thomar] | SANTAREM   | paulohercules | 39.63 | -8.46 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/08/23 | 223 | 2 | 39 | -9999999
+|GCQXDH     | Salty Pirate Island (Ilha do Rato, Lisbon/Montijo)SETUBAL | SETUBAL    | DerAlex    | 38.69 | -9.04 | TRADITIONAL | REGULAR    | 4.00 | 5.00 | AVAILABLE  | 2005/10/08 | 180 | 7 | 55 | 0
+|GCTN8E     | The Spirit of Saint Louis | SETUBAL    | FGV        | 38.54 | -8.92 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2006/02/28 | 245 | 4 | 10 | 174
+|GC16HBH    | Sao Bartolomeu do Outeiro | EVORA      | tirapicos team | 38.35 | -7.91 | MULTI      | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/10/07 | 82 | 2 | 4 | 342
+|GC15AH7    | Moinho do Perigo [Vinhais] | BRAGANCA   | Pinaster   | 41.83 | -7.03 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/08/18 | 33 | 2 | 4 | 609
+|GC14G30    | The Dark Lady of Guadalupe (Vila do Bispo) | FARO       | Team Caracache | 37.08 | -8.87 | MULTI      | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/07/20 | 249 | 10 | 4 | 46
+|GC14NVR    | O mais alto Alem Tejo... | PORTALEGRE | luis74     | 39.31 | -7.36 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2007/07/27 | 186 | 23 | 8 | -9999999
+|GCR0YK     | Ribeira de Seda - Alter do Chao | PORTALEGRE | M.I.K.E    | 39.27 | -7.71 | TRADITIONAL | REGULAR    | 2.00 | 3.50 | AVAILABLE  | 2005/10/16 | 89 | 1 | 8 | 166
+|GC15MH5    | MOSTEIRO DE BUSTELO | PORTO      | eterlusitano | 41.23 | -8.27 | MULTI      | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/09/03 | 130 | 13 | 0 | 258
+|GC176C6    | [Siglas Poveiras] Senhora da Abadia | BRAGA      | emlino     | 41.68 | -8.26 | TRADITIONAL | SMALL      | 3.00 | 1.50 | AVAILABLE  | 2007/11/04 | 228 | 9 | 0 | 371
+|GCMK7A     | Linhas de Torres - Forte da Aguieira [V.F.Xira] | LISBOA     | lamas      | 38.90 | -9.07 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2005/01/23 | 381 | 4 | 16 | 239
+|GCXNNF     | Alto da Lomba   | COIMBRA    | ReDaLeRt_PT | 40.32 | -7.80 | TRADITIONAL | REGULAR    | 2.50 | 2.50 | AVAILABLE  | 2006/08/10 | 103 | 7 | 0 | 649
+|GC15BBE    | Passaro de Chuva | LISBOA     | Kelux      | 38.75 | -9.26 | TRADITIONAL | MICRO      | 2.00 | 1.50 | AVAILABLE  | 2007/08/22 | 877 | 25 | 1 | -9999999
+|GC11AJM    | S. Miguel do Rio Torto 1 (Abrantes) | SANTAREM   | Akagi      | 39.44 | -8.20 | MULTI      | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/03/08 | 141 | 5 | 8 | 42
+|GC177PC    | Barragem do Enxoe [Pias] | BEJA       | BMRatinho  | 38.00 | -7.46 | TRADITIONAL | REGULAR    | 2.00 | 1.50 | AVAILABLE  | 2007/11/06 | 179 | 0 | 1 | -9999999
+|GCX9VK     | Sesimbra's Castle [Sesimbra] | SETUBAL    | CrisLuiz   | 38.45 | -9.11 | MULTI      | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2006/07/23 | 697 | 16 | 18 | 211
+|GC161R7    | Palacio Real [Vendas Novas] | EVORA      | AnitaLune  | 38.68 | -8.46 | TRADITIONAL | SMALL      | 2.50 | 1.00 | AVAILABLE  | 2007/09/18 | 614 | 42 | 24 | 149
+|GCC353     | Apocalyptic Visions [Mertola] | BEJA       | MAntunes   | 37.65 | -7.51 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2003/01/12 | 301 | 8 | 68 | 118
+|GCGFWX     | Horta           | ARQUIPELAGO DOS ACORES | Pizza      | 38.53 | -28.62 | VIRTUAL    | VIRTUAL    | 1.00 | 1.00 | AVAILABLE  | 2003/07/19 | 537 | 1 | 38 | 2
+|GC16333    | VISO            | BRAGA      | eterlusitano | 41.41 | -8.07 | MULTI      | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2007/09/20 | 45 | 1 | 4 | 787
+|GCPBKB     | Agua das Lombadas | ARQUIPELAGO DOS ACORES | The Possums | 37.78 | -25.46 | TRADITIONAL | REGULAR    | 1.00 | 2.00 | AVAILABLE  | 2005/06/07 | 415 | 8 | 25 | 567
+|GC172HY    | Acude do Furadouro [Mora] | EVORA      | elpombero  | 38.97 | -8.21 | TRADITIONAL | SMALL      | 1.00 | 1.50 | AVAILABLE  | 2007/10/30 | 323 | 8 | 3 | 53
+|GCHQ8G     | 100coordenadas [near... I hope!] | LISBOA     | almeidara  | 38.82 | -9.39 | PUZZLE     | REGULAR    | 4.00 | 2.00 | AVAILABLE  | 2004/08/26 | 96 | 22 | 10 | 88
+|GCZM61     | Vista de passaro | FARO       | pfudiebe   | 37.09 | -8.72 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/12/01 | 874 | 1 | 21 | 97
+|GC161QM    | ABOADELA        | PORTO      | eterlusitano | 41.28 | -8.00 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/09/18 | 167 | 13 | 2 | 247
+|GCZ6BA     | Lusiadas [Lisboa] | LISBOA     | almeidara  | 38.70 | -9.18 | PUZZLE     | REGULAR    | 3.00 | 1.50 | AVAILABLE  | 2006/11/03 | 302 | 11 | 5 | 27
+|GC11PJH    | Tres Minas - DP/EC9 | VILA REAL  | danieloliveira | 41.49 | -7.52 | EARTHCACHE | NOT_CHOSEN | 1.00 | 1.00 | AVAILABLE  | 2007/03/26 | 66 | 0 | 8 | 816
+|GC16820    | Comporta do Sal / Salt Gate [Bizorreiro] | COIMBRA    | rifkindsss | 40.10 | -8.81 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2007/08/15 | 302 | 13 | 2 | -9999999
+|GCN93J     | Cactus Creek    | FARO       | FamiliaSilvestre | 37.09 | -7.68 | TRADITIONAL | REGULAR    | 3.00 | 4.00 | AVAILABLE  | 2005/03/29 | 323 | 11 | 9 | 3
+|GC12FB1    | House of Diamonds  [Lisboa] | LISBOA     | btrodrigues | 38.71 | -9.13 | TRADITIONAL | MICRO      | 2.00 | 1.50 | DISABLED   | 2007/05/12 | 1712 | 77 | 66 | -9999999
+|GCQNY1     | Biscaia         | LISBOA     | Teamnivea  | 38.75 | -9.48 | TRADITIONAL | SMALL      | 2.50 | 4.50 | AVAILABLE  | 2005/09/24 | 179 | 2 | 31 | 10
+|GCV58K     | GnE II ? Picota [Rio Maior] | SANTAREM   | clcortez   | 39.36 | -8.94 | TRADITIONAL | REGULAR    | 2.00 | 2.50 | AVAILABLE  | 2006/03/27 | 409 | 4 | 0 | 115
+|GCZWBV     | Catedral [Cristianismo] | LISBOA     | tmob       | 38.71 | -9.13 | TRADITIONAL | MICRO      | 1.50 | 1.50 | AVAILABLE  | 2006/12/18 | 3494 | 108 | 7 | -9999999
+|GCZVVP     | Levada do Coentral [Castanheira de Pera] | LEIRIA     | McPenha    | 40.07 | -8.18 | MULTI      | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2006/12/17 | 116 | 5 | 32 | 701
+|GCWXQY     | Duarte's cache [Alpha Centauri] | LISBOA     | danieloliveira | 38.76 | -9.49 | TRADITIONAL | SMALL      | 1.50 | 3.00 | AVAILABLE  | 2006/07/02 | 239 | 2 | 38 | 72
+|GC14ZF7    | S. Pedro Velho - Freita [Geoparque Arouca] | AVEIRO     | daraopedal | 40.88 | -8.28 | TRADITIONAL | SMALL      | 2.50 | 2.50 | AVAILABLE  | 2007/08/06 | 296 | 2 | 17 | -9999999
+|GCG822     | Rainbow Hydrothermal Vents | ARQUIPELAGO DOS ACORES | LordBritish | 36.23 | -33.90 | TRADITIONAL | MICRO      | 5.00 | 5.00 | AVAILABLE  | 2002/07/19 | -1 | 1 | 0 | 0
+|GC137ED    | ALTO DA SR. DOS MONTES  | BRAGA      | eterlusitano | 41.41 | -8.34 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2007/05/26 | 193 | 8 | 1 | 384
+|GC16KA8    | Bob o Construtor [Alenquer] | LISBOA     | mtrevas    | 39.04 | -8.99 | PUZZLE     | SMALL      | 4.00 | 1.50 | AVAILABLE  | 2007/10/11 | 195 | 2 | 9 | 22
+|GCWM3R     | Moinho do Pinheiro [Malcata] | CASTELO BRANCO | rebordao   | 40.19 | -7.09 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2006/06/16 | 38 | 0 | 1 | -9999999
+|GC174F5    | Ermida de Santo Amaro - A Capela Geodesica | BEJA       | Almodovar  | 37.52 | -8.08 | TRADITIONAL | REGULAR    | 3.50 | 2.00 | AVAILABLE  | 2007/11/02 | 250 | 3 | 25 | 331
+|GCZ5XH     | Monte do Bernardino [Alhandra] | LISBOA     | miguelrk   | 38.94 | -9.04 | MULTI      | MICRO      | 3.00 | 3.50 | AVAILABLE  | 2006/11/01 | 96 | 0 | 9 | 274
+|GCM81C     | The Giants, the Douro river and the City! | VISEU      | lamechas   | 41.11 | -7.85 | MULTI      | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2004/12/09 | 118 | 9 | 2 | 981
+|GC14Y8J    | Respeitem o Ludo [Faro] | FARO       | hugo.jesus | 37.04 | -7.99 | TRADITIONAL | SMALL      | 2.00 | 1.50 | AVAILABLE  | 2007/08/05 | 514 | 5 | 4 | 8
+|GCQ839     | Barragem da Venda Nova | VILA REAL  | FGV        | 41.69 | -7.95 | MULTI      | MICRO      | 2.50 | 2.50 | DISABLED   | 2005/08/15 | 94 | 6 | 1 | -9999999
+|GCKQ09     | Barragem de Alqueva | EVORA      | clcortez   | 38.20 | -7.50 | TRADITIONAL | MICRO      | 2.00 | 1.00 | AVAILABLE  | 2004/09/19 | 619 | 25 | 7 | 159
+|GC16ZFX    | Sao Miguel-o-Anjo | BRAGA      | razalas    | 41.46 | -8.39 | MULTI      | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2007/10/26 | 88 | 7 | 1 | 356
+|GCZW2H     | Islamismo [Mesquita] | LISBOA     | nunogil    | 38.74 | -9.16 | PUZZLE     | MICRO      | 2.00 | 1.50 | AVAILABLE  | 2006/12/17 | 637 | 55 | 4 | 87
+|GCP3HY     | Sem Medo (Alcobaca) | LEIRIA     | olharapo   | 39.55 | -9.05 | TRADITIONAL | REGULAR    | 1.50 | 1.00 | AVAILABLE  | 2005/05/29 | 452 | 0 | 9 | 28
+|GC10YKD    | Vasco da Gama [Lisboa] | LISBOA     | funkymunkyzone | 38.78 | -9.09 | TRADITIONAL | MICRO      | 1.00 | 1.00 | DISABLED   | 2007/04/04 | 2150 | 202 | 6 | 3
+|GC15ZJF    | Paco de Giela [Arcos de Valdevez] | VIANA DO CASTELO | jmesteves68 | 41.85 | -8.41 | MULTI      | REGULAR    | 2.00 | 2.00 | AVAILABLE  | 2007/09/16 | 203 | 5 | 7 | 71
+|GCNAG5     | The Toy Box     | LISBOA     | clcortez   | 38.84 | -9.24 | TRADITIONAL | LARGE      | 2.00 | 2.50 | AVAILABLE  | 2005/04/02 | 130 | 4 | 8 | 152
+|GCKPNA     | Vera Cruz [Portel] | EVORA      | clcortez   | 38.23 | -7.68 | TRADITIONAL | REGULAR    | 2.50 | 2.00 | AVAILABLE  | 2004/09/19 | 133 | 10 | 8 | 308
+|GCKGCX     | Ilha das Berlengas (Peniche) | LEIRIA     | tetra      | 39.42 | -9.50 | TRADITIONAL | REGULAR    | 1.50 | 4.00 | DISABLED   | 2004/08/27 | 571 | 21 | 40 | 0
+|GC8EF9     | AZGTJ - Translant Chess Cache | ARQUIPELAGO DOS ACORES | Gummy(Az) Team | 38.73 | -27.05 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2001/05/15 | 702 | 29 | 28 | -9999999
+|GC14849    | Sino dos Mouros [Moledo] | VIANA DO CASTELO | My Greenway Tours | 41.84 | -8.87 | TRADITIONAL | SMALL      | 3.00 | 4.00 | AVAILABLE  | 2007/07/08 | 215 | 33 | 20 | -9999999
+|GCPKZJ     | Historical Villages - Marialva | GUARDA     | MAntunes   | 40.91 | -7.23 | TRADITIONAL | REGULAR    | 2.00 | 2.00 | DISABLED   | 2005/07/06 | 308 | 16 | 37 | -9999999
+|GCRTHY     | Ponta da Piedade - Lagos | FARO       | xouricos   | 37.08 | -8.67 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2005/12/31 | 2734 | 22 | 145 | 16
+|GC118FY    | Monte de Faro - Esposende | BRAGA      | Sagitario  | 41.54 | -8.75 | TRADITIONAL | SMALL      | 1.50 | 2.50 | AVAILABLE  | 2007/03/04 | 288 | 7 | 9 | 157
+|GCW2RN     | Ursa [Sintra]   | LISBOA     | btrodrigues | 38.79 | -9.49 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2006/05/14 | 238 | 5 | 48 | -9999999
+|GCVZ4H     | Marmitas de Gigante [Sesimbra] | SETUBAL    | truta      | 38.46 | -9.05 | TRADITIONAL | REGULAR    | 2.50 | 4.00 | AVAILABLE  | 2006/05/08 | 292 | 3 | 71 | -9999999
+|GCPTXZ     | The Odeceixe Beach | BEJA       | zoom_bee   | 37.44 | -8.80 | TRADITIONAL | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2005/07/22 | 400 | 7 | 40 | 33
+|GCV6MG     | Homem das Cavernas | SANTAREM   | joaocardoso | 39.68 | -8.43 | MULTI      | REGULAR    | 3.50 | 5.00 | AVAILABLE  | 2006/04/02 | 108 | 5 | 61 | 147
+|GC11CP6    | [Siglas Poveiras] Senhora da Bonanca | BRAGA      | eniel      | 41.51 | -8.78 | TRADITIONAL | SMALL      | 2.00 | 1.50 | DISABLED   | 2007/03/11 | 785 | 25 | 1 | 4
+|GC171ZK    | Pego das Pias [Odemira] | BEJA       | MightyReek | 37.64 | -8.62 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/10/27 | 109 | 24 | 24 | -9999999
+|GCW620     | Castelo [Alusbona] | LISBOA     | almeidara  | 38.71 | -9.13 | TRADITIONAL | MICRO      | 2.50 | 1.00 | AVAILABLE  | 2006/05/22 | 2567 | 149 | 15 | 79
+|GC15EEM    | Rua de Santo Antonio [Faro] | FARO       | Torgut     | 37.02 | -7.93 | TRADITIONAL | MICRO      | 2.00 | 1.00 | AVAILABLE  | 2007/09/12 | 750 | 39 | 7 | 7
+|GCYBXB     | Castelo do Giraldo, O Sem Pavor | EVORA      | defenderone | 38.54 | -8.03 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2006/09/17 | 331 | 14 | 27 | 320
+|GCED51     | The Nest of Jonathan Livingston Seagul | FARO       | GreenShades | 37.15 | -8.92 | TRADITIONAL | REGULAR    | 3.00 | 4.50 | AVAILABLE  | 2003/03/15 | 258 | 18 | 123 | 5
+|GC161R2    | Monte S. Adriao - Castelo de Paiva | AVEIRO     | daraopedal | 40.98 | -8.26 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/09/12 | 85 | 0 | 2 | 620
+|GC15RF5    | ST07 - CAPELA DE S. LOURENCO | BRAGA      | SPY_Team   | 41.56 | -8.43 | MULTI      | NOT_CHOSEN | 1.50 | 1.50 | AVAILABLE  | 2007/09/08 | 295 | 17 | 0 | 106
+|GCWMDG     | O Cantinho Encantado [Alvor/Portimao] | FARO       | clcortez   | 37.13 | -8.60 | TRADITIONAL | SMALL      | 1.50 | 2.00 | AVAILABLE  | 2006/06/15 | 1115 | 12 | 27 | 10
+|GCG5DX     | O Refugio de D. Teresa [Povoa de Lanhoso] | BRAGA      | gc_man     | 41.59 | -8.28 | TRADITIONAL | NOT_CHOSEN | 2.00 | 2.00 | AVAILABLE  | 2003/05/24 | 618 | 39 | 44 | 344
+|GC12CA1    | Lendas e Lagoas | GUARDA     | [Walrus]   | 40.35 | -7.64 | TRADITIONAL | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2007/04/22 | 62 | 2 | 12 | 1686
+|GC14D4M    | CA #3 ? Facho (Torch) [Alcobaca] | LEIRIA     | HDV        | 39.51 | -9.14 | MULTI      | REGULAR    | 2.00 | 4.00 | AVAILABLE  | 2007/07/16 | 185 | 17 | 33 | 5
+|GC1359B    | Zona Ribeirinha de Ponte de Sor | PORTALEGRE | manelov    | 39.25 | -8.01 | MULTI      | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/05/25 | 277 | 1 | 0 | 95
+|GC16TFM    | Portas de Lisboa | LISBOA     | almeidara  | 38.75 | -9.21 | MULTI      | REGULAR    | 1.50 | 2.50 | AVAILABLE  | 2007/10/19 | 126 | 9 | 14 | 70
+|GCW7E3     | Lince-iberico (Lynx pardinus) | CASTELO BRANCO | olharapo   | 40.23 | -7.07 | TRADITIONAL | REGULAR    | 1.00 | 4.50 | AVAILABLE  | 2006/05/24 | 40 | 0 | 1 | 1000
+|GCK1JY     | Atlantis [Pico] | ARQUIPELAGO DOS ACORES | Joao&Olivia | 38.47 | -28.40 | TRADITIONAL | REGULAR    | 2.00 | 4.50 | AVAILABLE  | 2004/07/20 | 196 | 25 | 48 | 2286
+|GC172JJ    | Jardim de Mora  | EVORA      | elpombero  | 38.95 | -8.16 | TRADITIONAL | MICRO      | 1.00 | 1.00 | AVAILABLE  | 2007/10/30 | 541 | 20 | 3 | 88
+|GC139NP    | Victory Flags   | PORTO      | kidloco    | 41.16 | -8.58 | PUZZLE     | SMALL      | 3.00 | 3.00 | AVAILABLE  | 2007/06/01 | 226 | 18 | 3 | 108
+|GC113WE    | Graffiti House [VN1000Fontes] | BEJA       | Limao      | 37.75 | -8.79 | TRADITIONAL | SMALL      | 2.00 | 3.00 | AVAILABLE  | 2007/02/20 | 448 | 4 | 11 | 53
+|GCM2DA     | Estrela do Sico [Pombal] | LEIRIA     | Baunilha & Chocolate | 39.98 | -8.55 | MULTI      | REGULAR    | 3.00 | 3.50 | AVAILABLE  | 2004/11/14 | 266 | 7 | 20 | 154
+|GCAA8D     | Cold Spring [Tomar] | SANTAREM   | pmateus21  | 39.68 | -8.44 | TRADITIONAL | SMALL      | 2.00 | 2.00 | AVAILABLE  | 2002/11/10 | 351 | 34 | 4 | 91
+|GCYVQV     | Indiana Jones e a Ponte Perdida [Vouzela, Viseu] | VISEU      | almeidara  | 40.72 | -8.12 | TRADITIONAL | REGULAR    | 1.50 | 3.00 | AVAILABLE  | 2006/10/13 | 250 | 14 | 20 | 320
+|GCQN5Q     | Noudar [ Barrancos ] | BEJA       | clcortez   | 38.18 | -7.06 | TRADITIONAL | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2005/09/22 | 151 | 2 | 41 | -9999999
+|GC14Z6D    | ONDE MELHOR SE VE AROUCA | AVEIRO     | eterlusitano | 40.93 | -8.23 | TRADITIONAL | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/08/06 | 294 | 7 | 9 | 694
+|GC153KC    | Carris Perdidos [Lx] | LISBOA     | almeidara  | 38.70 | -9.18 | MULTI      | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/08/12 | 212 | 5 | 3 | 7
+|GCGC2H     | Alemanha em Fatima[Leiria] | SANTAREM   | Rechena    | 39.63 | -8.67 | VIRTUAL    | VIRTUAL    | 1.00 | 1.00 | AVAILABLE  | 2003/06/28 | 2300 | 3 | 99 | 355
+|GCTWFD     | AZGT Welcome to Caldeira Santo Cristo [Sao Jorge] | ARQUIPELAGO DOS ACORES | teamjorgenses | 38.63 | -27.94 | TRADITIONAL | SMALL      | 1.50 | 3.00 | AVAILABLE  | 2006/06/04 | 187 | 13 | 2 | 22
+|GC12V5Q    | AMARANTE E MUSICA PROS NOSSOS OUVIDOS | PORTO      | eterlusitano | 41.27 | -8.08 | MULTI      | MICRO      | 2.50 | 2.00 | AVAILABLE  | 2007/05/11 | 138 | 15 | 11 | -9999999
+|GCQT4E     | Cache Valinhas (Sto Tirso) | PORTO      | zoom_bee   | 41.30 | -8.45 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2005/09/25 | 367 | 8 | 12 | 299
+|GCHJ8R     | Granja dos Serroes karren field [Sintra] | LISBOA     | play mobil | 38.86 | -9.30 | TRADITIONAL | REGULAR    | 2.50 | 3.00 | AVAILABLE  | 2004/01/23 | 277 | 9 | 48 | 148
+|GCGEN1     | Book Box        | LISBOA     | MAntunes   | 38.87 | -9.20 | TRADITIONAL | LARGE      | 1.00 | 3.50 | AVAILABLE  | 2003/07/12 | 192 | 8 | 47 | 241
+|GCRYRG     | Moinho do Outeiro [Condeixa-a-Nova] | COIMBRA    | gredinha   | 40.06 | -8.48 | TRADITIONAL | REGULAR    | 1.50 | 1.50 | AVAILABLE  | 2006/01/08 | 416 | 4 | 7 | 357
+|GCWA0B     | Praia do Coxo [Mafra] | LISBOA     | Bargao_Henriques | 39.01 | -9.43 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2006/05/29 | 599 | 17 | 14 | -9999999
+|GCMQ74     | Mural           | LISBOA     | lynx pardinus | 38.73 | -9.16 | TRADITIONAL | MICRO      | 2.50 | 1.00 | AVAILABLE  | 2005/02/07 | 874 | 55 | 5 | -9999999
+|GC15Q0E    | Garganta de Loriga | GUARDA     | caedabarra | 40.33 | -7.65 | TRADITIONAL | NOT_CHOSEN | 2.50 | 4.50 | AVAILABLE  | 2007/08/31 | 136 | 0 | 32 | 1498
+|GCWVTR     | Frogs           | ARQUIPELAGO DA MADEIRA | macmurphy  | 32.77 | -17.08 | TRADITIONAL | SMALL      | 2.00 | 2.50 | AVAILABLE  | 2006/06/12 | 925 | 22 | 6 | 1578
+|GC15YGX    | Egas Moniz      | PORTO      | emlino     | 41.17 | -8.35 | TRADITIONAL | REGULAR    | 1.50 | 2.00 | AVAILABLE  | 2007/09/14 | 310 | 3 | 3 | 144
+|GC11ZJP    | S. Miguel do Rio Torto 2 (Abrantes) | SANTAREM   | Akagi      | 39.42 | -8.27 | TRADITIONAL | REGULAR    | 3.00 | 4.00 | AVAILABLE  | 2007/04/06 | 75 | 3 | 20 | 101
+|GC16R3B    | Quinta dos Pianos aka Zagallos | SETUBAL    | Blue_Trekkers | 38.65 | -9.19 | MULTI      | SMALL      | 1.50 | 1.50 | AVAILABLE  | 2007/11/05 | 287 | 13 | 9 | 51
+|GC16NPG    | Gouveia, Aldeia em Verso | LISBOA     | Shidoki    | 38.85 | -9.46 | TRADITIONAL | SMALL      | 1.00 | 1.00 | AVAILABLE  | 2007/10/15 | 764 | 6 | 0 | 77
+|GC16Z8R    | Sao Martinho (Castelo Branco) | CASTELO BRANCO | khukhas    | 39.80 | -7.46 | TRADITIONAL | REGULAR    | 2.50 | 2.50 | AVAILABLE  | 2007/10/26 | 250 | 3 | 2 | 404
+|GCMVD1     | Mata Nacional do Choupal [Coimbra] | COIMBRA    | Geografo   | 40.22 | -8.47 | TRADITIONAL | MICRO      | 3.00 | 1.50 | AVAILABLE  | 2005/02/15 | 802 | 10 | 1 | 15
+|GC103HP    | A Grande Pata   | LEIRIA     | sismeiro   | 39.49 | -9.18 | TRADITIONAL | REGULAR    | 2.00 | 3.00 | AVAILABLE  | 2007/01/01 | 422 | 2 | 30 | 36
+|GCXG2X     | Uptown [Lisbon] | LISBOA     | B.O.D.A.   | 38.78 | -9.15 | TRADITIONAL | MICRO      | 3.50 | 1.50 | AVAILABLE  | 2006/08/03 | 536 | 93 | 10 | -9999999
+|GC110G4    | Cascata do Arado | BRAGA      | Samuel     | 41.72 | -8.13 | TRADITIONAL | REGULAR    | 2.50 | 3.50 | DISABLED   | 16/01/2024 | 766 | 83 | 18 | 733

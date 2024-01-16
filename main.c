@@ -10,8 +10,10 @@ int main()
     Cache *caches = NULL;
     int size = 0;
     char code[10];
-
     char option[256];
+
+    int uniqueSize;
+    Cache *uniqueCaches = getUniqueCaches(caches, size, &uniqueSize);
     do
     {
         printf(
@@ -25,6 +27,9 @@ int main()
             "Caches Stats\n"
             "Age Stats\n"
             "Sort\n"
+            "state count\n"
+            "Matrix 81\n"
+            "save\n"
             "Exit\n");
 
         fgets(option, sizeof(option), stdin); // Ler opção do utilizador
@@ -72,11 +77,15 @@ int main()
                 printf("No caches loaded. type load to load the caches\n");
             }
         }
-        else if (strcmp(option, "foundDP") == 0)
+        else if (strcmp(option, "founddp") == 0)
         {
             if (caches != NULL)
             {
-                displayFoundPercentage(caches, size);
+                int uniqueSize;
+                Cache *uniqueCaches = getUniqueCaches(caches, size, &uniqueSize);
+                displayFoundPercentage(uniqueCaches, uniqueSize);
+                printf("Listed %d unique caches.\n", uniqueSize);
+                free(uniqueCaches);
             }
             else
             {
@@ -119,8 +128,10 @@ int main()
         {
             if (caches != NULL)
             {
+                int uniqueSize;
+                Cache *uniqueCaches = getUniqueCaches(caches, size, &uniqueSize);
                 printf("Caches stats\n");
-                centerStats(caches, size);
+                centerStats(uniqueCaches, uniqueSize);
             }
             else
             {
@@ -131,19 +142,65 @@ int main()
         {
             if (caches != NULL)
             {
-                ageStats(caches, size);
+                int uniqueSize;
+                Cache *uniqueCaches = getUniqueCaches(caches, size, &uniqueSize);
+                ageStats(uniqueCaches, uniqueSize);
             }
             else
             {
                 printf("No caches loaded. type load to load the caches\n");
             }
         }
-        else if (strcmp(option, "sort") == 0) // Add this block
+        else if (strcmp(option, "sort") == 0)
         {
             if (caches != NULL)
             {
-                sort(caches, size);
-                list(caches, size);
+                int uniqueSize;
+                Cache *uniqueCaches = getUniqueCaches(caches, size, &uniqueSize);
+                sort(uniqueCaches, uniqueSize);
+                list(uniqueCaches, uniqueSize);
+            }
+            else
+            {
+                printf("No caches loaded. type load to load the caches\n");
+            }
+        }
+        else if (strcmp(option, "state count") == 0)
+        {
+            if (caches != NULL)
+            {
+                int uniqueSize;
+                Cache *uniqueCaches = getUniqueCaches(caches, size, &uniqueSize);
+                stateCount(uniqueCaches, uniqueSize);
+                free(uniqueCaches);
+            }
+            else
+            {
+                printf("No caches loaded. type load to load the caches\n");
+            }
+        }
+        else if (strcmp(option, "matrix81") == 0)
+        {
+            if (caches != NULL)
+            {
+                int uniqueSize;
+                Cache *uniqueCaches = getUniqueCaches(caches, size, &uniqueSize);
+                calculateMatrix81(uniqueCaches, uniqueSize);
+                free(uniqueCaches);
+            }
+            else
+            {
+                printf("No caches loaded. type load to load the caches\n");
+            }
+        }
+        else if (strcmp(option, "save") == 0)
+        {
+            if (caches != NULL)
+            {   
+                int uniqueSize;
+                Cache *uniqueCaches = getUniqueCaches(caches, size, &uniqueSize);
+                save(uniqueCaches, uniqueSize);
+                free(uniqueCaches);
             }
             else
             {

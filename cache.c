@@ -25,8 +25,8 @@ Cache *load(char *filename, int *size)
         return NULL;
     }
 
-    Cache *caches = malloc(sizeof(Cache) * 1600); // tamanho predefinido
-    *size = 0; // variavel para contar o numero de estruturas vindas da cache
+    Cache *caches = malloc(sizeof(Cache) * 1600); // pre-defined size
+    *size = 0; // variable to count the number of structures coming from the cache
 
     char line[1024];
     while (fgets(line, sizeof(line), file))
@@ -41,7 +41,19 @@ Cache *load(char *filename, int *size)
     }
 
     fclose(file);
-    return caches;
+
+    // Get the unique caches
+    int uniqueSize;
+    Cache *uniqueCaches = getUniqueCaches(caches, *size, &uniqueSize);
+
+    // Free the memory allocated for the original caches array
+    free(caches);
+
+    // Update the size to be the size of the unique caches
+    *size = uniqueSize;
+
+    // Return the unique caches
+    return uniqueCaches;
 }
 
 bool isUnique(Cache cache, Cache *uniqueCaches, int uniqueSize) {
@@ -132,13 +144,30 @@ void edit(Cache *caches, int size, char *code)
     printf("Cache not found\n");
 }
 void list(Cache *caches, int size) {
+    printf("| %-10s | %-15s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s |\n", 
+           "code", 
+           "name", 
+           "state", 
+           "owner", 
+           "latitude",
+           "longitude",
+           "kind",
+           "size",
+           "difficulty",
+           "terrain",
+           "status",
+           "hidden_date",
+           "founds",
+           "not_founds",
+           "favourites",
+           "altitude");
     for (int i = 0; i < size; i++) {
         display(caches[i]);
     }
 }
 void display(Cache cache)
 {
-    printf("| %s | %s | %s | %s | %.2f | %.2f | %s | %s | %.2f | %.2f | %s | %s | %d | %d | %d | %d |\n",
+    printf("| %-10s | %-15s | %-10s | %-10s | %.2f | %.2f | %-10s | %-10s | %.2f | %.2f | %-10s | %-10s | %d | %d | %d | %d |\n",
            cache.code, cache.name, cache.state, cache.owner, cache.latitude, cache.longitude,
            cache.kind, cache.size, cache.difficulty, cache.terrain, cache.status,
            cache.hidden_date, cache.founds, cache.not_founds, cache.favourites, cache.altitude);
@@ -263,6 +292,89 @@ void sort(Cache *caches, int size) {
     }
 }
 // contar e mostrar o numero de caches por estado
-void stateCount(Cache *caches, int size)
-{
+void stateCount(Cache *caches, int size) {
+    char *states[] = {"PORTO", "LISBOA", "COIMBRA", "GUARDA", "ARQUIPELAGO DA MADEIRA", "SANTAREM", "SETUBAL", "CASTELO BRANCO", "LEIRIA", "BRAGA"};
+    int numStates = sizeof(states) / sizeof(char *);
+    int availableCount[numStates];
+    int inactiveCount[numStates];
+
+    // Initialize counts
+    for (int i = 0; i < numStates; i++) {
+        availableCount[i] = 0;
+        inactiveCount[i] = 0;
+    }
+
+    // Count available and inactive caches for each state
+    for (int i = 0; i < size; i++) {
+        printf("Cache %d: state = %s, status = %s\n", i, caches[i].state, caches[i].status);
+        for (int j = 0; j < numStates; j++) {
+            if (strcmp(caches[i].state, states[j]) == 0) {
+                if (strcmp(caches[i].status, "AVAILABLE") == 0) {
+                    availableCount[j]++;
+                } else if (strcmp(caches[i].status, "DISABLED") == 0) {
+                    inactiveCount[j]++;
+                }
+                break;
+            }
+        }
+    }
+
+    // Print counts for each state
+    for (int i = 0; i < numStates; i++) {
+        printf("%s: %d disponíveis, %d inativas\n", states[i], availableCount[i], inactiveCount[i]);
+    }
 }
+
+void calculateMatrix81(Cache *caches, int size) {
+    int matrix[9][9] = {0}; // Initialize all counts to 0
+
+    // Loop through all caches
+    for (int i = 0; i < size; i++) {
+        // Assume terrain and difficulty are integers between 1 and 9
+        int terrainIndex = caches[i].terrain - 1;
+        int difficultyIndex = caches[i].difficulty - 1;
+
+        // Increment the count for the corresponding cell in the matrix
+        matrix[terrainIndex][difficultyIndex]++;
+    }
+
+    // Print the matrix
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 9; j++) {
+            printf("%d ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+}
+void save(Cache *caches, int size) {
+    char filename[256];
+    printf("Enter the name of the file to save to: ");
+    fgets(filename, sizeof(filename), stdin);
+    filename[strlen(filename) - 1] = '\0'; // Remove the newline at the end
+
+    // Check if the file already exists
+    FILE *file = fopen(filename, "r");
+    if (file != NULL) {
+        printf("A file with this name already exists.\n");
+        fclose(file);
+        return;
+    }
+
+    // Open the file for writing
+    file = fopen(filename, "w");
+    if (file == NULL) {
+        printf("Failed to open the file.\n");
+        return;
+    }
+
+    // Write the caches to the file
+    for (int i = 0; i < size; i++) {
+        fprintf(file, "|%-10s | %-15s | %-10s | %-10s | %.2f | %.2f | %-10s | %-10s | %.2f | %.2f | %-10s | %-10s | %d | %d | %d | %d\n", caches[i].code, caches[i].name, caches[i].state, caches[i].owner, caches[i].latitude, caches[i].longitude,
+           caches[i].kind, caches[i].size, caches[i].difficulty, caches[i].terrain, caches[i].status,
+           caches[i].hidden_date, caches[i].founds, caches[i].not_founds, caches[i].favourites, caches[i].altitude);
+    }
+
+    fclose(file);
+    printf("Caches saved successfully.\n");
+}
+

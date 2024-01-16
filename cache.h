@@ -38,7 +38,9 @@ int compare_by_altitude(const void *a, const void *b);
 int compare_by_state(const void *a, const void *b);
 int compare_by_date(const void *a, const void *b);
 void sort(Cache *caches, int size);
-
+void stateCount(Cache *caches, int size);
+void calculateMatrix81(Cache *caches, int size);
+void save(Cache *caches, int size);
 Cache *getUniqueCaches(Cache *caches, int size, int *uniqueSize);
 
 #endif
