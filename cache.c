@@ -6,7 +6,9 @@
 #include <ctype.h>
 #include <time.h>
 #include "cache.h"
-
+#define HEADER_FORMAT "| %-10s | %-20s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s |\n"
+#define SEPARATOR "|----------|----------------------|------------|------------|----------|----------|------------|----------|------------|----------|------------|--------------|------------|------------|------------|----------|\n"
+#define ROW_FORMAT "| %-10s | %-20.20s | %-10.10s | %-10.10s | %-10.2f | %-10.2f | %-10.10s | %-10.8s | %-10.2f | %-10.2f | %-10.10s | %-12.12s | %-10d | %-10d | %-10d | %-10d |\n"
 // converter para lowercase
 void toLower(char *str)
 {
@@ -144,7 +146,8 @@ void edit(Cache *caches, int size, char *code)
     printf("Cache not found\n");
 }
 void list(Cache *caches, int size) {
-    printf("| %-10s | %-15s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s | %-10s |\n", 
+    printf(SEPARATOR);
+    printf(HEADER_FORMAT, 
            "code", 
            "name", 
            "state", 
@@ -161,16 +164,31 @@ void list(Cache *caches, int size) {
            "not_founds",
            "favourites",
            "altitude");
+    printf(SEPARATOR);
     for (int i = 0; i < size; i++) {
         display(caches[i]);
+        printf(SEPARATOR);
     }
 }
-void display(Cache cache)
-{
-    printf("| %-10s | %-15s | %-10s | %-10s | %.2f | %.2f | %-10s | %-10s | %.2f | %.2f | %-10s | %-10s | %d | %d | %d | %d |\n",
-           cache.code, cache.name, cache.state, cache.owner, cache.latitude, cache.longitude,
-           cache.kind, cache.size, cache.difficulty, cache.terrain, cache.status,
-           cache.hidden_date, cache.founds, cache.not_founds, cache.favourites, cache.altitude);
+
+void display(Cache cache) {
+    printf(ROW_FORMAT, 
+           cache.code, 
+           cache.name, 
+           cache.state, 
+           cache.owner, 
+           cache.latitude,
+           cache.longitude,
+           cache.kind,
+           cache.size,
+           cache.difficulty,
+           cache.terrain,
+           cache.status,
+           cache.hidden_date,
+           cache.founds,
+           cache.not_founds,
+           cache.favourites,
+           cache.altitude);
 }
 void displayP(Cache cache, float percentage)
 {
