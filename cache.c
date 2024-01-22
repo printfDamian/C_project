@@ -28,7 +28,7 @@ Cache *load(char *filename, int *size)
     }
 
     Cache *caches = malloc(sizeof(Cache) * 1600); // pre-defined size
-    *size = 0; // variable to count the number of structures coming from the cache
+    *size = 0; // contagem de caches carregadas no array
 
     char line[1024];
     while (fgets(line, sizeof(line), file))
@@ -44,14 +44,14 @@ Cache *load(char *filename, int *size)
 
     fclose(file);
 
-    // Get the unique caches
+    // Get caches unicas
     int uniqueSize;
     Cache *uniqueCaches = getUniqueCaches(caches, *size, &uniqueSize);
 
-    // Free the memory allocated for the original caches array
+    // limpar memória alocada para o array de caches
     free(caches);
 
-    // Update the size to be the size of the unique caches
+    // Attualiazar o tamanho do array
     *size = uniqueSize;
 
     // Return the unique caches
@@ -71,12 +71,12 @@ Cache *getUniqueCaches(Cache *caches, int size, int *uniqueSize) {
     Cache *uniqueCaches = malloc(size * sizeof(Cache));
     *uniqueSize = 0;
 
-    for (int i = 1; i < size; i++) {
-        if (isUnique(caches[i], uniqueCaches, *uniqueSize)) {
-            uniqueCaches[*uniqueSize] = caches[i];
-            (*uniqueSize)++;
-        }
+    for (int i = 0; i < size; i++) {
+    if (isUnique(caches[i], uniqueCaches, *uniqueSize)) {
+        uniqueCaches[*uniqueSize] = caches[i];
+        (*uniqueSize)++;
     }
+}
 
     return uniqueCaches;
 }
@@ -316,13 +316,13 @@ void stateCount(Cache *caches, int size) {
     int availableCount[numStates];
     int inactiveCount[numStates];
 
-    // Initialize counts
+
     for (int i = 0; i < numStates; i++) {
         availableCount[i] = 0;
         inactiveCount[i] = 0;
     }
 
-    // Count available and inactive caches for each state
+    // contar o numero de caches por estado inativo e disponivel
     for (int i = 0; i < size; i++) {
         printf("Cache %d: state = %s, status = %s\n", i, caches[i].state, caches[i].status);
         for (int j = 0; j < numStates; j++) {
@@ -337,26 +337,25 @@ void stateCount(Cache *caches, int size) {
         }
     }
 
-    // Print counts for each state
+   // Mostrar o numero de caches por estado
     for (int i = 0; i < numStates; i++) {
         printf("%s: %d disponíveis, %d inativas\n", states[i], availableCount[i], inactiveCount[i]);
     }
 }
 
 void calculateMatrix81(Cache *caches, int size) {
-    int matrix[9][9] = {0}; // Initialize all counts to 0
+    int matrix[9][9] = {0};
 
-    // Loop through all caches
     for (int i = 0; i < size; i++) {
-        // Assume terrain and difficulty are integers between 1 and 9
+        // Terreno e dificuldade vão de 1 a 9, mas a matriz vai de 0 a 8
         int terrainIndex = caches[i].terrain - 1;
         int difficultyIndex = caches[i].difficulty - 1;
 
-        // Increment the count for the corresponding cell in the matrix
+        // Incrementar o valor na matriz para o terreno e dificuldade da cache atual
         matrix[terrainIndex][difficultyIndex]++;
     }
 
-    // Print the matrix
+    // mostrar Matriz
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
             printf("%d ", matrix[i][j]);
@@ -368,7 +367,7 @@ void save(Cache *caches, int size) {
     char filename[256];
     printf("Enter the name of the file to save to: ");
     fgets(filename, sizeof(filename), stdin);
-    filename[strlen(filename) - 1] = '\0'; // Remove the newline at the end
+    filename[strlen(filename) - 1] = '\0'; 
 
     // Check if the file already exists
     FILE *file = fopen(filename, "r");
@@ -378,14 +377,14 @@ void save(Cache *caches, int size) {
         return;
     }
 
-    // Open the file for writing
+    // abrir o fiecheiro para escrita
     file = fopen(filename, "w");
     if (file == NULL) {
         printf("Failed to open the file.\n");
         return;
     }
 
-    // Write the caches to the file
+    // escrever as caches modificadas ou não para o ficheiro
     for (int i = 0; i < size; i++) {
         fprintf(file, "|%-10s | %-15s | %-10s | %-10s | %.2f | %.2f | %-10s | %-10s | %.2f | %.2f | %-10s | %-10s | %d | %d | %d | %d\n", caches[i].code, caches[i].name, caches[i].state, caches[i].owner, caches[i].latitude, caches[i].longitude,
            caches[i].kind, caches[i].size, caches[i].difficulty, caches[i].terrain, caches[i].status,
@@ -395,4 +394,3 @@ void save(Cache *caches, int size) {
     fclose(file);
     printf("Caches saved successfully.\n");
 }
-

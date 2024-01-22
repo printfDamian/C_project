@@ -45,8 +45,8 @@ int main()
             {
                 char filename[256];
                 printf("Enter the name of the file to be read: ");
-                fgets(filename, sizeof(filename), stdin); // Use fgets instead of scanf
-                filename[strlen(filename) - 1] = '\0';    // Remove the newline at the end
+                fgets(filename, sizeof(filename), stdin); // fgets dá menos problemas que o scanf
+                filename[strlen(filename) - 1] = '\0';    
                 caches = load(filename, &size);
                 if (caches != NULL && size > 0)
                 {
@@ -100,6 +100,8 @@ int main()
                 fgets(code, sizeof(code), stdin);
                 code[strlen(code) - 1] = '\0';
                 search(caches, size, code);
+
+                code[strlen(code) - 1] = '\0';
             }
             else
             {
@@ -114,6 +116,8 @@ int main()
                 fgets(code, sizeof(code), stdin);
                 code[strlen(code) - 1] = '\0';
                 edit(caches, size, code);
+
+                code[strlen(code) - 1] = '\0';
             }
             else
             {
