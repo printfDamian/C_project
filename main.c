@@ -17,6 +17,7 @@ int main()
     do
     {
         printf(
+            "------------------------\n"
             "Menu:\n"
             "Load\n"
             "List\n"
@@ -30,7 +31,8 @@ int main()
             "state count\n"
             "Matrix 81\n"
             "save\n"
-            "Exit\n");
+            "Exit\n"
+            "------------------------\n");
 
         fgets(option, sizeof(option), stdin); // Ler opção do utilizador
         // remover enter do fim da string

@@ -347,15 +347,15 @@ void calculateMatrix81(Cache *caches, int size) {
     int matrix[9][9] = {0};
 
     for (int i = 0; i < size; i++) {
-        // Terreno e dificuldade vão de 1 a 9, mas a matriz vai de 0 a 8
-        int terrainIndex = caches[i].terrain - 1;
-        int difficultyIndex = caches[i].difficulty - 1;
+        // O terreno e a dificuldade vão de 1 a 5 em incrementos de 0.5, mas a matriz vai de 0 a 8
+        int terrainIndex = (caches[i].terrain - 1) * 2;
+        int difficultyIndex = (caches[i].difficulty - 1) * 2;
 
-        // Incrementar o valor na matriz para o terreno e dificuldade da cache atual
+        // Incrementa o valor na matriz para o terreno e a dificuldade da cache atual
         matrix[terrainIndex][difficultyIndex]++;
     }
 
-    // mostrar Matriz
+    // Mostra a matriz
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
             printf("%d ", matrix[i][j]);
