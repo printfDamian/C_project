@@ -253,18 +253,29 @@ void ageStats(Cache *caches, int size)
 }
 
 int month_difference(char *date1, char *date2) {
-    struct tm tm1 = {0}, tm2 = {0};
-    sscanf(date1, "%d-%d-%d", &tm1.tm_year, &tm1.tm_mon, &tm1.tm_mday);
-    sscanf(date2, "%d-%d-%d", &tm2.tm_year, &tm2.tm_mon, &tm2.tm_mday);
+    int year1, month1, day1;
+    int year2, month2, day2;
 
-    // Ajustar o ano e o mês para o formato do struct tm (ano começa em 1900 e mês começa em 0)
-    tm1.tm_year -= 1900;
-    tm1.tm_mon--;
-    tm2.tm_year -= 1900;
-    tm2.tm_mon--;
+    sscanf(date1, "%d/%d/%d", &year1, &month1, &day1);
+    sscanf(date2, "%d/%d/%d", &year2, &month2, &day2);
 
-    int years = tm2.tm_year - tm1.tm_year;
-    int months = tm2.tm_mon - tm1.tm_mon;
+    int years = year2 - year1;
+    int months = month2 - month1;
+
+    // If the day of the month in the older date is later than the day of the month in the newer date
+    if (day1 > day2) {
+        months--;
+        if (months < 0) {
+            years--;
+            months += 12;
+        }
+    }
+
+    // If the month of the first date is greater than the month of the second date
+    if (months < 0) {
+        years--;
+        months += 12;
+    }
 
     return years * 12 + months;
 }
